@@ -3,6 +3,9 @@ name: Fetch research pages
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'results/**'
+      - 'fetch.log'
   workflow_dispatch:
     inputs:
       urlfile:
@@ -14,10 +17,14 @@ permissions:
   contents: write
   actions: read
 
+concurrency:
+  group: fetch-research
+  cancel-in-progress: false
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
         with:
