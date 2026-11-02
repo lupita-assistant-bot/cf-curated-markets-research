@@ -1,0 +1,42 @@
+{
+ "events_in_window": [
+  {
+   "id": "renninger_home.",
+   "kind": "EVENT",
+   "name": "Vendor &#038; Craft Show",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "url": "https://renningers.net/events/vendor-craft-show/",
+   "location": "Renninger's Kutztown",
+   "street": null,
+   "city": null,
+   "desc": "Join us out back at the pavilion for our Annual Holiday Craft &amp; Vendor Show. The first 150 guests will receive a goodie bag! Vendor registration:&lt;span style=&quot;color: #3366ff;&quot;&gt; &lt;a style=&quot;color: #3366ff;&quot; href=&quot;https://forms.gle/d4ak8etxwtiXQPVk9&quot;&gt;https://forms.gle/d4ak8etxwtiXQPVk9&lt;/a&gt;&lt;/span&gt;"
+  },
+  {
+   "id": "renninger_home.",
+   "kind": "EVENT",
+   "name": "Guitars and Cars",
+   "start": "2026-11-08",
+   "end": "2026-11-08",
+   "url": "https://renningers.net/events/guitars-and-cars-2-733-490-999-567-508-593-557-384-610-683-940-103-520/",
+   "location": "Renninger's Mt. Dora",
+   "street": null,
+   "city": null,
+   "desc": "Second Sunday of September, November, January, March, and May 8 AM to 3 PM Admission $2 (8 AM to 1 PM) &lt;strong&gt;Guitars (Big Al&#039;s Lake County Musicians&#039; Swapmeet)&lt;/strong&gt; Buy-Sell- Trade Tons of great gear and deals. Central Florida Blues Lovers&#039; Jam at noon. &lt;strong&gt;Cars&lt;/strong&gt; Car Cruise, Vendors, Showing in multiple categories for a variety of prizes like trophies, and other gifts. $6 to show car."
+  },
+  {
+   "id": "renninger_mtdora.",
+   "kind": "EVENT",
+   "name": "Guitars and Cars",
+   "start": "2026-11-08",
+   "end": "2026-11-08",
+   "url": "https://renningers.net/events/guitars-and-cars-2-733-490-999-567-508-593-557-384-610-683-940-103-520/",
+   "location": "Renninger's Mt. Dora",
+   "street": null,
+   "city": null,
+   "desc": "Second Sunday of September, November, January, March, and May 8 AM to 3 PM Admission $2 (8 AM to 1 PM) &lt;strong&gt;Guitars (Big Al&#039;s Lake County Musicians&#039; Swapmeet)&lt;/strong&gt; Buy-Sell- Trade Tons of great gear and deals. Central Florida Blues Lovers&#039; Jam at noon. &lt;strong&gt;Cars&lt;/strong&gt; Car Cruise, Vendors, Showing in multiple categories for a variety of prizes like trophies, and other gifts. $6 to show car."
+  }
+ ],
+ "events_nov_outside": [],
+ "text_hits": 0
+}
