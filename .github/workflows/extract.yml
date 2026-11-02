@@ -1,0 +1,36 @@
+name: Extract candidates
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'extract.py'
+      - 'results2/**'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Extract
+        run: |
+          python extract.py 2>&1 | tee extract.log
+          echo "--- candidates.md (first 400 lines) ---"
+          head -400 results2/candidates.md || true
+      - name: Commit
+        run: |
+          git config user.name 'research-bot'
+          git config user.email 'research-bot@users.noreply.github.com'
+          git add -A results2/candidates.md results2/candidates.json extract.log 2>/dev/null || true
+          git commit -m "candidates $(date -u +%Y%m%d-%H%M%S)" || echo 'nothing to commit'
+          git push || echo 'push failed'
