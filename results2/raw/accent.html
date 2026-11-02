@@ -1,0 +1,668 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Welcome to your new website</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="robots" content="INDEX, FOLLOW" />
+    <style type="text/css">
+        @charset "utf-8";
+        *,*:before,*:after {
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box
+        }
+
+        .clearfix:before,.clearfix:after,header:before,header:after,section:before,section:after,footer:before,footer:after {
+            content: "";
+            display: table
+        }
+
+        .clearfix:after,header:after,section:after,footer:after {
+            clear: both
+        }
+
+        html,body {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1em;
+            line-height: 1.5em;
+            color: #313233;
+            margin: 0;
+            padding: 0
+        }
+
+        header,footer,section {
+            padding: 50px 0;
+            text-align: center
+        }
+
+        .wrapper {
+            padding: 0 30px;
+            margin: 0 auto;
+            max-width: 1000px;
+            width: 100%
+        }
+
+        .h1 {
+            font-size: 2.5em;
+            font-weight: 700;
+            line-height: 1.2em;
+            margin: 0
+        }
+
+        h1 {
+            font-size: 2em;
+            font-weight: 600;
+            margin: 10px auto 20px
+        }
+
+        h2 {
+            font-size: 1.75em;
+            font-weight: 700;
+        }
+
+        h3 {
+            font-size: 1.2em
+        }
+
+        h1,nav a {
+            font-weight: 600
+        }
+
+        #customer {
+            font-weight: 300
+        }
+
+        ul,li {
+            list-style: none;
+            margin: 0;
+            padding: 0
+        }
+
+        a,strong {
+            font-weight: 600;
+            outline: none
+        }
+
+        a,a:before,a:after,button,button:before,button:after {
+            transition: all linear .15s;
+            -o-transition: all linear .15s;
+            -ms-transition: all linear .15s;
+            -moz-transition: all linear .15s;
+            -webkit-transition: all linear .15s
+        }
+
+        header {
+            position: relative;
+            padding: 15px 0
+        }
+
+        header h1 {
+            float: right
+        }
+
+        header a.site-title {
+            position: absolute;
+            left: 50px;
+            display: inline-block;
+            width: 120px;
+            height: 55px;
+            background: url(https://www.uk2.net/chi-holding-page-lib/images/uk2-logo.png) no-repeat;
+        }
+
+        header a.title-offer {
+            position: absolute;
+            left: 190px;
+            margin-top: .5em;
+            display: inline-block;
+            width: 120px;
+            height: 55px;
+            background: url(https://www.uk2.net/chi-holding-page-lib/images/latest-offers-badge.svg) no-repeat;
+        }
+
+        #navigation {
+            float: right;
+            position: relative;
+            max-width: 670px;
+            width: 100%;
+            margin-right: 50px;
+        }
+
+        nav a {
+            font-size: .8em;
+            font-weight: 600;
+            text-decoration: none;
+            color: #313233;
+            float: left;
+            display: inline-block;
+            padding: 1.3em 1.0em;
+        }
+
+        nav a:hover {
+            color: #DC4D15
+        }
+
+        #navigation .nav-toggle {
+            display: none;
+            padding: .5em 1em;
+            vertical-align: middle;
+            position: relative;
+            z-index: 2;
+            background: #fff
+        }
+
+        #hero {
+            background: #F9690E url(https://www.uk2.net/chi-holding-page-lib/images/default-hero.jpg) no-repeat 50% 50% / cover;
+            padding: 70px 0 50px 0;
+        }
+
+        #hero,#customer {
+            color: #fff
+        }
+
+        form {
+            max-width: 840px;
+            width: 100%;
+            margin: 0 auto 30px
+        }
+
+        form input {
+            padding: 1em;
+            padding: .75em 1em;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border: none;
+            border-radius: 0
+        }
+
+        form input[type=search] {
+            width: 70%;
+            font-size: 1em;
+            line-height: 1.4em
+        }
+
+        form button {
+            width: 30%;
+            color: #fff;
+            background: #313233;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            padding: 1.6em 0;
+            display: inline-block;
+            border: 0;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: .7em
+        }
+
+        button:hover:before {
+            opacity: 1
+        }
+
+        button:hover {
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5)
+        }
+
+        #customer {
+            padding: 10px 0;
+            background: #444;
+            font-size: 1.2em
+        }
+
+        #customer a {
+            color: #fff
+        }
+
+        #content {
+            background: #f5f5f5
+        }
+
+        .footer {
+            padding: 20px 0 0;
+            text-align: right
+        }
+
+        .item {
+            background: #fff;
+            float: left;
+            width: 48%;
+            min-height: 275px;
+            padding: .8em 1.3em;
+            margin-bottom: 2em;
+            border: solid 1px #ddd;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-content: center;
+            -ms-flex-line-pack: center;
+            align-content: center
+        }
+
+        .item:nth-of-type(odd) {
+            clear: left
+        }
+
+        .item:nth-of-type(even) {
+            float: right
+        }
+
+        .item img {
+            width: 70px;
+            height: 70px;
+            margin-top: 25px
+        }
+
+        .item article {
+            text-align: left;
+            padding-left: 1.3em
+        }
+
+        .item a {
+            color: #F9690E;
+        }
+
+        .item a:before {
+            font-family: FontAwesome;
+            content: "\f08e";
+            padding-right: .3em
+        }
+
+        .item+h2 {
+            padding-top: 1.5em;
+            clear: both
+        }
+
+        footer {
+            position: relative;
+            background: #1F1F1F;
+            color: #777
+        }
+
+        footer a {
+            color: #777777;
+            background: #1f1f1f;
+            text-decoration: none;
+            text-align: left
+        }
+
+        footer:before {
+            content: "";
+            width: 100%;
+            height: 1px;
+            background: #f5f5f5;
+            position: absolute;
+            top: 1px;
+            left: 0
+        }
+
+        footer p {
+            font-size: .8em
+        }
+
+        footer ul,footer ul li,footer p {
+            margin: 0;
+            padding: 0
+        }
+
+        footer ul {
+            float: right
+        }
+
+        footer li,footer p {
+            float: left
+        }
+
+        footer li a {
+            padding: 4px 13px;
+            position: relative
+        }
+
+        footer li a:hover {
+            color: #fff
+        }
+
+        @media (max-width: 1024px) {
+            header a.site-title {
+                transform: scale(.75);
+                left: 25px;
+            } 
+            header a.title-offer {
+                transform: scale(.75);
+                left: 140px;
+            }
+        }
+
+        @media (max-width: 890px) {
+            body {
+                font-size:14px
+            }
+
+            #navigation .nav-toggle {
+                display: table-cell
+            }
+
+            #navigation.active .nav-toggle {
+                background: #eee
+            }
+
+            #navigation {
+                width: auto
+            }
+
+            #navigation ul {
+                display: none;
+                position: absolute;
+                right: 0;
+                top: -webkit-calc(100% - 2px);
+                top: -moz-calc(100% - 2px);
+                top: calc(100% - 2px)
+            }
+
+            #navigation.active ul {
+                display: inline-block;
+                background: #eee
+            }
+
+            h1,h2,#hero h1,#hero h2,#hero h3 {
+                font-size: 170%
+            }
+
+            nav a {
+                padding: .8em 1.8em;
+                display: block;
+                float: none;
+                white-space: nowrap
+            }
+
+            nav a:hover {
+                background: #fafafa
+            }
+
+            .item {
+                width: 100%;
+                float: none;
+                min-height: inherit;
+                padding: 2.2em 1.6em
+            }
+
+            header a.site-title {
+                top: 5px;
+            }
+
+            header a.title-offer {
+                top: 12px;
+                margin-top: 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            form input[type=search],form button {
+                width:100%;
+                clear: both
+            }
+
+            .item article {
+                text-align: center;
+                padding: 0
+            }
+
+            .item img {
+                height: 55px;
+                width: 55px
+            }
+
+            .item {
+                display: block;
+                clear: both;
+                float: none !important
+            }
+        }
+
+        @media (max-width: 375px) {
+            header a.site-title {
+                left: 5px;
+            }
+            header a.title-offer {
+                left: 105px;
+            }
+            #navigation {
+                margin-right: 0;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="https://www.uk2.net/" class="site-title" rel="nofollow"></a> <!-- .site-title -->
+    
+        <a href="https://www.uk2.net/offers/" class="title-offer" rel="nofollow"></a> <!-- .title-offer -->
+
+        <nav id="navigation" class="clearfix navigation">
+            <div class="nav-toggle"><i class="fa fa-bars"></i> MENU</div> <!-- .nav-toggle -->
+            <ul class="clearfix menu">
+                <li><a href="https://www.uk2.net/all-services/" rel="nofollow">Services</a></li>
+                <li><a href="https://www.uk2.net/domain-names/" rel="nofollow">Domains</a></li>
+                <li><a href="https://www.uk2.net/website-builder/" rel="nofollow">Websites</a></li>
+                <li><a href="https://www.uk2.net/web-hosting/" rel="nofollow">Web Hosting</a></li>
+                <li><a href="https://www.uk2.net/email-hosting/" rel="nofollow">Email Hosting</a></li>
+                <li><a href="https://www.uk2.net/dedicated-servers/" rel="nofollow">Dedicated Servers</a></li>
+            </ul> <!-- .clearfix .menu -->
+        </nav> <!-- #navigation .clearfix .navigation -->
+    </header>
+    
+    <section id="hero">
+        <div class="wrapper">
+            <h1>accentorlando.com</h1>
+            <h2 class="h1">Domain names for less with UK2</h2> <!-- .h1 -->
+            <h2>Claim your web identity</h2>
+            <form id="search-domains">
+                <input type="search" id="search" placeholder="Find your perfect domain..."><button>SEARCH DOMAINS</button>
+            </form> <!-- #search-domains -->
+            <script type="text/javascript">
+                var theForm = document.getElementById('search-domains');
+                var theInput = document.getElementById('search');
+
+                theForm.onsubmit = function(e){
+                    location = "https://www.uk2.net/domain-names/search-results/?lookup="
+                                              + encodeURIComponent(theInput.value);
+                    return false;
+                }
+            </script>
+        </div> <!-- .wrapper -->
+    </section> <!-- #hero -->
+    
+    <section id="customer">
+        <div class="wrapper">
+            <p>
+                Domain <strong>accentorlando.com</strong> has been registered by a customer of UK2. 
+                <a href="https://www.uk2.net/domain-names/" rel="nofollow"><br>Claim your web identity</a> 
+                with UK2 today.
+            </p>
+        </div> <!-- .wrapper -->
+    </section> <!-- #customer -->
+    
+    <section id="content">
+        <div class="wrapper">
+
+            <h2>Domains</h2>
+            <div class="item">
+                <div>
+                    <img src="https://www.uk2.net/chi-holding-page-lib/images/domains.jpg" alt="domain-logo">
+                </div>
+                <article>
+                    <h3>Domains</h3>
+                    <p>With hundreds of domain name extensions to choose from, we're sure 
+                        you'll find the right web address to house your website.</p>
+                    <p><a href="https://www.uk2.net/domain-names/" rel="nofollow">Click here to view</a></p>
+                </article>
+            </div> <!-- .item -->
+            <div class="item">
+                <div>
+                    <img src="https://www.uk2.net/chi-holding-page-lib/images/domain-transfers.jpg" alt="transfer-logo">
+                </div>
+                <article>
+                    <h3>Domain Transfers</h3>
+                    <p>The grass really is greener with UK2, which is why we’ve made it easy 
+                        to transfer your website address or domain name to us from other companies.</p>
+                    <p><a href="https://www.uk2.net/domain-names/domain-transfers/" rel="nofollow">Click here to view</a></p>
+                </article>
+            </div> <!-- .item -->
+
+            <h2>Websites</h2>
+            <div class="item">
+                <div>
+                    <img src="https://www.uk2.net/chi-holding-page-lib/images/ecommerce-websites.jpg" alt="shop-logo">
+                </div>
+                <article>
+                    <h3>eCommerce Websites</h3>
+                    <p>Build your perfect online store in moments, creating a professional website 
+                        that looks seamless across all devices. You can even try it for free!</p>
+                    <p><a href="https://www.uk2.net/ecommerce-websites/" rel="nofollow">Click here to view</a></p>
+                </article>
+            </div> <!-- .item -->
+            <div class="item">
+                <div>
+                    <img src="https://www.uk2.net/chi-holding-page-lib/images/website-builder.jpg" alt="site-builder-logo">
+                </div>
+                <article>
+                    <h3>Website Builder</h3>
+                    <p>Create your own beautiful website using our simple Website Builder tool, 
+                        which is packed with free templates and automatically optimises your site 
+                        for mobile use.</p>
+                    <p><a href="https://www.uk2.net/website-builder/" rel="nofollow">Click here to view</a></p>
+                </article>
+            </div> <!-- .item -->
+
+            <h2>Hosting</h2>
+            <div class="item">
+                <div>
+                    <img src="https://www.uk2.net/chi-holding-page-lib/images/web-hosting.jpg" alt="web-hosting-logo">
+                </div>
+                <article>
+                    <h3>Web Hosting</h3>
+                    <p>Give your website a home on the web with a shared hosting package, starting 
+                        from just £2.98/month!</p>
+                    <p><a href="https://www.uk2.net/web-hosting/" rel="nofollow">Click here to view</a></p>
+                </article>
+            </div> <!-- .item -->
+            <div class="item">
+                <div>
+                    <img src="https://www.uk2.net/chi-holding-page-lib/images/wordpress.jpg" alt="wordpress-logo">
+                </div>
+                <article>
+                    <h3>WordPress Hosting</h3>
+                    <p>Host your WordPress website with the experts: we've been managing WordPress 
+                        sites for over a decade.</p>
+                    <p><a href="https://www.uk2.net/wordpress-hosting/">Click here to view</a></p>
+                </article>
+            </div> <!-- .item -->
+            <div class="item">
+                <div>
+                    <img src="https://www.uk2.net/chi-holding-page-lib/images/vps.jpg" alt="vps-logo">
+                </div>
+                <article>
+                    <h3>VPS</h3>
+                    <p>Flexible, reliable and affordable, our VPS servers are designed to grow with 
+                        your business.</p>
+                    <p><a href="https://www.uk2.net/vps-cloud-hosting">Click here to view</a></p>
+                </article>
+            </div> <!-- .item -->
+            <div class="item">
+                <div>
+                    <img src="https://www.uk2.net/chi-holding-page-lib/images/ssd-vps.jpg" alt="ssd-vps-logo">
+                </div>
+                <article>
+                    <h3>SSD VPS</h3>
+                    <p>UK2's SSD VPS combines super-fast connectivity with pinpoint control.</p>
+                    <p><a href="https://www.uk2.net/vps-cloud-hosting/ssd-vps/" rel="nofollow">Click here to view</a></p>
+                </article>
+            </div> <!-- .item -->
+            <div class="item">
+                <div>
+                    <img src="https://www.uk2.net/chi-holding-page-lib/images/dedicated-servers.jpg" alt="dedicated-server-logo">
+                </div>
+                <article>
+                    <h3>Dedicated Servers</h3>
+                    <p>The hosting power is in your hands with a robust dedicated server from UK2.</p>
+                    <p><a href="https://www.uk2.net/dedicated-servers/" rel="nofollow">Click here to view</a></p>
+                </article>
+            </div> <!-- .item -->
+
+            <h2>Other Services</h2>
+            <div class="item">
+                <div>
+                    <img src="https://www.uk2.net/chi-holding-page-lib/images/sitelock.jpg" alt="sitelock-logo">
+                </div>
+                <article>
+                    <h3>Sitelock - Malware Detector</h3>
+                    <p>5,000 small and large websites are attacked everyday. Don't risk yours!</p>
+                    <p><a href="https://www.uk2.net/web-hosting/sitelock" rel="nofollow">Click here to view</a></p>
+                </article>
+            </div> <!-- .item -->
+            <div class="item">
+                <div>
+                    <img src="https://www.uk2.net/chi-holding-page-lib/images/seo-guru.jpg" alt="seo-guru-logo">
+                </div>
+                <article>
+                    <h3>Website SEO Guru</h3>
+                    <p>Find out where your site is underperforming in the search engine rankings and 
+                        receive simple how-to guides on boosting your SEO.</p>
+                    <p><a href="https://www.uk2.net/services/website-seo-guru">Click here to view</a></p>
+                </article>
+            </div> <!-- .item -->
+            <div class="item">
+                <div>
+                    <img src="https://www.uk2.net/chi-holding-page-lib/images/cloudflare.jpg" alt="cloudflare-logo">
+                </div>
+                <article>
+                    <h3>Cloudflare</h3>
+                    <p>Supercharge the speed and security of your web presence with CloudFlare.</p>
+                    <p><a href="https://www.uk2.net/web-hosting/cloudflare/" rel="nofollow">Click here to view</a></p>
+                </article>
+            </div> <!-- .item -->
+                    
+        </div> <!-- .wrapper -->
+    </section> <!-- #content -->
+
+    <footer>
+        <div class="wrapper">
+            <p>Hosting Services, inc. <a href="https://www.uk2.net/" rel="nofollow">UK2.NET</a> is part of the UK2 Group.</p>
+            <ul>
+                <li><a href="https://twitter.com/UK2"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/UK2.net"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="http://www.linkedin.com/company/uk2"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="http://www.youtube.com/user/UK2TV"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://plus.google.com/+uk2net/posts"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+        </div> <!-- .wrapper -->
+    </footer>
+
+    <script>
+        var mm = mm || {};
+        mm.nav = (function() {
+            function mobileMenu() {
+                document.querySelector('.nav-toggle').addEventListener('click', function(e) {
+                    e.preventDefault();
+                    [].map.call(document.querySelectorAll('.navigation'), function(el) {
+                        el.classList.toggle('active');
+                    });
+                });
+            }
+
+            return {
+                mobileMenu: mobileMenu
+            };
+        })();
+        mm.nav.mobileMenu();
+    </script>
+</body>
+</html>

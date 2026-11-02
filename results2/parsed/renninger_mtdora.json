@@ -1,0 +1,46 @@
+{
+ "id": "renninger_mtdora",
+ "url": "https://www.renningers.net/mt-dora/",
+ "jsonld_count": 6,
+ "events": [
+  {
+   "name": "Guitars and Cars",
+   "startDate": "2026-11-08",
+   "endDate": "2026-11-08",
+   "streetAddress": null,
+   "addressLocality": null,
+   "addressRegion": null,
+   "postalCode": null,
+   "locationName": "Renninger's Mt. Dora",
+   "description": "Second Sunday of September, November, January, March, and May    8 AM to 3 PM  Admission $2 (8 AM to 1 PM)    &lt;strong&gt;Guitars (Big Al&#039;s Lake County Musicians&#039; Swapmeet)&lt;/strong&gt;  Buy-Sell- Trade  Tons of great gear and deals.  Central Florida Blues Lovers&#039; Jam at noon.    &lt;strong&gt;Cars&lt;/strong&gt;  Car Cruise, Vendors, Showing in multiple categories for a variety of prizes like trophies,  and other gifts.  $6 to show car.",
+   "url": "https://renningers.net/events/guitars-and-cars-2-733-490-999-567-508-593-557-384-610-683-940-103-520/",
+   "eventStatus": "https://schema.org/EventScheduled"
+  },
+  {
+   "name": "Antiques &#038; Collectors Extravaganza",
+   "startDate": "2026-11-20",
+   "endDate": "2026-11-22",
+   "streetAddress": null,
+   "addressLocality": null,
+   "addressRegion": null,
+   "postalCode": null,
+   "locationName": "Renninger's Mt. Dora",
+   "description": "&lt;p&gt;Friday, Saturday &amp; Sunday&lt;/p&gt;&lt;p&gt;A special event of over 800 vendors selling antiques, collectibles, vintage, and more. The show is outdoors, under open-air buildings, tents, and includes the Indoor Antiques Center and the Street of Shops at the Antiques Center. The event is three days. The show opens at 8 am all three days till 5 pm.&lt;br /&gt;Vendor information 352-383-8393.&lt;br /&gt;Parking is free.&lt;br /&gt;Admission: to the special Extravaganza Show&lt;br /&gt;Three Day Pass: $15&lt;br /&gt;Friday: $10&lt;br /&gt;Saturday: $6&lt;br /&gt;Sunday: $4&lt;/p&gt;&lt;h4&gt; &lt;/h4&gt;&lt;p&gt;Also on the property is the Flea and Farmers Market Saturday and Sunday ",
+   "url": "https://renningers.net/events/antiques-collectors-extravaganza-10-722-948-207-670-184-347-477/",
+   "eventStatus": "https://schema.org/EventScheduled"
+  },
+  {
+   "name": "Holiday Antique and Craft Market",
+   "startDate": "2026-12-05",
+   "endDate": "2026-12-06",
+   "streetAddress": null,
+   "addressLocality": null,
+   "addressRegion": null,
+   "postalCode": null,
+   "locationName": "Renninger's Mt. Dora",
+   "description": "Don&#039;t miss this opportunity to find Christmas items for your home.  Antiques, vintage items, and handmade crafts.    Free Admission - Free Parking - Pet Friendly    At the Antique Center!",
+   "url": "https://renningers.net/events/holiday-market-antiques-show-531-502-558/",
+   "eventStatus": "https://schema.org/EventScheduled"
+  }
+ ]
+}

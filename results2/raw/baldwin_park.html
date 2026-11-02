@@ -1,0 +1,476 @@
+<div style="width: 50%; color: red; border: 2px dotted red; background-color: #f9f9f9; padding: 10px;">
+<h1 style="color: red;">ERROR!</h1>
+<div style="width: 100%; text-align: left;">
+<p><b>An error occurred!</b></p>
+<b>Action:</b> events.default<br/>
+<b>Error:</b> The key [APPLICATIONID] does not exist., but there is a similar key with name [applicationname] available.<br/>
+<b>Type:</b> expression<br/>
+<b>Details:</b> Here is a complete list of all available keys [ ALTCHASECRETKEY, applicationname, framework.one, Initialized, LAYOUTINFO, MAPBOX, NEIGHBORWAREBOUNCEAPIKEY, Redirect, VERSION ].<br/>
+<!-- ==start== dump {ts '2026-11-02 13:26:02'} format: html -->
+<div id="xqIXEw6IJTqKLf_OSYqh5jQ" class="-lucee-dump"><style>
+.-lucee-dump .disp-none { display: none; }
+</style>
+<script>
+window.__Lucee = { initialized : false,
+addEventListeners : function(selector, event, handler, useCapture){
+useCapture = useCapture || false;
+Array.prototype.forEach.call(
+document.querySelectorAll(selector)
+,function(el, ix) {
+el.addEventListener(event, handler, useCapture);
+}
+);
+}
+,getNextSiblings : function(el){
+var orig = el
+,result = [];
+while (el && el.nodeType === Node.ELEMENT_NODE) {
+if (el !== orig)
+result.push(el);
+el = el.nextElementSibling || el.nextSibling;
+}
+return result;
+}
+,onDocumentReady	: function(){
+var L = window.__Lucee;
+if (L.initialized)
+return;
+L.addEventListeners(".collapse-trigger", "click", function(evt){
+var tr = evt.target.closest("tr");
+var siblings = L.getNextSiblings(tr);
+siblings.forEach(function(el, ix){
+el.classList.toggle("disp-none");
+});
+});
+L.initialized = true;
+}
+}
+document.addEventListener("DOMContentLoaded", __Lucee.onDocumentReady);
+</script>
+<style type="text/css">
+div#xqIXEw6IJTqKLf_OSYqh5jQ table {font-family:Verdana, Geneva, Arial, Helvetica, sans-serif; font-size:11px; empty-cells:show; color:#000; border-collapse:collapse;}
+div#xqIXEw6IJTqKLf_OSYqh5jQ td {border:1px solid #000; vertical-align:top; padding:2px; empty-cells:show;}
+div#xqIXEw6IJTqKLf_OSYqh5jQ td span {font-weight:bold;}
+div#xqIXEw6IJTqKLf_OSYqh5jQ td.luceeN0 {color:#005122;border-color:#005122;background-color:#b7e4c7;}
+div#xqIXEw6IJTqKLf_OSYqh5jQ td.luceeH0 {color:#005122;border-color:#005122;background-color:#52b788;}
+div#xqIXEw6IJTqKLf_OSYqh5jQ td.luceeN1 {color:#990000;border-color:#990000;background-color:#fc9;}
+div#xqIXEw6IJTqKLf_OSYqh5jQ td.luceeH1 {color:#990000;border-color:#990000;background-color:#f60;}
+div#xqIXEw6IJTqKLf_OSYqh5jQ td.luceeN2 {color:#002949;border-color:#002949;background-color:#89c2d9;}
+div#xqIXEw6IJTqKLf_OSYqh5jQ td.luceeH2 {color:#002949;border-color:#002949;background-color:#468faf;}
+</style>
+<table title="/var/neighborware/libs/views/main/error.cfm:17"><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Catch</span><br>Entries: 13</td></tr><tr><td class="luceeH2">additional</td><td class="luceeN2"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct (ordered)</span></td></tr><tr><td class="luceeH2">Function</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">onRequestStart</td></tr></table></td></tr><tr><td class="luceeH2">Component</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">Application</td></tr></table></td></tr></table></td></tr><tr><td class="luceeH2">Cause</td><td class="luceeN2"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct</span></td></tr><tr><td class="luceeH2">additional</td><td class="luceeN2"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct (ordered)</span></td></tr><tr><td class="luceeH2">Function</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">onRequestStart</td></tr></table></td></tr><tr><td class="luceeH2">Component</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">Application</td></tr></table></td></tr></table></td></tr><tr><td class="luceeH2">Detail</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">Here is a complete list of all available keys [ ALTCHASECRETKEY, applicationname, framework.one, Initialized, LAYOUTINFO, MAPBOX, NEIGHBORWAREBOUNCEAPIKEY, Redirect, VERSION ].</td></tr></table></td></tr><tr><td class="luceeH2">ErrNumber</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">ErrorCode</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">Extended_Info</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1"></td></tr></table></td></tr><tr><td class="luceeH2">ExtendedInfo</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1"></td></tr></table></td></tr><tr><td class="luceeH2">Message</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">The key [APPLICATIONID] does not exist., but there is a similar key with name [applicationname] available.</td></tr></table></td></tr><tr><td class="luceeH2">StackTrace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">lucee.runtime.exp.ExpressionException: The key [APPLICATIONID] does not exist., but there is a similar key with name [applicationname] available.
+at lucee.runtime.type.util.StructSupport.invalidKey(StructSupport.java:68)
+at lucee.runtime.type.StructImpl.get(StructImpl.java:184)
+at model.gateways.applicationtreegateway_cfc$cf.udfDefaultValue1(/model/gateways/applicationTreeGateway.cfc:183)
+at model.gateways.applicationtreegateway_cfc$cf.udfDefaultValue(/model/gateways/applicationTreeGateway.cfc)
+at lucee.runtime.type.UDFImpl.getDefaultValue(UDFImpl.java:498)
+at lucee.runtime.type.UDFImpl.defineArguments(UDFImpl.java:140)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:354)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:811)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at model.gateways.applicationtreegateway_cfc$cf.udfCall2(/model/gateways/applicationTreeGateway.cfc:197)
+at model.gateways.applicationtreegateway_cfc$cf.udfCall(/model/gateways/applicationTreeGateway.cfc)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:687)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:604)
+at lucee.runtime.ComponentImpl.call(ComponentImpl.java:2110)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at application_cfc$cf.udfCall(/Application.cfc:82)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:811)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at framework.one_cfc$cf.udfCallf_000017(/framework/one.cfc:2964)
+at framework.one_cfc$cf.udfCallf(/framework/one.cfc:2953)
+at framework.one_cfc$cf.udfCall(/framework/one.cfc)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:811)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at framework.one_cfc$cf.udfCall6(/framework/one.cfc:991)
+at framework.one_cfc$cf.udfCall(/framework/one.cfc)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:687)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:604)
+at lucee.runtime.ComponentImpl.call(ComponentImpl.java:2110)
+at lucee.runtime.listener.ModernAppListener.call(ModernAppListener.java:479)
+at lucee.runtime.listener.ModernAppListener._onRequest(ModernAppListener.java:131)
+at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:43)
+at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2816)
+at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2803)
+at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2774)
+at lucee.runtime.engine.Request.exe(Request.java:45)
+at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1113)
+at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1070)
+at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:97)
+at lucee.loader.servlet.jakarta.CFMLServlet.service(CFMLServlet.java:52)
+at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+at org.apache.coyote.ajp.AjpProcessor.service(AjpProcessor.java:424)
+at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+</td></tr></table></td></tr><tr><td class="luceeH2">TagContext</td><td class="luceeN2"><table><tr><td class="collapse-trigger luceeH0" colspan="3" style="cursor:pointer;"><span>Array</span></td></tr><tr><td class="luceeH0">1</td><td class="luceeN0"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct</span></td></tr><tr><td class="luceeH2">codePrintHTML</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">181: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;Replaces&amp;nbsp;Application['Permalinks'][permalink]&lt;br&gt;
+182: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/&lt;br&gt;
+&lt;b&gt;183: &amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;struct&amp;nbsp;function&amp;nbsp;getPermalink(&amp;nbsp;required&amp;nbsp;string&amp;nbsp;permalink,&amp;nbsp;string&amp;nbsp;applicationID&amp;nbsp;=&amp;nbsp;Application.ApplicationID&amp;nbsp;)&amp;nbsp;{&lt;/b&gt;&lt;br&gt;
+184: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;cache&amp;nbsp;=&amp;nbsp;getRequestCache();&lt;br&gt;
+185: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;structKeyExists(cache.permalinks,&amp;nbsp;arguments.permalink)&amp;nbsp;)&amp;nbsp;{&lt;br&gt;
+</td></tr></table></td></tr><tr><td class="luceeH2">codePrintPlain</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">181: * Replaces Application['Permalinks'][permalink]
+182: */
+183: public struct function getPermalink( required string permalink, string applicationID = Application.ApplicationID ) {
+184: var cache = getRequestCache();
+185: if ( structKeyExists(cache.permalinks, arguments.permalink) ) {
+</td></tr></table></td></tr><tr><td class="luceeH2">column</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">id</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">??</td></tr></table></td></tr><tr><td class="luceeH2">line</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">183</td></tr></table></td></tr><tr><td class="luceeH2">Raw_Trace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">model.gateways.applicationtreegateway_cfc$cf.udfDefaultValue1(/model/gateways/applicationTreeGateway.cfc:183)</td></tr></table></td></tr><tr><td class="luceeH2">template</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">/var/neighborware/libs/model/gateways/applicationTreeGateway.cfc</td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">cfml</td></tr></table></td></tr></table></td></tr><tr><td class="luceeH0">2</td><td class="luceeN0"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct</span></td></tr><tr><td class="luceeH2">codePrintHTML</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">195: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/&lt;br&gt;
+196: &amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;boolean&amp;nbsp;function&amp;nbsp;permalinkExists(&amp;nbsp;required&amp;nbsp;string&amp;nbsp;permalink&amp;nbsp;)&amp;nbsp;{&lt;br&gt;
+&lt;b&gt;197: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;mapping&amp;nbsp;=&amp;nbsp;getPermalink(arguments.permalink);&lt;/b&gt;&lt;br&gt;
+198: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;structKeyExists(mapping,&amp;nbsp;&amp;quot;ApplicationTreeID&amp;quot;)&amp;nbsp;AND&amp;nbsp;len(mapping.ApplicationTreeID);&lt;br&gt;
+199: &amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+</td></tr></table></td></tr><tr><td class="luceeH2">codePrintPlain</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">195: */
+196: public boolean function permalinkExists( required string permalink ) {
+197: var mapping = getPermalink(arguments.permalink);
+198: return structKeyExists(mapping, &quot;ApplicationTreeID&quot;) AND len(mapping.ApplicationTreeID);
+199: }
+</td></tr></table></td></tr><tr><td class="luceeH2">column</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">id</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">??</td></tr></table></td></tr><tr><td class="luceeH2">line</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">197</td></tr></table></td></tr><tr><td class="luceeH2">Raw_Trace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">model.gateways.applicationtreegateway_cfc$cf.udfCall2(/model/gateways/applicationTreeGateway.cfc:197)</td></tr></table></td></tr><tr><td class="luceeH2">template</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">/var/neighborware/libs/model/gateways/applicationTreeGateway.cfc</td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">cfml</td></tr></table></td></tr></table></td></tr><tr><td class="luceeH0">3</td><td class="luceeN0"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct</span></td></tr><tr><td class="luceeH2">codePrintHTML</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">80: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;rc.permalink&amp;nbsp;=&amp;nbsp;ListGetAt(cgi.path_info,&amp;quot;1&amp;quot;,&amp;quot;/&amp;quot;);&lt;br&gt;
+81: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;appTreeGateway&amp;nbsp;=&amp;nbsp;getBeanFactory().getBean(&amp;quot;applicationTreeGateway&amp;quot;);&lt;br&gt;
+&lt;b&gt;82: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;appTreeGateway.permalinkExists(rc.permalink)&amp;nbsp;)&amp;nbsp;{&lt;/b&gt;&lt;br&gt;
+83: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;permalinkData&amp;nbsp;=&amp;nbsp;appTreeGateway.getPermalink(rc.permalink);&lt;br&gt;
+84: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;len(trim(permalinkData['ComponentInstanceID']))&amp;nbsp;)&amp;nbsp;{&lt;br&gt;
+</td></tr></table></td></tr><tr><td class="luceeH2">codePrintPlain</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">80: rc.permalink = ListGetAt(cgi.path_info,&quot;1&quot;,&quot;/&quot;);
+81: var appTreeGateway = getBeanFactory().getBean(&quot;applicationTreeGateway&quot;);
+82: if ( appTreeGateway.permalinkExists(rc.permalink) ) {
+83: var permalinkData = appTreeGateway.getPermalink(rc.permalink);
+84: if ( len(trim(permalinkData['ComponentInstanceID'])) ) {
+</td></tr></table></td></tr><tr><td class="luceeH2">column</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">id</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">??</td></tr></table></td></tr><tr><td class="luceeH2">line</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">82</td></tr></table></td></tr><tr><td class="luceeH2">Raw_Trace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">application_cfc$cf.udfCall(/Application.cfc:82)</td></tr></table></td></tr><tr><td class="luceeH2">template</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">/var/neighborware/libs/Application.cfc</td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">cfml</td></tr></table></td></tr></table></td></tr><tr><td class="luceeH0">4</td><td class="luceeN0"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct</span></td></tr><tr><td class="luceeH2">codePrintHTML</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">2962: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;setupSubsystemWrapper(&amp;nbsp;request.subsystem&amp;nbsp;);&lt;br&gt;
+2963: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;internalFrameworkTrace(&amp;nbsp;'setupRequest()&amp;nbsp;called'&amp;nbsp;);&lt;br&gt;
+&lt;b&gt;2964: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;setupRequest();&lt;/b&gt;&lt;br&gt;
+2965: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+2966: &lt;br&gt;
+</td></tr></table></td></tr><tr><td class="luceeH2">codePrintPlain</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">2962: setupSubsystemWrapper( request.subsystem );
+2963: internalFrameworkTrace( 'setupRequest() called' );
+2964: setupRequest();
+2965: }
+2966: 
+</td></tr></table></td></tr><tr><td class="luceeH2">column</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">id</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">??</td></tr></table></td></tr><tr><td class="luceeH2">line</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">2964</td></tr></table></td></tr><tr><td class="luceeH2">Raw_Trace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">framework.one_cfc$cf.udfCallf_000017(/framework/one.cfc:2964)</td></tr></table></td></tr><tr><td class="luceeH2">template</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">/var/neighborware/libs/framework/one.cfc</td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">cfml</td></tr></table></td></tr></table></td></tr><tr><td class="luceeH0">5</td><td class="luceeN0"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct</span></td></tr><tr><td class="luceeH2">codePrintHTML</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">2951: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private&amp;nbsp;void&amp;nbsp;function&amp;nbsp;setupRequestWrapper(&amp;nbsp;boolean&amp;nbsp;runSetup&amp;nbsp;)&amp;nbsp;{&lt;br&gt;
+2952: &lt;br&gt;
+&lt;b&gt;2953: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;request.subsystem&amp;nbsp;=&amp;nbsp;getSubsystem(&amp;nbsp;request.action&amp;nbsp;);&lt;/b&gt;&lt;br&gt;
+2954: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;request.subsystembase&amp;nbsp;=&amp;nbsp;request.base&amp;nbsp;&amp;amp;&amp;nbsp;getSubsystemDirPrefix(&amp;nbsp;request.subsystem&amp;nbsp;);&lt;br&gt;
+2955: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;request.section&amp;nbsp;=&amp;nbsp;getSection(&amp;nbsp;request.action&amp;nbsp;);&lt;br&gt;
+</td></tr></table></td></tr><tr><td class="luceeH2">codePrintPlain</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">2951: private void function setupRequestWrapper( boolean runSetup ) {
+2952: 
+2953: request.subsystem = getSubsystem( request.action );
+2954: request.subsystembase = request.base &amp; getSubsystemDirPrefix( request.subsystem );
+2955: request.section = getSection( request.action );
+</td></tr></table></td></tr><tr><td class="luceeH2">column</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">id</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">??</td></tr></table></td></tr><tr><td class="luceeH2">line</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">2953</td></tr></table></td></tr><tr><td class="luceeH2">Raw_Trace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">framework.one_cfc$cf.udfCallf(/framework/one.cfc:2953)</td></tr></table></td></tr><tr><td class="luceeH2">template</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">/var/neighborware/libs/framework/one.cfc</td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">cfml</td></tr></table></td></tr></table></td></tr><tr><td class="luceeH0">6</td><td class="luceeN0"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct</span></td></tr><tr><td class="luceeH2">codePrintHTML</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">989: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+990: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;else&amp;nbsp;{&lt;br&gt;
+&lt;b&gt;991: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;setupRequestWrapper(&amp;nbsp;true&amp;nbsp;);&lt;/b&gt;&lt;br&gt;
+992: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+993: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+</td></tr></table></td></tr><tr><td class="luceeH2">codePrintPlain</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">989: }
+990: } else {
+991: setupRequestWrapper( true );
+992: }
+993: }
+</td></tr></table></td></tr><tr><td class="luceeH2">column</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">id</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">??</td></tr></table></td></tr><tr><td class="luceeH2">line</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">991</td></tr></table></td></tr><tr><td class="luceeH2">Raw_Trace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">framework.one_cfc$cf.udfCall6(/framework/one.cfc:991)</td></tr></table></td></tr><tr><td class="luceeH2">template</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">/var/neighborware/libs/framework/one.cfc</td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">cfml</td></tr></table></td></tr></table></td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">expression</td></tr></table></td></tr></table></td></tr><tr><td class="luceeH2">Detail</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">Here is a complete list of all available keys [ ALTCHASECRETKEY, applicationname, framework.one, Initialized, LAYOUTINFO, MAPBOX, NEIGHBORWAREBOUNCEAPIKEY, Redirect, VERSION ].</td></tr></table></td></tr><tr><td class="luceeH2">ErrNumber</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">ErrorCode</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">Extended_Info</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1"></td></tr></table></td></tr><tr><td class="luceeH2">ExtendedInfo</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1"></td></tr></table></td></tr><tr><td class="luceeH2">Message</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">The key [APPLICATIONID] does not exist., but there is a similar key with name [applicationname] available.</td></tr></table></td></tr><tr><td class="luceeH2">name</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">onRequestStart</td></tr></table></td></tr><tr><td class="luceeH2">rootCause</td><td class="luceeN2"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct</span></td></tr><tr><td class="luceeH2">additional</td><td class="luceeN2"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct (ordered)</span></td></tr><tr><td class="luceeH2">Function</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">onRequestStart</td></tr></table></td></tr><tr><td class="luceeH2">Component</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">Application</td></tr></table></td></tr></table></td></tr><tr><td class="luceeH2">Detail</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">Here is a complete list of all available keys [ ALTCHASECRETKEY, applicationname, framework.one, Initialized, LAYOUTINFO, MAPBOX, NEIGHBORWAREBOUNCEAPIKEY, Redirect, VERSION ].</td></tr></table></td></tr><tr><td class="luceeH2">ErrNumber</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">ErrorCode</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">Extended_Info</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1"></td></tr></table></td></tr><tr><td class="luceeH2">ExtendedInfo</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1"></td></tr></table></td></tr><tr><td class="luceeH2">Message</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">The key [APPLICATIONID] does not exist., but there is a similar key with name [applicationname] available.</td></tr></table></td></tr><tr><td class="luceeH2">StackTrace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">lucee.runtime.exp.ExpressionException: The key [APPLICATIONID] does not exist., but there is a similar key with name [applicationname] available.
+at lucee.runtime.type.util.StructSupport.invalidKey(StructSupport.java:68)
+at lucee.runtime.type.StructImpl.get(StructImpl.java:184)
+at model.gateways.applicationtreegateway_cfc$cf.udfDefaultValue1(/model/gateways/applicationTreeGateway.cfc:183)
+at model.gateways.applicationtreegateway_cfc$cf.udfDefaultValue(/model/gateways/applicationTreeGateway.cfc)
+at lucee.runtime.type.UDFImpl.getDefaultValue(UDFImpl.java:498)
+at lucee.runtime.type.UDFImpl.defineArguments(UDFImpl.java:140)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:354)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:811)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at model.gateways.applicationtreegateway_cfc$cf.udfCall2(/model/gateways/applicationTreeGateway.cfc:197)
+at model.gateways.applicationtreegateway_cfc$cf.udfCall(/model/gateways/applicationTreeGateway.cfc)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:687)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:604)
+at lucee.runtime.ComponentImpl.call(ComponentImpl.java:2110)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at application_cfc$cf.udfCall(/Application.cfc:82)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:811)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at framework.one_cfc$cf.udfCallf_000017(/framework/one.cfc:2964)
+at framework.one_cfc$cf.udfCallf(/framework/one.cfc:2953)
+at framework.one_cfc$cf.udfCall(/framework/one.cfc)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:811)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at framework.one_cfc$cf.udfCall6(/framework/one.cfc:991)
+at framework.one_cfc$cf.udfCall(/framework/one.cfc)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:687)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:604)
+at lucee.runtime.ComponentImpl.call(ComponentImpl.java:2110)
+at lucee.runtime.listener.ModernAppListener.call(ModernAppListener.java:479)
+at lucee.runtime.listener.ModernAppListener._onRequest(ModernAppListener.java:131)
+at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:43)
+at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2816)
+at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2803)
+at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2774)
+at lucee.runtime.engine.Request.exe(Request.java:45)
+at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1113)
+at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1070)
+at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:97)
+at lucee.loader.servlet.jakarta.CFMLServlet.service(CFMLServlet.java:52)
+at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+at org.apache.coyote.ajp.AjpProcessor.service(AjpProcessor.java:424)
+at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+</td></tr></table></td></tr><tr><td class="luceeH2">TagContext</td><td class="luceeN2"><table><tr><td class="collapse-trigger luceeH0" colspan="3" style="cursor:pointer;"><span>Array</span></td></tr><tr><td class="luceeH0">1</td><td class="luceeN0"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct</span></td></tr><tr><td class="luceeH2">codePrintHTML</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">181: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;Replaces&amp;nbsp;Application['Permalinks'][permalink]&lt;br&gt;
+182: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/&lt;br&gt;
+&lt;b&gt;183: &amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;struct&amp;nbsp;function&amp;nbsp;getPermalink(&amp;nbsp;required&amp;nbsp;string&amp;nbsp;permalink,&amp;nbsp;string&amp;nbsp;applicationID&amp;nbsp;=&amp;nbsp;Application.ApplicationID&amp;nbsp;)&amp;nbsp;{&lt;/b&gt;&lt;br&gt;
+184: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;cache&amp;nbsp;=&amp;nbsp;getRequestCache();&lt;br&gt;
+185: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;structKeyExists(cache.permalinks,&amp;nbsp;arguments.permalink)&amp;nbsp;)&amp;nbsp;{&lt;br&gt;
+</td></tr></table></td></tr><tr><td class="luceeH2">codePrintPlain</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">181: * Replaces Application['Permalinks'][permalink]
+182: */
+183: public struct function getPermalink( required string permalink, string applicationID = Application.ApplicationID ) {
+184: var cache = getRequestCache();
+185: if ( structKeyExists(cache.permalinks, arguments.permalink) ) {
+</td></tr></table></td></tr><tr><td class="luceeH2">column</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">id</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">??</td></tr></table></td></tr><tr><td class="luceeH2">line</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">183</td></tr></table></td></tr><tr><td class="luceeH2">Raw_Trace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">model.gateways.applicationtreegateway_cfc$cf.udfDefaultValue1(/model/gateways/applicationTreeGateway.cfc:183)</td></tr></table></td></tr><tr><td class="luceeH2">template</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">/var/neighborware/libs/model/gateways/applicationTreeGateway.cfc</td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">cfml</td></tr></table></td></tr></table></td></tr><tr><td class="luceeH0">2</td><td class="luceeN0"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct</span></td></tr><tr><td class="luceeH2">codePrintHTML</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">195: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/&lt;br&gt;
+196: &amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;boolean&amp;nbsp;function&amp;nbsp;permalinkExists(&amp;nbsp;required&amp;nbsp;string&amp;nbsp;permalink&amp;nbsp;)&amp;nbsp;{&lt;br&gt;
+&lt;b&gt;197: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;mapping&amp;nbsp;=&amp;nbsp;getPermalink(arguments.permalink);&lt;/b&gt;&lt;br&gt;
+198: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;structKeyExists(mapping,&amp;nbsp;&amp;quot;ApplicationTreeID&amp;quot;)&amp;nbsp;AND&amp;nbsp;len(mapping.ApplicationTreeID);&lt;br&gt;
+199: &amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+</td></tr></table></td></tr><tr><td class="luceeH2">codePrintPlain</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">195: */
+196: public boolean function permalinkExists( required string permalink ) {
+197: var mapping = getPermalink(arguments.permalink);
+198: return structKeyExists(mapping, &quot;ApplicationTreeID&quot;) AND len(mapping.ApplicationTreeID);
+199: }
+</td></tr></table></td></tr><tr><td class="luceeH2">column</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">id</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">??</td></tr></table></td></tr><tr><td class="luceeH2">line</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">197</td></tr></table></td></tr><tr><td class="luceeH2">Raw_Trace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">model.gateways.applicationtreegateway_cfc$cf.udfCall2(/model/gateways/applicationTreeGateway.cfc:197)</td></tr></table></td></tr><tr><td class="luceeH2">template</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">/var/neighborware/libs/model/gateways/applicationTreeGateway.cfc</td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">cfml</td></tr></table></td></tr></table></td></tr><tr><td class="luceeH0">3</td><td class="luceeN0"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct</span></td></tr><tr><td class="luceeH2">codePrintHTML</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">80: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;rc.permalink&amp;nbsp;=&amp;nbsp;ListGetAt(cgi.path_info,&amp;quot;1&amp;quot;,&amp;quot;/&amp;quot;);&lt;br&gt;
+81: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;appTreeGateway&amp;nbsp;=&amp;nbsp;getBeanFactory().getBean(&amp;quot;applicationTreeGateway&amp;quot;);&lt;br&gt;
+&lt;b&gt;82: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;appTreeGateway.permalinkExists(rc.permalink)&amp;nbsp;)&amp;nbsp;{&lt;/b&gt;&lt;br&gt;
+83: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;permalinkData&amp;nbsp;=&amp;nbsp;appTreeGateway.getPermalink(rc.permalink);&lt;br&gt;
+84: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;len(trim(permalinkData['ComponentInstanceID']))&amp;nbsp;)&amp;nbsp;{&lt;br&gt;
+</td></tr></table></td></tr><tr><td class="luceeH2">codePrintPlain</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">80: rc.permalink = ListGetAt(cgi.path_info,&quot;1&quot;,&quot;/&quot;);
+81: var appTreeGateway = getBeanFactory().getBean(&quot;applicationTreeGateway&quot;);
+82: if ( appTreeGateway.permalinkExists(rc.permalink) ) {
+83: var permalinkData = appTreeGateway.getPermalink(rc.permalink);
+84: if ( len(trim(permalinkData['ComponentInstanceID'])) ) {
+</td></tr></table></td></tr><tr><td class="luceeH2">column</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">id</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">??</td></tr></table></td></tr><tr><td class="luceeH2">line</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">82</td></tr></table></td></tr><tr><td class="luceeH2">Raw_Trace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">application_cfc$cf.udfCall(/Application.cfc:82)</td></tr></table></td></tr><tr><td class="luceeH2">template</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">/var/neighborware/libs/Application.cfc</td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">cfml</td></tr></table></td></tr></table></td></tr><tr><td class="luceeH0">4</td><td class="luceeN0"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct</span></td></tr><tr><td class="luceeH2">codePrintHTML</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">2962: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;setupSubsystemWrapper(&amp;nbsp;request.subsystem&amp;nbsp;);&lt;br&gt;
+2963: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;internalFrameworkTrace(&amp;nbsp;'setupRequest()&amp;nbsp;called'&amp;nbsp;);&lt;br&gt;
+&lt;b&gt;2964: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;setupRequest();&lt;/b&gt;&lt;br&gt;
+2965: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+2966: &lt;br&gt;
+</td></tr></table></td></tr><tr><td class="luceeH2">codePrintPlain</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">2962: setupSubsystemWrapper( request.subsystem );
+2963: internalFrameworkTrace( 'setupRequest() called' );
+2964: setupRequest();
+2965: }
+2966: 
+</td></tr></table></td></tr><tr><td class="luceeH2">column</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">id</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">??</td></tr></table></td></tr><tr><td class="luceeH2">line</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">2964</td></tr></table></td></tr><tr><td class="luceeH2">Raw_Trace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">framework.one_cfc$cf.udfCallf_000017(/framework/one.cfc:2964)</td></tr></table></td></tr><tr><td class="luceeH2">template</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">/var/neighborware/libs/framework/one.cfc</td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">cfml</td></tr></table></td></tr></table></td></tr><tr><td class="luceeH0">5</td><td class="luceeN0"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct</span></td></tr><tr><td class="luceeH2">codePrintHTML</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">2951: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private&amp;nbsp;void&amp;nbsp;function&amp;nbsp;setupRequestWrapper(&amp;nbsp;boolean&amp;nbsp;runSetup&amp;nbsp;)&amp;nbsp;{&lt;br&gt;
+2952: &lt;br&gt;
+&lt;b&gt;2953: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;request.subsystem&amp;nbsp;=&amp;nbsp;getSubsystem(&amp;nbsp;request.action&amp;nbsp;);&lt;/b&gt;&lt;br&gt;
+2954: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;request.subsystembase&amp;nbsp;=&amp;nbsp;request.base&amp;nbsp;&amp;amp;&amp;nbsp;getSubsystemDirPrefix(&amp;nbsp;request.subsystem&amp;nbsp;);&lt;br&gt;
+2955: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;request.section&amp;nbsp;=&amp;nbsp;getSection(&amp;nbsp;request.action&amp;nbsp;);&lt;br&gt;
+</td></tr></table></td></tr><tr><td class="luceeH2">codePrintPlain</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">2951: private void function setupRequestWrapper( boolean runSetup ) {
+2952: 
+2953: request.subsystem = getSubsystem( request.action );
+2954: request.subsystembase = request.base &amp; getSubsystemDirPrefix( request.subsystem );
+2955: request.section = getSection( request.action );
+</td></tr></table></td></tr><tr><td class="luceeH2">column</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">id</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">??</td></tr></table></td></tr><tr><td class="luceeH2">line</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">2953</td></tr></table></td></tr><tr><td class="luceeH2">Raw_Trace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">framework.one_cfc$cf.udfCallf(/framework/one.cfc:2953)</td></tr></table></td></tr><tr><td class="luceeH2">template</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">/var/neighborware/libs/framework/one.cfc</td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">cfml</td></tr></table></td></tr></table></td></tr><tr><td class="luceeH0">6</td><td class="luceeN0"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct</span></td></tr><tr><td class="luceeH2">codePrintHTML</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">989: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+990: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;else&amp;nbsp;{&lt;br&gt;
+&lt;b&gt;991: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;setupRequestWrapper(&amp;nbsp;true&amp;nbsp;);&lt;/b&gt;&lt;br&gt;
+992: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+993: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+</td></tr></table></td></tr><tr><td class="luceeH2">codePrintPlain</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">989: }
+990: } else {
+991: setupRequestWrapper( true );
+992: }
+993: }
+</td></tr></table></td></tr><tr><td class="luceeH2">column</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">id</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">??</td></tr></table></td></tr><tr><td class="luceeH2">line</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">991</td></tr></table></td></tr><tr><td class="luceeH2">Raw_Trace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">framework.one_cfc$cf.udfCall6(/framework/one.cfc:991)</td></tr></table></td></tr><tr><td class="luceeH2">template</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">/var/neighborware/libs/framework/one.cfc</td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">cfml</td></tr></table></td></tr></table></td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">expression</td></tr></table></td></tr></table></td></tr><tr><td class="luceeH2">StackTrace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">lucee.runtime.exp.ExpressionException: The key [APPLICATIONID] does not exist., but there is a similar key with name [applicationname] available.
+at lucee.runtime.type.util.StructSupport.invalidKey(StructSupport.java:68)
+at lucee.runtime.type.StructImpl.get(StructImpl.java:184)
+at model.gateways.applicationtreegateway_cfc$cf.udfDefaultValue1(/model/gateways/applicationTreeGateway.cfc:183)
+at model.gateways.applicationtreegateway_cfc$cf.udfDefaultValue(/model/gateways/applicationTreeGateway.cfc)
+at lucee.runtime.type.UDFImpl.getDefaultValue(UDFImpl.java:498)
+at lucee.runtime.type.UDFImpl.defineArguments(UDFImpl.java:140)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:354)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:811)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at model.gateways.applicationtreegateway_cfc$cf.udfCall2(/model/gateways/applicationTreeGateway.cfc:197)
+at model.gateways.applicationtreegateway_cfc$cf.udfCall(/model/gateways/applicationTreeGateway.cfc)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:687)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:604)
+at lucee.runtime.ComponentImpl.call(ComponentImpl.java:2110)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at application_cfc$cf.udfCall(/Application.cfc:82)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:811)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at framework.one_cfc$cf.udfCallf_000017(/framework/one.cfc:2964)
+at framework.one_cfc$cf.udfCallf(/framework/one.cfc:2953)
+at framework.one_cfc$cf.udfCall(/framework/one.cfc)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:811)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at framework.one_cfc$cf.udfCall6(/framework/one.cfc:991)
+at framework.one_cfc$cf.udfCall(/framework/one.cfc)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:687)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:604)
+at lucee.runtime.ComponentImpl.call(ComponentImpl.java:2110)
+at lucee.runtime.listener.ModernAppListener.call(ModernAppListener.java:479)
+at lucee.runtime.listener.ModernAppListener._onRequest(ModernAppListener.java:131)
+at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:43)
+at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2816)
+at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2803)
+at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2774)
+at lucee.runtime.engine.Request.exe(Request.java:45)
+at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1113)
+at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1070)
+at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:97)
+at lucee.loader.servlet.jakarta.CFMLServlet.service(CFMLServlet.java:52)
+at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+at org.apache.coyote.ajp.AjpProcessor.service(AjpProcessor.java:424)
+at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+</td></tr></table></td></tr><tr><td class="luceeH2">TagContext</td><td class="luceeN2"><table><tr><td class="collapse-trigger luceeH0" colspan="3" style="cursor:pointer;"><span>Array</span></td></tr><tr><td class="luceeH0">1</td><td class="luceeN0"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct</span></td></tr><tr><td class="luceeH2">codePrintHTML</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">181: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;Replaces&amp;nbsp;Application['Permalinks'][permalink]&lt;br&gt;
+182: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/&lt;br&gt;
+&lt;b&gt;183: &amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;struct&amp;nbsp;function&amp;nbsp;getPermalink(&amp;nbsp;required&amp;nbsp;string&amp;nbsp;permalink,&amp;nbsp;string&amp;nbsp;applicationID&amp;nbsp;=&amp;nbsp;Application.ApplicationID&amp;nbsp;)&amp;nbsp;{&lt;/b&gt;&lt;br&gt;
+184: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;cache&amp;nbsp;=&amp;nbsp;getRequestCache();&lt;br&gt;
+185: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;structKeyExists(cache.permalinks,&amp;nbsp;arguments.permalink)&amp;nbsp;)&amp;nbsp;{&lt;br&gt;
+</td></tr></table></td></tr><tr><td class="luceeH2">codePrintPlain</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">181: * Replaces Application['Permalinks'][permalink]
+182: */
+183: public struct function getPermalink( required string permalink, string applicationID = Application.ApplicationID ) {
+184: var cache = getRequestCache();
+185: if ( structKeyExists(cache.permalinks, arguments.permalink) ) {
+</td></tr></table></td></tr><tr><td class="luceeH2">column</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">id</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">??</td></tr></table></td></tr><tr><td class="luceeH2">line</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">183</td></tr></table></td></tr><tr><td class="luceeH2">Raw_Trace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">model.gateways.applicationtreegateway_cfc$cf.udfDefaultValue1(/model/gateways/applicationTreeGateway.cfc:183)</td></tr></table></td></tr><tr><td class="luceeH2">template</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">/var/neighborware/libs/model/gateways/applicationTreeGateway.cfc</td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">cfml</td></tr></table></td></tr></table></td></tr><tr><td class="luceeH0">2</td><td class="luceeN0"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct</span></td></tr><tr><td class="luceeH2">codePrintHTML</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">195: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/&lt;br&gt;
+196: &amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;boolean&amp;nbsp;function&amp;nbsp;permalinkExists(&amp;nbsp;required&amp;nbsp;string&amp;nbsp;permalink&amp;nbsp;)&amp;nbsp;{&lt;br&gt;
+&lt;b&gt;197: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;mapping&amp;nbsp;=&amp;nbsp;getPermalink(arguments.permalink);&lt;/b&gt;&lt;br&gt;
+198: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;structKeyExists(mapping,&amp;nbsp;&amp;quot;ApplicationTreeID&amp;quot;)&amp;nbsp;AND&amp;nbsp;len(mapping.ApplicationTreeID);&lt;br&gt;
+199: &amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+</td></tr></table></td></tr><tr><td class="luceeH2">codePrintPlain</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">195: */
+196: public boolean function permalinkExists( required string permalink ) {
+197: var mapping = getPermalink(arguments.permalink);
+198: return structKeyExists(mapping, &quot;ApplicationTreeID&quot;) AND len(mapping.ApplicationTreeID);
+199: }
+</td></tr></table></td></tr><tr><td class="luceeH2">column</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">id</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">??</td></tr></table></td></tr><tr><td class="luceeH2">line</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">197</td></tr></table></td></tr><tr><td class="luceeH2">Raw_Trace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">model.gateways.applicationtreegateway_cfc$cf.udfCall2(/model/gateways/applicationTreeGateway.cfc:197)</td></tr></table></td></tr><tr><td class="luceeH2">template</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">/var/neighborware/libs/model/gateways/applicationTreeGateway.cfc</td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">cfml</td></tr></table></td></tr></table></td></tr><tr><td class="luceeH0">3</td><td class="luceeN0"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct</span></td></tr><tr><td class="luceeH2">codePrintHTML</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">80: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;rc.permalink&amp;nbsp;=&amp;nbsp;ListGetAt(cgi.path_info,&amp;quot;1&amp;quot;,&amp;quot;/&amp;quot;);&lt;br&gt;
+81: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;appTreeGateway&amp;nbsp;=&amp;nbsp;getBeanFactory().getBean(&amp;quot;applicationTreeGateway&amp;quot;);&lt;br&gt;
+&lt;b&gt;82: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;appTreeGateway.permalinkExists(rc.permalink)&amp;nbsp;)&amp;nbsp;{&lt;/b&gt;&lt;br&gt;
+83: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;permalinkData&amp;nbsp;=&amp;nbsp;appTreeGateway.getPermalink(rc.permalink);&lt;br&gt;
+84: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;len(trim(permalinkData['ComponentInstanceID']))&amp;nbsp;)&amp;nbsp;{&lt;br&gt;
+</td></tr></table></td></tr><tr><td class="luceeH2">codePrintPlain</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">80: rc.permalink = ListGetAt(cgi.path_info,&quot;1&quot;,&quot;/&quot;);
+81: var appTreeGateway = getBeanFactory().getBean(&quot;applicationTreeGateway&quot;);
+82: if ( appTreeGateway.permalinkExists(rc.permalink) ) {
+83: var permalinkData = appTreeGateway.getPermalink(rc.permalink);
+84: if ( len(trim(permalinkData['ComponentInstanceID'])) ) {
+</td></tr></table></td></tr><tr><td class="luceeH2">column</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">id</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">??</td></tr></table></td></tr><tr><td class="luceeH2">line</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">82</td></tr></table></td></tr><tr><td class="luceeH2">Raw_Trace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">application_cfc$cf.udfCall(/Application.cfc:82)</td></tr></table></td></tr><tr><td class="luceeH2">template</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">/var/neighborware/libs/Application.cfc</td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">cfml</td></tr></table></td></tr></table></td></tr><tr><td class="luceeH0">4</td><td class="luceeN0"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct</span></td></tr><tr><td class="luceeH2">codePrintHTML</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">2962: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;setupSubsystemWrapper(&amp;nbsp;request.subsystem&amp;nbsp;);&lt;br&gt;
+2963: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;internalFrameworkTrace(&amp;nbsp;'setupRequest()&amp;nbsp;called'&amp;nbsp;);&lt;br&gt;
+&lt;b&gt;2964: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;setupRequest();&lt;/b&gt;&lt;br&gt;
+2965: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+2966: &lt;br&gt;
+</td></tr></table></td></tr><tr><td class="luceeH2">codePrintPlain</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">2962: setupSubsystemWrapper( request.subsystem );
+2963: internalFrameworkTrace( 'setupRequest() called' );
+2964: setupRequest();
+2965: }
+2966: 
+</td></tr></table></td></tr><tr><td class="luceeH2">column</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">id</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">??</td></tr></table></td></tr><tr><td class="luceeH2">line</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">2964</td></tr></table></td></tr><tr><td class="luceeH2">Raw_Trace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">framework.one_cfc$cf.udfCallf_000017(/framework/one.cfc:2964)</td></tr></table></td></tr><tr><td class="luceeH2">template</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">/var/neighborware/libs/framework/one.cfc</td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">cfml</td></tr></table></td></tr></table></td></tr><tr><td class="luceeH0">5</td><td class="luceeN0"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct</span></td></tr><tr><td class="luceeH2">codePrintHTML</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">2951: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private&amp;nbsp;void&amp;nbsp;function&amp;nbsp;setupRequestWrapper(&amp;nbsp;boolean&amp;nbsp;runSetup&amp;nbsp;)&amp;nbsp;{&lt;br&gt;
+2952: &lt;br&gt;
+&lt;b&gt;2953: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;request.subsystem&amp;nbsp;=&amp;nbsp;getSubsystem(&amp;nbsp;request.action&amp;nbsp;);&lt;/b&gt;&lt;br&gt;
+2954: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;request.subsystembase&amp;nbsp;=&amp;nbsp;request.base&amp;nbsp;&amp;amp;&amp;nbsp;getSubsystemDirPrefix(&amp;nbsp;request.subsystem&amp;nbsp;);&lt;br&gt;
+2955: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;request.section&amp;nbsp;=&amp;nbsp;getSection(&amp;nbsp;request.action&amp;nbsp;);&lt;br&gt;
+</td></tr></table></td></tr><tr><td class="luceeH2">codePrintPlain</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">2951: private void function setupRequestWrapper( boolean runSetup ) {
+2952: 
+2953: request.subsystem = getSubsystem( request.action );
+2954: request.subsystembase = request.base &amp; getSubsystemDirPrefix( request.subsystem );
+2955: request.section = getSection( request.action );
+</td></tr></table></td></tr><tr><td class="luceeH2">column</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">id</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">??</td></tr></table></td></tr><tr><td class="luceeH2">line</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">2953</td></tr></table></td></tr><tr><td class="luceeH2">Raw_Trace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">framework.one_cfc$cf.udfCallf(/framework/one.cfc:2953)</td></tr></table></td></tr><tr><td class="luceeH2">template</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">/var/neighborware/libs/framework/one.cfc</td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">cfml</td></tr></table></td></tr></table></td></tr><tr><td class="luceeH0">6</td><td class="luceeN0"><table><tr><td class="collapse-trigger luceeH2" colspan="3" style="cursor:pointer;"><span>Struct</span></td></tr><tr><td class="luceeH2">codePrintHTML</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">989: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+990: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;else&amp;nbsp;{&lt;br&gt;
+&lt;b&gt;991: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;setupRequestWrapper(&amp;nbsp;true&amp;nbsp;);&lt;/b&gt;&lt;br&gt;
+992: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+993: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+</td></tr></table></td></tr><tr><td class="luceeH2">codePrintPlain</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">989: }
+990: } else {
+991: setupRequestWrapper( true );
+992: }
+993: }
+</td></tr></table></td></tr><tr><td class="luceeH2">column</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">0</td></tr></table></td></tr><tr><td class="luceeH2">id</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">??</td></tr></table></td></tr><tr><td class="luceeH2">line</td><td class="luceeN2"><table><tr><td class="luceeH1">number</td><td class="luceeN1">991</td></tr></table></td></tr><tr><td class="luceeH2">Raw_Trace</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">framework.one_cfc$cf.udfCall6(/framework/one.cfc:991)</td></tr></table></td></tr><tr><td class="luceeH2">template</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">/var/neighborware/libs/framework/one.cfc</td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">cfml</td></tr></table></td></tr></table></td></tr></table></td></tr><tr><td class="luceeH2">type</td><td class="luceeN2"><table><tr><td class="luceeH1">string</td><td class="luceeN1">expression</td></tr></table></td></tr></table></div>
+<!-- ==stop== dump -->
+;
+</div>
+</div>
