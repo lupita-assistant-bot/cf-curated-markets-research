@@ -1,0 +1,35 @@
+name: Pass 4 details
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'pass4.py'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  pass4:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run pass 4
+        run: |
+          python pass4.py 2>&1 | tee pass4.log
+          echo "=== DIGEST ==="
+          cat results4/digest.md || true
+      - name: Commit
+        run: |
+          git config user.name 'research-bot'
+          git config user.email 'research-bot@users.noreply.github.com'
+          git add -A results4 pass4.log 2>/dev/null || true
+          git commit -m "pass4 $(date -u +%Y%m%d-%H%M%S)" || echo 'nothing to commit'
+          git push || echo 'push failed'
