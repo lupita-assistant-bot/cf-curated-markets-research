@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+<head>
+	<!-- Published by OpenCities, 1.38.0.1 -->
+
+    
+        
+            
+        
+    
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Events Downtown Orlando</title>
+	<meta name="generator" content="OpenCities - https://granicus.com/product/opencities" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Using mobile-web-app-capable for now to enable full-screen experience on supported platforms -->
+    <!-- Note: This tag works mainly on Android Chrome. It does NOT enable full-screen mode on iOS Safari. -->
+    <!-- For iOS, the correct tag is: <meta name="apple-mobile-web-app-capable" content="yes"> -->
+    <!-- TODO: Monitor for updated meta tag standards from Apple or other browser vendors -->
+    <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="description" content="Downtown Orlando Events" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.downtownorlando.com/Fun/Events" />
+    <meta property="og:title" content="Events" />
+    <meta property="og:description" content="Downtown Orlando Events" />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Events" />
+    <meta property="twitter:description" content="Downtown Orlando Events" />
+    <link rel="canonical" href="https://www.downtownorlando.com/Fun/Events" />
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/files/ocfavicon/Downtown/apple-touch-icon.png?V=637093424572319323">
+<link rel="icon" type="image/png" sizes="32x32" href="/files/ocfavicon/Downtown/favicon-32x32.png?V=637093424572319323">
+<link rel="icon" type="image/png" sizes="16x16" href="/files/ocfavicon/Downtown/favicon-16x16.png?V=637093424572319323">
+<link rel="manifest" href="/files/ocfavicon/Downtown/site.webmanifest?V=637093424572319323">
+<link rel="shortcut icon" href="/files/ocfavicon/Downtown/favicon.ico?V=637093424572319323">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-config" content="/files/ocfavicon/Downtown/browserconfig.xml?V=637093424572319323">
+    <script>
+        (function () {
+            if (window.__UNLOAD_LAZY_PATCH__) return;
+            window.__UNLOAD_LAZY_PATCH__ = true;
+
+            var supportsPageHide = ("onpagehide" in window);
+            var mappedType = supportsPageHide ? "pagehide" : "beforeunload";
+            var nativeAdd = window.addEventListener;
+            var nativeRemove = window.removeEventListener;
+            var unloadMap = null;
+            var patched = false;
+
+            function ensurePatched() {
+                if (patched) return;
+                unloadMap = new WeakMap();
+
+                window.addEventListener = function (type, listener, options) {
+                    if (type === "unload") {
+                        var wrapped = function (evt) {
+                            if (supportsPageHide && evt.persisted) return;
+                            listener.call(this, evt);
+                        };
+                        unloadMap.set(listener, wrapped);
+                        return nativeAdd.call(this, mappedType, wrapped, options);
+                    }
+                    return nativeAdd.call(this, type, listener, options);
+                };
+
+                window.removeEventListener = function (type, listener, options) {
+                    if (type === "unload") {
+                        var wrapped = unloadMap.get(listener);
+                        if (wrapped) {
+                            nativeRemove.call(this, mappedType, wrapped, options);
+                            unloadMap.delete(listener);
+                        }
+                        return;
+                    }
+                    return nativeRemove.call(this, type, listener, options);
+                };
+
+                var orig = null;
+                Object.defineProperty(window, "onunload", {
+                    configurable: true, enumerable: true,
+                    get: function () { return orig; },
+                    set: function (h) {
+                        orig = h;
+                        if (typeof h === "function") window.addEventListener("unload", h);
+                    }
+                });
+                patched = true;
+            }
+
+            window.addEventListener = function (type, listener, options) {
+                if (type === "unload") {
+                    ensurePatched();
+                    return window.addEventListener(type, listener, options);
+                }
+                return nativeAdd.call(this, type, listener, options);
+            };
+
+            window.removeEventListener = function (type, listener, options) {
+                if (type === "unload" && !patched) {
+                    return;
+                }
+                return nativeRemove.call(this, type, listener, options);
+            };
+
+            function patchTelerik() {
+                ensurePatched();
+                var ns = window.RadAjaxNamespace;
+                if (!ns || !ns.EventManager || !ns.EventManager.Add || ns.EventManager.__UnloadPatched) return;
+                var origAdd = ns.EventManager.Add;
+                ns.EventManager.Add = function (el, evtName, handler, clientId) {
+                    if (el === window && evtName === "unload") {
+                        return window.addEventListener("unload", handler);
+                    }
+                    return origAdd.call(this, el, evtName, handler, clientId);
+                };
+                ns.EventManager.__UnloadPatched = true;
+            }
+
+            if (window.RadAjaxNamespace)
+                patchTelerik();
+            else (window.requestIdleCallback || function (cb)
+            {
+                setTimeout(cb, 120);
+            })(patchTelerik);
+        })();
+    </script>
+    <!-- Preconnecting to Google Fonts servers -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Defer Roboto font loading to avoid render-blocking -->
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const robotoLink = document.createElement('link');
+            robotoLink.rel = 'stylesheet';
+            robotoLink.href = 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap';
+            document.head.appendChild(robotoLink);
+        });
+    </script>
+
+    <style>
+        .gm-style, .gm-style * {
+            font-family: 'Roboto', system-ui, -apple-system, "Segoe UI", Arial, sans-serif !important;
+        }
+    </style>
+
+    <script>
+        document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, "js");
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..600;1,100..600&display=swap" rel="stylesheet">
+    
+        
+            <script type="text/javascript">
+                window.__oc_flags_ImprovedBreakpointEventHandling = true;
+            </script>
+            
+        
+    
+    
+        <script type="text/javascript">
+            var __metaQueryBreakpoints = {
+                'sc-size-4': '(max-width: 480px)',
+                'sc-size-3': '(min-width: 480px) and (max-width: 768px)',
+                'sc-size-2': '(min-width: 768px)'
+            }
+
+            var __ocSizePoints = [
+                { min: 0, name: 'sc-size-4' },
+                { min: 480, name: 'sc-size-3' },
+                { min: 768, name: 'sc-size-2' }
+            ]
+        </script>
+    
+    
+
+    <!-- Framework Section -->
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/files/templates/00000000-0000-0000-0000-000000000000/c8674514-8f3f-4195-8b05-7d37f8956215/v/1223/jquery-1.12.4.min.js?seamlessts=639263257269980502" ><\/script>')</script>
+
+    <!--Google Maps API Loader – Improved Version to avoid Warning
+    This script loads the Google Maps JavaScript API using a dynamic and async method.
+    It replaces the old static <script> tag to avoid performance warnings from Google.
+
+    Dynamically creates the <script> tag with loading = async for better performance
+    Builds the API URL with required libraries(places, geometry, marker, geocoding)
+    Uses a Promise and callback(google.maps.__ib__) to confirm when the script is ready
+
+    It Avoids Google’s warning about direct script loading
+    Improves page load speed by loading the API asynchronously-->
+
+    
+        <script>
+            (function (root) {
+                root.OpenCities = root.OpenCities || {};
+                if (!root.OpenCities.GoogleMapsLoader) {
+                    root.OpenCities.GoogleMapsLoader = {
+                        _cbs: [],
+                        _ready: false,
+                        onReady: function (cb) {
+                            if (this._ready) { try { cb(); } catch (e) { console.error(e); } }
+                            else if (typeof cb === 'function') this._cbs.push(cb);
+                        },
+                        _fire: function () {
+                            if (this._ready) return;
+                            this._ready = true;
+                            var q = this._cbs.splice(0);
+                            for (var i = 0; i < q.length; i++) {
+                                try { q[i](); } catch (e) { console.error(e); }
+                            }
+                        }
+                    };
+                }
+            })(window);
+
+            (g => {
+                var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__",
+                    m = document, b = window;
+                b = b[c] || (b[c] = {});
+                var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams,
+                    u = () => h || (h = new Promise(async (resolve, reject) => {
+                        a = m.createElement("script");
+                        e.set("libraries", [...r] + "");
+                        for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]);
+                        e.set("callback", c + ".maps." + q);
+                        a.src = "https://maps." + c + "apis.com/maps/api/js?" + e.toString();
+                        a.loading = "async";
+                        a.async = true;
+                        a.defer = true;
+                        d[q] = resolve;
+                        a.onerror = () => reject(Error(p + " could not load."));
+                        a.nonce = m.querySelector("script[nonce]")?.nonce || "";
+                        m.head.append(a);
+                    }));
+                if (d[l]) {
+                    console.warn(p + " only loads once. Ignoring duplicate load.");
+                } else {
+                    d[l] = (f, ...n) => (r.add(f), u().then(() => d[l](f, ...n)));
+                }
+            })({
+                key: "AIzaSyARTgz55hhl0arlKzuDpj_dGA95nVHl-4w",
+                v: "3.65"
+            });
+
+            (async () => {
+                try {
+                    if (!google?.maps?.importLibrary) return;
+
+                    if (!window.OpenCities.__mapsLibsPromise) {
+                        window.OpenCities.__mapsLibsPromise = Promise.all([
+                            google.maps.importLibrary('maps'),
+                            google.maps.importLibrary('places'),
+                            google.maps.importLibrary('geocoding'),
+                            google.maps.importLibrary('marker'),
+                            google.maps.importLibrary('geometry')
+                        ]);
+                    }
+                    await window.OpenCities.__mapsLibsPromise;
+
+                    if (window.OpenCities?.GoogleMapsLoader) {
+                        window.OpenCities.GoogleMapsLoader._fire();
+                    }
+                } catch (err) {
+                    console.error('Google Maps failed to initialise', err);
+                }
+            })();
+        </script>
+    
+    <script src="/files/templates/00000000-0000-0000-0000-000000000000/c8674514-8f3f-4195-8b05-7d37f8956215/v/1223/modernizr.custom.710f3bf.js?seamlessts=639263257269980502" defer></script>
+    
+    <!--// End Framework Section -->
+    <!-- OpenCities Section -->
+    <script>
+        var OpenCities = OpenCities || {};
+        OpenCities.Paths = {
+            SiteTemplate: '/files/templates/00000000-0000-0000-0000-000000000000/c8674514-8f3f-4195-8b05-7d37f8956215/v/1223/',
+            ThemePath: '/files/templates/00000000-0000-0000-0000-000000000000/c8674514-8f3f-4195-8b05-7d37f8956215/v/1223/'
+        };
+    </script>
+    <script src='/ocapi/7e1f4d2b-824e-4b0a-8b98-98ed01854b81/en-US/websitesettings.js'></script>
+    <script src="/files/templates/00000000-0000-0000-0000-000000000000/c8674514-8f3f-4195-8b05-7d37f8956215/v/1223/oc_head.js?applied=20260730030910"></script>
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/c8674514-8f3f-4195-8b05-7d37f8956215/v/1223/oc_grid.css~oc_style.css~oc_wizard_style.css~oc_main.css~oc_forms.css~oc_wizard.css~oc_wizard_menu.css~OcScriptCombine_Minify0?uniqueid=20260730030910" rel="stylesheet" type="text/css">
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/c8674514-8f3f-4195-8b05-7d37f8956215/v/1223/client_style.css~client.css~client_menu.css~client_forms.css~OcScriptCombine_Minify0?uniqueid=20260730030910" rel="stylesheet" type="text/css">
+    <style type="text/css">.background-container
+{
+    background-image:url('/files/sharedassets/downtown/v/3/backgrounds/orlando-skyline-fun-header-background.jpg?w=480');
+    background-color:#2d4988;
+}
+
+@media (min-width: 480px)
+{
+    .background-container
+    {
+      background-image:url('/files/sharedassets/downtown/v/3/backgrounds/orlando-skyline-fun-header-background.jpg?w=768');
+    }
+}
+@media (min-width: 768px)
+{
+    .background-container
+    {
+      background-image:url('/files/sharedassets/downtown/v/3/backgrounds/orlando-skyline-fun-header-background.jpg?w=992');
+    }
+}
+@media (min-width: 992px)
+{
+    .background-container
+    {
+      background-image:url('/files/sharedassets/downtown/v/3/backgrounds/orlando-skyline-fun-header-background.jpg');
+    }
+}
+@media (min-width: 1280px)
+{
+    .background-container
+    {
+      background-image:url('/files/sharedassets/downtown/v/3/backgrounds/orlando-skyline-fun-header-background.jpg');
+    }
+}
+@media (min-width: 1920px)
+{
+    .background-container
+    {
+      background-image:url('/files/sharedassets/downtown/v/3/backgrounds/orlando-skyline-fun-header-background.jpg');
+    }
+}
+        </style><script>
+(function (BackgroundSettings, $, undefined) {
+    BackgroundSettings.initialise = function () {
+        this.Application = {"CSSSelector":".background-container","EnableFade":true,"MediaType":"image"};
+    };
+} (OpenCities.BackgroundSettings = OpenCities.BackgroundSettings || {}, jQuery));
+OpenCities.BackgroundSettings.initialise();
+</script>
+    
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/c8674514-8f3f-4195-8b05-7d37f8956215/v/1223/oc_print.css~client_print.css~OcScriptCombine_Minify0?uniqueid=20260730030910" rel="stylesheet" type="text/css" media="print">
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<script src="/files/oc-templates/00000000-0000-0000-0000-000000000000/c8674514-8f3f-4195-8b05-7d37f8956215/v/1223/external_plugins.js~oc_form_helper.js~oc_main.js~plugins.js~oc_main_init.js~OcScriptCombine_Minify0?uniqueid=20260730030910" defer="true"></script>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TMHK7X');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript">
+// Open external links in a popup modal notice
+$(window).on('load', function(){
+	
+	$.expr[":"].external = function(a) {
+		//var linkHref = a.hostname;
+		//var domainHref = location.hostname;
+		
+		var linkhn = a.hostname.split('.').reverse();
+		var linkHref = linkhn[1] + "." + linkhn[0];
+		
+		var domainhn = window.location.hostname.split('.').reverse();
+		var domainHref = domainhn[1] + "." + domainhn[0];
+	
+		return !a.href.match(/^mailto\:/) && !a.href.match(/^tel\:/) && linkHref !== domainHref;
+	};
+	
+	$("a:external").addClass("ext_link");
+	
+	$(function() {
+		
+		$('a.ext_link').click(function() {
+			console.log('click');
+			 // open a modal 
+			$('a:external').attr('data-toggle', 'modal');
+			$('a:external').attr('data-target', '#speedbump');
+			//go to link on modal close
+			var url = $(this).attr('href');
+			$('.btn-modal.btn-continue').click(function() {
+				window.open(url);
+				$('.btn-modal.btn-continue').off();
+			});
+			$('.btn-modal.btn-close').click(function() {
+				$('#speedbump').modal('hide');
+				$('.btn-modal.btn-close').off();
+			}); 
+		});
+		
+	});  
+});
+</script>
+<meta name="google-site-verification" content="Dj7ZrD7jQKH4vxBDhFTQaYBNjtt_sVhzM2GsOKdYPv0" />
+<!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
+<script type='text/javascript'>
+(function(){var g=function(e,h,f,g){
+this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};
+this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "};
+this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0};
+this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g;document.body&&document.body.appendChild(a)}};
+this.start=function(){var t=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){t.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){t.go()}):t.go()};};
+try{(new g(100,"r","QSI_S_ZN_41scVrrPqmSpoYR","https://zn41scvrrpqmspoyr-orlando.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_41scVrrPqmSpoYR")).start()}catch(i){}})();
+</script><div id='ZN_41scVrrPqmSpoYR'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+<!--END WEBSITE FEEDBACK SNIPPET-->
+
+<!-- Google Tag Manager -- Digital Services Tag 2023 -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TPSZW7B');</script>
+<!-- End Google Tag Manager -->
+    
+</head>
+<body class="body layout-modern side-menu side-menu-left site-search-always-visble  content-type-oc-general content-template-dto-default group-template-oc-full-width-with-default-header page-name-events page-sequence-1 page-depth-2 page-section-3 website-type-defaultsubsite device-mobile " id="body-top">
+    <div id="skip-to-content-container">
+        <a href="#main-content" class="visuallyhidden focusable" id="skip-to-content-link">Skip to main content</a>
+    </div>
+    <script>
+        // OCNOW-11988 (Cursor): Proactively focus skip link when returning from browser chrome.
+        // Must run inline (not deferred oc_main.js) so focus is intercepted before NVDA speaks footer.
+        (function () {
+            var awaitingReentry = false;
+            var inertSupported = 'inert' in HTMLElement.prototype;
+
+            function isExplicitlyOutsideDocument(node) {
+                return node != null && !document.documentElement.contains(node);
+            }
+
+            function getSkipContainer() {
+                return document.getElementById('skip-to-content-container');
+            }
+
+            function getSkipLink() {
+                return document.getElementById('skip-to-content-link');
+            }
+
+            function applyGuard() {
+                awaitingReentry = true;
+                if (!inertSupported) {
+                    return;
+                }
+                var skipContainer = getSkipContainer();
+                var children = document.body.children;
+                for (var i = 0; i < children.length; i++) {
+                    if (children[i] !== skipContainer) {
+                        children[i].setAttribute('inert', '');
+                    }
+                }
+            }
+
+            function clearGuard() {
+                awaitingReentry = false;
+                if (!inertSupported) {
+                    return;
+                }
+                var children = document.body.children;
+                for (var i = 0; i < children.length; i++) {
+                    children[i].removeAttribute('inert');
+                }
+            }
+
+            function isSkipLinkElement(target) {
+                if (!target) {
+                    return false;
+                }
+                var skipContainer = getSkipContainer();
+                return target.id === 'skip-to-content-link' ||
+                    (skipContainer && skipContainer.contains(target));
+            }
+
+            function focusSkipLink() {
+                var skipLink = getSkipLink();
+                if (!skipLink) {
+                    return;
+                }
+                if (window.scrollY > 0) {
+                    window.scrollTo(0, 0);
+                }
+                skipLink.focus({ preventScroll: true });
+            }
+
+            function scheduleGuardIfDocumentLostFocus() {
+                window.setTimeout(function () {
+                    if (!document.hasFocus()) {
+                        applyGuard();
+                    }
+                }, 0);
+            }
+
+            document.addEventListener('focusout', function (e) {
+                if (isExplicitlyOutsideDocument(e.relatedTarget)) {
+                    applyGuard();
+                }
+            }, true);
+
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Tab') {
+                    scheduleGuardIfDocumentLostFocus();
+                } else if (e.key === 'F6' || (e.key === 'l' && e.ctrlKey)) {
+                    scheduleGuardIfDocumentLostFocus();
+                }
+            }, true);
+
+            window.addEventListener('focus', function () {
+                if (!awaitingReentry) {
+                    return;
+                }
+                applyGuard();
+                focusSkipLink();
+            }, true);
+
+            document.addEventListener('focusin', function (e) {
+                var reentryFromChrome = awaitingReentry || isExplicitlyOutsideDocument(e.relatedTarget);
+                if (!reentryFromChrome) {
+                    return;
+                }
+                if (isSkipLinkElement(e.target)) {
+                    clearGuard();
+                    return;
+                }
+                applyGuard();
+                focusSkipLink();
+                clearGuard();
+            }, true);
+        })();
+    </script>
+    <form name="mainForm" method="post" action="/Fun/Events" id="mainForm">
+<div>
+<input type="hidden" name="ctl04_seamless_script_manager_TSM" id="ctl04_seamless_script_manager_TSM" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__SEAMLESSVIEWSTATE" id="__SEAMLESSVIEWSTATE" value="H4sIAAAAAAAEAAAJQPa/SZ8EEicWdfRagkrBJQzgfnW4qRX3J451Mun3DBow5Takn3feCXaiq+YFeAtp+mYNBzFGZX9Qd/VRcV+I/SH4toL/qf3FT2Q8jd0iBnnDxHn/3gmURgKrx4GDSHzfnb0VRHmRLaD+of7zy1tI6KR0/2NoK7Bl158RSEY98XidLPbs9fl95ruXvVGL3Ha/F1RGnjKeYIq16eiSCFUlZ1WW9kNQjlm4hYnqvNUZjuusRaGOnUKfZixI5ewEYeT564nweRrkLTlGVwT4YscxRkawhYmMaWrXQpZQ6kBjbVLaa7gkeKLAEtOUWvpwrZa4TZETP7UXkPTMEfzPZzHAZVOGyv9kEbEcyX+SLqbzSjpTTHoQTwIHd8BLWLwpWizjQ8S4NzGe+/SA37izsAEW4uOcENaqrCldPMjmz6a606lKjBySPKF4ouwISOmnNRBmshAGctU461TeMxY9If/6XlTogIEiJsTPr50qe1c6QAFf/dYX1cv9K2d4dJbh661SspErqtfektpMrNUIIdoBpfRniTVplpb/jQ9QE5BHddiBfX9RGhI3BWvsP2XTdBpyHHds6amyewFAWUIPsZ3/dwNjyoXIM3BVBBGGowZCbfU221rWJT59TJYtCgDYpB+00LiZF+FiI2bN28VFgWx1OgoCXyMNpTNKJRLJwm5BqDBsTS0SlOHdxiNs5S1NL8GQJMX8FMpma7bjLkTjY85rmxXWYmnFcGe32nNzOlaZ3yLgSWjTQoU3oEHreUlz5NwXzZ6tfnJt3YEiNesdXVYgFp84T/q60Kb/88jvyAo7qE+FBh5KCj2zcUb0SxBLGIChvl8BcsOJNI7tx8BcyRpMEDKFCfobWE/OwoqR/+uuiLPRs8wbsJINZkhJ58oGvEuNXFf9RfxLMBJ9jrN5KbamO+iadY77ZXA72k7lhVBjwzuXFTF1lS1P6UYj5vbG4V4Ob+SmD3rnG+72ZntYEjM2k3O1jsxd2nx8nXZYzocCuiTYgnewiyAGg4MOVrKXNbB80FhEYNfQoFbYeOXtZd/xqYZm7YYCS0uK0SelznyoHDpZT5KgZzpH1o4TMu6J8CZNbgqmAvsX27k1W3BRoT92Gkry1vUOYACq/EQ8D8hk3hEC2GQb43WINEeBuzqGPzBGuL9OzScGzyKB/NLAJifZ0sY3IcnWsZ6z8n+D/6P9Kw4PtxDbN+7McC+lPLA3CTXn/l18BFbbTn9uDSpIWQu7VUPMjzu5NvTC+y0iKpyAxMPOpHN1LWsc3AGjD3Q5waryRez+xcsvlBErMS1r6tV5e+rHQvwxLTim0hXz5fwTCKKWzp5RhVnllIkJLAJWyIjgHlz1KTUFVLjTbxSbCOC/KUYZvNCosR/yud0ZQSzJwRlUKuGtXXN25j2V6G/70rhH9th61Y+pJGnPYWwM/xt/3GXWoZrftu2xVI4g6u5XX8ArHVJ2LrMIp49g+cPNaCxhKCvvXMtHAoQw2GoEge6frKdeWOW6rSiJvBh2Xuc0RZVfIgSJv8rADhg/Udisf+n2AhJKC1A4zvFKvxjOgOExuJxxDuXPZcrzyCaEcbkP0+QSnd7buMswAb637HcjmB4dyGFMfTbWajyB7lkPzgCYrcmRcMl6YSFB1Iv0L84dg2oS+sOWpNm5JR2RghHGTVD1DOCqYJAYYcrLONvxCCjcK61U0eZ/Hn/1s30mKDI4iBJcqnPSnPVqt6yR4ST6+7A8VfLa3VVZss2FTLLd3FxZIwz9KdKplrwsxWMtZcrlvDu+YsYpk2tu7zNHjU0/wkaFaAav4AsSXRzigIZWUZiFuCmYOQrRb/bpBNVTfaUJYtX51HjKU9qZ3C6fasrbVsUUDl0Ore/iPH/YnmqUtgQAO7q4e0g78SRtX4XZ//twYj9P6FamZ5lyov1ETg0HYVTUEaISK1r1ZG1hNWNPqqwVnrad4c+ciL6nbNvtqvYIlXgDEExOKP9QvtBl7pX0ZZWJ7ynjZ6FqkbgJzm8upd2XL65c5dgAbSet6GZ5j+CjemgSEoSTBIhR4ZZxtaI/4Msw68HzMLd6n5+NsLRb2wicZY+hRa1OyxyGQrIw9QlYcOxItEryiX+30aOgNhLmYoluLElejLOSc911a8yadf+CRtOCf8+Ac0EvnilZWRNpmEdqM093J3ZL8yy0wmfxawG64piG1e3/VTscTYMVPIrwahFwYXQuFjlkN5GqC6tGyWE/G2heXt0TQfduwaBJ585Yc0nBpXphF2SB+BloaN6nZpyZpMS0LKEGrGKBp70Nt1UTsiZCfT8YpT3rsbXVOvXbYqzvphAx1q+FJc6LWrp7TOycaHcM8/TFARsakNyabWN1Md/L6X6bESMRPDvjR7xjNFyDngxs7Sy2oDTdHlC6O+tYeoprTNpHBrQhx5LdsIVXyG3fkWADlMDbU4/Gx6NIXLgtEPQcSxg/2XhymUYa5t7y4tU9EFIsiOMgB1dMAS2WKIx8CXuBuivo7SavhqOd9P306fdnhVnUhg18nNOVHsqRLy7wao4C/5L8JgxMzx2XEHOxETa821EcaCCka9tAFofu/u38DN8PBhmIjGY4nvHh9WikcuHCYIHUIqpWxb6TkRRAFiE+H32BHrwAzrnfvaBDOEFGeha7hIS7FbnFsJpIGC2GTArtJtjwWDrx4b45pCmRwM3T0tYTsaAJAWCypB56pbwcIb4tuyAOU98Lf9IJVbYdzqvPYJaZeAX4BE1rKmCigeLN+JqxZn8TO+Grryq6mf5sqnYpjCfjmJ5MiR7ZA9wQk25AlSzOj974/XqJs8v+vEru3GPcGchdodWM2F1aGvW8Y+X/onCWynqidiKo7Ninn4Elm5ZytcUA7HetucSIypw9Fmx6ro3UcEuqgXAK7B2q9RMMeVzLM2195QGImLyQzJYFVL06d7ZkduYU1Is2HFnjAdudmWVJCRyT1JI37dBdTaWFWbYjaX5/3aamMoYUpXAP16Ufj4XRnImSMvRcbi8G3PgXJbcAeDEb/aCAmb29CXcIBfmNSvW521TaTiygxdBNQTKlLEpROOd2Z80Wvhs6lv5FxXvgI6K41fTcx0b7ej7Zqoln5C3r/sbkB5EZMLxg9tFAXJ8YPGUFm7Wbc+v5SPTOCE9hkiZzsGU9xvAs+W8k3uXuuDg5arrL7BJtHolMh/DSV1ONe5IIvs9VgTheY0zO3imqtsiNLsDtFTomPhNWXZ5M9qv3fle9JDVmd6mXhCXwGa3tJdrVBDmEvAGUHXvyc7vyd9E8KmRwJhkz+PZw3s70H+Vf78rmv+fNZO5z6vr2nwFJEB/ne6EO73t/3HxyzxSqgULoNm+LPP0lLsTLtkLl0bGVI8UX0RrJatKrhxRs2A4SRmbdUmRqgtkHs2V4UU4NeGJJNdhV+LHXuZ2W2cnzQZR//pFqNvU8P20GyOS5NjBAysiES/Rw9bOdsJZpmOLmS1Yi327r9YfbPP7A1AJfk/WPAAmKJdNSWqp0Me/p/w3T9bVpKoYj/12JkyDxCTkvF3gQ9+ccsCyJlJFXn52/QO3uNFwZlQR+RteOhZo8frMzfHDaDAcPS1cIUXxYKV2nF4IHzqGngRTU1bSREekU3NeS2jcFxRmUcH/lgZ0jMa/j3wqE7A1lsed3JLXoWlwQh0wploQ4g9NalJHXQfKf+54+tzPhCj7D9u4vftwDogmoA12ZZ6+CY4m25e07pufQtyCXO7z5i/jA7Sxr38ZbHQijDAfdV/hkc9liwqGQ1xMXmbgMqWdhdbfzOdswAR4JZs9g/3CmB09ebiIiPM5F6Ww0GDrfIoVs6Az8wC4alF91VTLrt9MqNjQOFgl1HBZ4bS4A4+dG79IeU0zfqGG3INO/iiJzKJBM1HbErla9gE2mrc+7RxrSB6KlMhQbL7TJ2OK9ddjcxcjysN1JX4pFhoyhM39L6ohkWeWMLgUsJcRyQ5gfEMPEKk4n2k1N2JWyX+ZiHYLyqSzRb4656qGoUmrO1i32F77r633Xo0kfPGrbm23S2+3CxyQEDjOPBo29ZqQzQWZPf0RwH53H8KeNU99Ru2bfsKgUD1EmQNCKxQ1a9Fb71aZaI5CyxvNu19CGrnjMIX0DFUWT6KRxWNXBwWQcOCOTiSG9ZcSDCTcIIlaztsW9HJqwceWyXOBPckyVPnhTVRP2n3h9DJaQ1SkIs4Pc6MiTEFQ+aj/NEhFzXaM5WDOrHWx8f0ShTBWB+AyUqUwSRKt0s3ixL+i4m/iQbDWd+2iNGA3qtpRhjuRwCNJJWjNJ8GhNKkoCTMNcG6+KOlarDZJK+AicmKMIjEXltVFUZPS4mE01iulG6iZ1OoAcoS7qzd4pbnthVn+zOmZ2fYkopiWaCk14JR7XI4YP+iuTp8/BJhAEMt17bBIoiDczLEy1HkWSUL7xOmssh5mC6BvxbsnJPBx1XY1uiju3TK/oNkhvmXLsO4nF28nSv53ARwO//1afFUFXpwLC2zOCjYVpy2bOU3vZN1GJhH3UzGJzw4bL8Vy7evj77t1HASltE0IhbB7x3EFhhxag9LnzibWheg5PIQcCX9XFVpR8t1rS0ISaB5/IAkjYDYLxXm83cGL3b+p6DsQHVsuDJ3lkxM53G8UJh3txyJIPC39tn71dojfAfWcnqZxixDWV82e2aIiKDIeyUFbLJ7VtytsjsI3NkTqy5kw9fbYg5J6fdcyOjeFebhHAU4gsiGdGyvoHpB+TK+KYdBU+Zeyyl76Yx+318zIhcKfhioLZznvuqnYuuSuO1/TAOFjykvnx24RxGZaQE+NejH/nXg15d/6iTM0JgCC4UgWYv968rT+IIlS7+15mNwZLc2SLu5baMlXL08OvA3LlswFt+sTHF+IfPDvkVFX2OmgxduJojgwccGXqEgC4XhVary/JgmmNAChEdrsI0NClvjuVpPG5M5jKJ3h3WZUXshjnsXh2THer+gPCsH4zXCLWF1q707/yD1XRQa8LCRokWiYxOHC9XDx726tYwGVQoGVSgguqCy32LpalrmGquH5EX9oJXNiZQUuRIsbTUwfu3ucVZh91JF86Pz94KGNMET8ZkLqGu9tsp3Qyp2FRr3OVO4uyJ5BHHYYCYe3KSfaZUAC53t6sGW8yu1x/TRm78dRAhQvfp1g5lYhboZAnxg9IIDly50i0wcn5s06FHPfUnihfkD3BX4MQ34HedRm9TGFYrJQj+AyxgtWGD53euFDKAi0HHxFrJCrErSqAIO/hE53nTSVQVmnMES6/i0QZgkooPwiqYDQ6REo1GCWGOiVQuO/aFtTNtWrU9to34DFVWvcY+WWEuIMCMiiNzqfNzI6iptfjyt0uB/ckfkZzKrH+wr2W9zIHHZISLM4kS4Lrw3FIlCd5egOPw7sq9RM+YIT74blssNJdMN0QtBvLk//mf3+6otFTC56PyU34dWWKOfStf2eUESxxMxHQ5ckiPT2qWzBNlvuiG0CTB8+lrUEo1oLjxgCuAj9ojh6hBdxtafEJ7qG+oyQtu7+I6DZjKbhNLSjyMcE9nezHREnLEbidUYUIILSWSSiNl+nKo/0rQ7m9MnmbQTnrO8gbFxVO39xfyHjewVWbD03vFI5wFcPtUUDBE75b7dHuwQwP2VjzPv3BA8T7QaFV/OyVr2kYSriaG0Vgl0J/F4NqWx0YG+ejA9gn2iYS7l2wQHO/oJe7vO8QfkV3jjgLoxgb/HiC142zL6pctU6p2laodDSwleQwhO6nRgSvyonnrlDYgZl1HbbJ1LWkD6sXl5j2HX4TIP31wFSyzUCh4rqPi55HMxoYinaZ/+fl8KsUMvRcew4DsHoMmE2oAfDxqWn00/1Vzic591L3HROy2N2FxUt18JqAPN11PvKtoxBjo4jP5Dkh4xzykoHUL775MqVQC+ri3lSRTguygVAPtqUcA0z6Ly/qRz0QdbQQ3uC4/I81zpwtcJjKs5UIWYTIQ11dK+YSLrqt++bKj90WvkAj3cxOeI5hFmodkQiEEZCaIN81uxWOQSEinFS16S5oX6aclGA3Xq37U5yo+7oM4K5dE2eVczIfJqVYceUxtgSQKWiWvNx5aLY7sFUMP3QNizWx10V64Mgr4oxA1ZbqV6cdlcj6vPG3MCWJYblxmZdfuTCFSKV/2cAP6v6Ds7dhH8jpRHU/mjMIPuCCdtueBfqizkwcqDpxdWplRgYToKWLPvr0zTYtg2UBrbZLYr8JWb3LeNjbSDqzNPdblVlk2148XOhaz0/t4f1OVDPEpcPp41clueMWvJyt6/UfNEH+4syjWb72V/n1qtnesSMmFx4j9VnNYln8Sh17eFKozR0BIkKmOFbjgHOFPAX8DQriUsZjqixRPHKMJFWl14t2J7CKsgzqm2mA7bkKtDvcIZUB9y4eVf88C7q02/3EL45NhpahxH+a7M3ChvCimJJ8QVPoFTtmd0E92lWounQxnINPDIHunCNtIVzBBrOnflyreZ58894dZc4j0+jacxhhHkuPcp5y/sJR7vC9FXj6dv0d1kVG5aizhtFsAZnahYshDorJgUKlv1rognpzLCqkMwqH+fp3jRQ4Fla33goaHAq2JodPQiAg65l627uX72DmHFvO1irnrjsUiNyUBOLnlvuOTRDCMD+KbsX3nbUfJdTg4nBH19/uCIuY5uomPmhSkU4fCLtIotrIl70JQ23T8pNpv9RxtKlV9eWldWSmwvBs9p0oVeoMUMNT/zVzAQWXC7v7IFyqbrwOmVkSvMFqPt7sYBGxi4/8V10p9gNZahxZBEzrNw3v2nlTgw08v67CpmzZqRuxFwVhONusTiKoXwTxpxkM36DGK5zQbGPaIWAwtC6Of42X2mho6UUchMBn+OZbSAX7dy7bzxoitEu/cypZBb48ynonLG+nnzVUpo2lG++gWzskpIzSN1GsnF1IUhFzMLwDCXOOeb5iPfs6O+UYx07Bny5QHHC/VBGIzPwWd2joWuGm5yuSkU/JVRNXl5X7k1u7F3kBfcXAM3nhqiItNBPtfeSaRXE7lwfYV9yXSSktE1pIgrtZN8AuERwxe+bv4D4XSh1gdFsOn4FhkahcDBqWb/+jLtNnvtoBW0ZIAaX/LJcujpXUvIubCkmcQoWabY0xJYo5Wyh4KP7AUQBQ//vBpPo4yVuS705OYriUnafnDtRyKMi/a/tUTIKsSVtvOorjKm0BCGQI2yZVn0goqXzYCx87HLK4qH0yBvNmS4brM9WrfYgRKjZG+Lm63W4v5Czglxq8nuXfERQDewSrAbBTkUq45SbgJIbNDHpORK9SlEQ2wgl4HKgolMJY8UsNLs0d5hv5498lxTig4tv3L8gwkYxvh4HVIdFnRkQ6iWgiOu1Lxui8GY+aoEBQkCZd8uMh24dJqY05a60fkU0RPMTtb9fVG2f8/2UW4s1qXgSNkadYegRuj6tKXmESdOuBh6T7YvZFBa67ud7NnOM+MFpq4dF4fgZGTIXkcysGhqSHCKLBYIVVG+zrC0P2h0EOQEjlIG/3QqB+lkexPP2WfsLiaBXNAWp2k7LU7eokHVuBmtdNRMAX0ZUoeaEEuO++Cv9Uj1HCaBqoFBkUlRzk1/W4RgFhvg9SEiOw7QYAEoKiz6Svneshajm8/jEakZA+FelVih7WLm/QftC0E563Y+QyBt2A/VNO7mW1DfxI03jiMry6KGCHkYPRaY0CofpbMur2pNvtl+uJMBPo/oFUEcf4mTLjXGgZTHGAopi1anVtiuq/Di6h6+Ek6h2d5tCP7wBMCp1jiAUmushxKOT/DM6VN2TIsXP8t65TGG2jI+n/o5AbD6V4tRORCT2xAoUaaA9CYw3CA3L392OCDhufXpkmwMLS6DESPXUwa4VtoEnmVrSzn9MxRfJj6CoyTf3LoPuyiimmshYr1zMuplcVdi4752xiyta3OcRSd9WPT3V8MDPPkGhKh/Vxj+YbHw1eqF06Ytwe6x90nL2EbRQojUeOoi1lyRwDe43ydfoebvSxuByr95UoUfV6b8b6LjcJJidLKzhn/J9ucmuLXJqVRQIGPWSbBU3cEenlmuf8iv2Ge6VL9rfyDtRlA7Dw13JkoPXX82lAnB4F0p9TfeaQRm1J1dOuYydVri9l5dhRD7uUGqStvzYaJrVQzSPFGAnZBYedFMunaJByOh5VKkyQbvy1VBw0IBsM6AdvRXeRIUvaHBwbk84YurjyVZJ4XgO1rtBNjja+8LqveTNICcx/FQ9Kem2RxYIuRNmOu8wkEMe6Xo41Cxwixfbq0/eV2wo2Y8vhQHQsf82rKYQhzNuHIyy6set5RA082Qe8SxuKJfIVyRlDgapLPoelFxqin0Or9hbSTgrNKOcMMLGQfSp2aZ4BvwTz4xio+5/JZxNK0PNl0UoQcU/882q2ZZwNqYTTCKOQS1mwzbb704IuINlwaVpz/CSP1Ibkoxmb3czljm3dCG4sQq4yDI9CvlDpgffoN1r1e4JyWtNmQKh6Zw9f2kFeXWOu3SR+XcC7Htem2NoJDrQ9SQYUYH8L+2mSifyCzdIu8qO+FtDwVlEXwDdAeVihUd8aDC1V1A33T9G94BojeyIwOvB0IV3hRoIeoKmLqOyTyyAORrPZe/zUrTM+mF8qD5LjmbA7okJhLH/Fg5/9HookXS/dGHHv4NPsHpmBLJUqAfsKTgLoqfk4SYkmkfiKYV2h3ov0IyglWOsF1sfYcUw5wqQN5w19v6+ZrWy9Wzbf25gJFHrS0TB6ltngVCaRcmzGYqs2d+EBXvvzSFLCpX71zm09WvcALRozBgHG8T96zbzOG8orOlwGVgWmMs8J+1HvEfPG9RfPdCjZNti8jNzE8/brruB0CJonq9K/GZb91qIr5R9J+3JUWaigzxLev+Cmv7LUfkFdvcOxe4iz8qUBjF4RG5XOq9Wi3ULRaefYjuIqfP53z6WaCAOjjLHl2exnhpg9KnUkord5C8lzDPmSiX7VCgdeGBGl+kTC9Cjf27azCnbmXN9zJRdLTIlWuRMaiOLuSqf+AF/bnb21D24dL+BJh46kz9ggDcUWyUYvhGAmhrB3HzFo7IznrQ3yvGNKnsg28876S93vYb5MYDCQuBCkArVMBgySdj7kNOj5neLW+NLGaa/NxAYJj7KIk1zmrdF8WLVChEs7uSVNpRpeR4i1uy1pDZb6mq6aP/XVixhrLFQecwjIcs/DHU7day8BeVvSz4twBB22mO2B59ok2ksqo4WXiEsvJGVdRfgU8q7pK2hYNCdc3UDcnmvuVrHhHDozzhrjGdGR9F7ylbITgtRKfRBgUitW5QgpLZPfylvfV+Ju+kH39SdNGEpq6+jEFSm8Pr9Lg0EPmUY/OA68mc8Zk4Z8GaM1bdWp050G/5dIJ7ocFQdydEDdbN3tybqefqPgAlfELPgiJ5p2imc4NQP3IC5fsA9yvC9guvH6FiPzDs8mw/d0mxh+kthBzX3RJ9yMrwevl4vwYAZ/oveS0byIpfiftxSloJvBJT8bQQG7ZY1rLY4BCb1TCvhf+p5uhyjbmGSjqwVCt4+YsL0ZJySsZBoz41tJxPc+IUpfhdFJ32nNOP5M6E4kbBFap9H1FE2NGI3wOa5d+WNCJX1hHV1GI6GZQdQWvaIku5KFdQ0g3weeVh+7Plct7Y8XCDP3TfzkJByk3/CRpA1lnsIPsXjxtRn597By+ImJqlgaQL8Q6qM648G6551TyKp9RWYFTXPWcmCTNUFn1c3A6sY4sMRTH4WBDx0iDEP6eiGVDKm1HH0KKjozZ6Wss7oeAUns9cX2quThB3aIWCMl0EldEGxUeZaJ6QjvcYJ8K0iLEbtjVJ1+7xkqL+pU1qCWTM8IehuPtlgoTxXxw1Okr8lmUYffMI2tOzuNwUOUgW3h79Jx0T3h1FqSCP3h4tO00ztGH+lnLB4WLh5HkSVIhAHvEaL+JWGPhiWgrDKli3qPiwIvKtDOm/Jwhho+SA5amQDwBlkNqJzWho8pOY14f8zQMs/A4l4ENFQUIBC7RTesHYGwreXdyxcQboU/1zhdES0NhTG4bm4sgA+L0AzXehgHbA2EsFCb/D4ndBivxooIeEsUV6aSNtHH1vRN58cLOPdXIvFdqWZW+8IrHnkFXlD3mAnOCYJ3yJx7x5k73c52O/3bji97WNaPaGg03GrWDJt3++eXX5YzvT2mUt3H/+Yr2iAPLluR/eYB9a7ySrHYvTAKgFarDA1cEsIjJeGEK04yU7pPa0E7LOl01dwhkLj+JQWY6wMl5Qb6/YZ0qG0rzqMO0+uziZddROpAAUkhX+dtwHJo2phQKu2mAgHBMPlTu19hHtFUIfnkYRrq+XgGaisG+Mw922FkVo23gNfRsZaraWYNe4Cow3m+cBVWlYdaoC93Zc2JFBOjZfaoH5q7Ljpy9aLAXKixfije2I9/VnSYwIPdbnvvihixfAqm98ZycLOOcj+Rb9txSDPPVo5jr7Xb6nv9eLPy6h2ta34S6hGd+ZJWueg3i3CFEEDCmOC2zTa496/vAdZLp2yagOd912Edb3I1VygYbEtUHYawz5jz05UNC7YhHauhlVd75S6Wouxdqm6vXb30/YfUZiD5NRMF1EXCdQgNhyuFExddBs8BysoDqZNpcTx9dL9UW5E/zvQIaiDbQFBKEYEvCXft4ipy2RRbdV4+A+2bOoq5yTi2uuP7sGJZXJomJyuOagjRRQ0XZRL09k0UGj7Dvg7mzBbchWKxxWbKD3PUtKDzRjqH1tZDmJTyAR6VS0zFp/RmH5EXB0caBmVMIhirckIt53/XFcSaA3YN6eGtGZZzK6tuNqh8pBMeF0HCXkUMq/fJ0k9o1BUV6naLj9xiHGcSGxtNnWwhie+dgvZWTZpWdeUZZtLDqimr/1dSwIfk++mTxzH0BFsXLugc9T+yAIbZiRf/F/B7DRUwSWFxk7+aAayaA+EWWgvxdX3Tv9p/6ve0Y+m1+5PG6t+wUmTjnWCd4CfdlXAQJr7ioPhgmV2ZWjc2Oi6vlmVf3fi2A5XoKNcKWHAL4r2qW9MA+KbDl6CoL4p5cMRFA8zK7OuYPcAPJqVa8TGP/25U4u9Ewowb8fhR93llw3GAyovfIzpC6J+nwscFiP+s9SFaUbaEGXhQPgjkrQdukbnM5m2JdHk6kQyEo9P6i7vBmOK2V8GXCE+PLX55f6Xh47HD6H15faRA29rCkexvHGU8fU2N0WNkFH5AOGAUAWdkug80lSb1xoQNtGwI5svS9sPaAlwwmEhxktkSo63+AMfR4NVPQZ8SXLOJNde6OTUYV3bOcirDIYmaZo7IIGaYLKL2FbxpsyhPPWr37n2Sxz3EEGbWG/HIliZWaoSEsrDKiyS6APZSiF8wjxekdduJ0JC+b1ZER4UEB0BDmcACY1PmctayQol9T+9GkIhaBz/F8iEUN6+E1qmFzXnGIBQeuP0cfNEBRTC2WqMr+yQJha9CAVAOQI5+097XHBVCMT8rrKli41HkjJ3NmBqqcaeHrPGwXdAPJCkzonm5GbaqKxEOTeVHM6CYdxYPmVD3VaIY3qsj/m7Rc3rHBb2gFDBd0aFHZkxoR64pqHHstW8w2qvQXWB1zgc/SsA8hPW5r5ZgCaOLa1XOBUHL9yOdR3+qVxVpKO8+g7rRmWJkwIArx70nbFlf33YyG6caLYYEtjfE2jOPimpjJo5BW7yyuTMQKT41pFzGcNiRjenWILbn0CidZrDW+xkobz77J/fIekc2SFOWHymhecCkn4+uMkj8LlguyEq7YdO7ZEVN26qAe+adGluOIaIPOvumM0cXQdyZ0eQR8GJuH81Kih4di38lMLlMohNQPKLMIewZhKVENtTvbR1jNhoW7CFKEjn50hVBD5MkrgZLszooper1024MSeswYyX4/hgoOoOQd8QY4ADF9574bN07ik9dVW//5wR3+1yxesiMoaaO3q8WoAU4GI2PtyoS7GgZy82YbJejuT7X/INZrAOCytEiCDC+TPbFLCDji5mHDn+OVz0C0nSwV8omoxc0+3UP4EMPtYGewXOq8PW0x+xAk11M4EouJFV9z7id2JR8VmuU0/NQeA/pGr2FJa/HbD0Gh1D5b2CHoncmmMmCZbiM9IxWNWuChliCuaVDsDyUzyXszgfrfQaYqsIa4MjJvJN9c7wTQFNgIUNWIcxkeeoJ11dM06bAAJy/EngPk8X+VdslrTAJcCdbddwxedJNPwCYZhqaMOXcwZNfXZAV7QfVeNqa1eILxqbWynBOcfVq8TW/riXjKZgmI3rwFYTbVWJaaIWDB/b0WVRMqJmHh2v5j8xzl1f9P1Iqs7UNUXivfEULmuqc644ACOgpkGSTvo6AWDQ0iRL0SdEYaxPw639Vv7wtt84gNhqZxFixGYMZQT+aNXqMZwv4t0s1TWlV9S47mFLCcRtJD9+Ry9TrtDT3VYeILx7+Zlp/EzmM+nzRU3sc8sbI0ZmcWlk3fRh5U9OTeyttJbiqB27LiTsADTBmZ7mzTOZyhZObfd4hBM1/QiiaEtwqV682/mEe9vtUsBl91lZek8eCqHwZS+Fcap5mk4vmPTLkIbSBI1JnAqw8tl0PjarB+XYh6tZ4zgD/SRUO9plT3ZvEZ+uPYiurKM2Ik9QISaAlS8VuE1Qq4pKOGhYcm6CvtS/gLsktueRmeUdzytsv+5wtCfDbtRKJLrpVCgbx2xd+ro9fQajjtQ/Ycp6NgKSFktW0D62DmGM2DRKQg4zVW0OvxSFmBD+BmwpiKZEI+e9PIY/XfQ/t3puVff5nHRF9H3K75s6kXfJBtpxsEjHWXCz6n0sgV2suUXFtOmRK6WA7s9FA7eLUuyBxZTegfOWh7R5T4tEIJNfrk53EkVo7Ze19hDfU7BLzsB1qDD0DZXJ95qV9y4JhuRF+jriiVqscshqLAJp+mjP08DcVMY3TR5ixVpBisU2dThO6U1DpHD0OxWw6T+VuCfj2XU1tzJJzRn8Vi1ZP9PAPAxkjRa+O7MMtFx11cOjUXpzk0P79u+SzZRByxMy7qpaTgZFagu5nPqYw8bCBqQYGrwJWo5bbdgkifGmUj4aygNIQaYhRHeiqd3jQ0SlrRm9Gp7p4t+PSjYnNHK6u64wLijU6zVdOPMH3OiHM9D3fNUPz/oblGHYg+Vgp+wFuhXvwbOJgB1ErVsrv3UenLB0/ODilJrx4a2ncmR97XUuGXs77/6mvN3VeJS8z0kPi31wPo0BXfLfnZGuVT4kKEoHiFe9yvJGYWmjG/2lkXwmNOyExfYk3heXuo3gHAWkRh9UyJZSi5QJ/m9OCIPMyko+/7wFYu4ScLR2UG2wtvfx4a5OCDto+N/CT63V3NSYoK0dKInP84ErA1jo7JPSp4ifSltS/wNXYrRE/y8lX6Lx09jBZ8sVbdpHK92RbQeQhNnhni0iLVz01Jtn9FF0f8BNdMaDgbxjoNtUwE51Bf2u2+6sy9GNgnjFeBLubexmWXvDNyICpTK4gR9x5GNkMt36XERFcv7/BeW7wpiI8IezbCVsDWifDEWGRwcvIZE+JbGvrRp0aC7OZKcy6FgJ+F2ONExlMSxy1jhBB0KS61W43AoCsL8uWMJdAo7egc3xVZx2QPi9f98x6FZS+mNG+I88tv0Ciw5Wk5/hUfQqeHLJPGeDSXMxq95x3ZYnid3u1yzQw76tTH3dBFF3MMhkAawl/GjGYakl08Sp7AIUmcdqzW+hrlGkF3yWzh1Tlc/kYC5xG/m/mDuQTId5u7pmPh5tn8SiPE+QV0M1p9L4ZgyOGEp/bEMk1pmi/fG7fpgEQNEsT1sX3zJyrcslHd5HbHyOi33CFGQu8LQ+w17v0h4xFNbuTgozbZUmyhU4vze4CI1HT6fUiS+B/rIsQ2yKOTK084fAYKyI9boVsgG5KXILu0WUoZxghGK4quA47Rs/Yl126EXq9uCuEWTvulRQ2WPTMyrq9Ek2sexaLmiJaGOphK2dJO+Yyc8AXt8vyz0niVYpgJtGTET7yQ4b5U5YU8jOH1qdOpYBnbOfK2VmILiq5fwpn64wNORzsNN+LJS4d6tq+CB+cYldq/QhTp8qA0qbF4o/o9dZlFChICd+ZNi+0ok0y2z4gcFDAKunlFEObWOJ3JEHus/CgOvoF1iLl4SfO2Q2EwA7xnq4V53R6+Hq9jZZqiHSdr4Br8KGGbeHgoKTYKD6z4LT3gELvccgWBnSUJAsxeXNrjDPHIuvTgtWYkWR8i7Z8FnbXj6DNdGqmYylZRy/3y3gaxCQVYFdUfLCE2kcIaWKCrr7OJDgfd+6F0hapYFlMWKC4EL+tEFsi15XxwU9417e+ZEYaEoJds5MoJTr3V0A/5kB9KVHgcCASwYpXGPfgnUHG2tbHNF+GDqt3jTDjyShBtkkCC51OKYM5nJ13KNr/BhaZRVxs3XW3BeaSE25MJ24jAvUbGd5ANsq4MfS1Oi5AUV7Z/uI5hO0nt0aWVtDtic6vdUR4A6cosJx7qnr7kvIbmje2PhqRw18VRBngF5BA5Ra7PjoqKPeU6v8PcMqV0LyQXSfzi/rgMW9N/XCTUJO2FYdXt4mdArsE0j2hQpNIdw2yeqm6PbtGo+l9ycqETORvnQGELcB0PfKoktDDPfcFXTgINX6fW/BSYnEvfL3X3iY8noaXRNIr+n8wmsk94dlRGCLQSPHev7s8rSP345y68JvEHBVPzap+1ud3lm57jC626dyuhMVZtXE28msHYTo7LLD1xLdkqZ9cu1Nlou7q6Aw2yhd2zLOZETSiBBD/V6nkGvqahEyyzka5hKPH1SxlwPmrF/urZmV+4m+hP06jrctXGRbn8rBPClR07+5W/4PpQCSzmTvvGVnX735xuN5AmhVBJTJiXu8UPpJt5BeOgcgEfPJ9edy3YmgHPlRzRhDpvXfsL/b08vhAisO7aeHUDiztBs9uItZCCxTv+qHGNCwsvNgbbjrcV8xl9EdTAyAHtLSAjiexdpYlAH2ZTegdbwnYni7w8/7pXKorrBTBOeUK/nknedVZYDAAK3Nu4vXvljHLIoI5jJZ9FqR8yO0MAe/gqDL0z7s6ihVyW1lgXLmhio4QDi4YyepNuYckJ0Wbxaoehlq/tKo8eUShr32O72fm6F3Phtf67pmetuRUi20lYMgKO1ML0kg2o2Hj02dPJCTWHgmiTWegqchCup40MLxC+AyIpoDkkAeECVPs90Fqa3+N1t6o015ftfOBS7AaIN3m+Off92hFxf3TlJLOPxVetuxfqK7HCJNIpb3sEf5y/pp0c/UCn77holHe7xJBi9dAs7hgIl0J5GZtbw5p0YqGjXJhu7qvG4e4WDRqYJUkL7k3gjFCjpqEbh9cbLkqMxtphxVaCnfkqwBOHfokFwelmxj/PvvQKxHUFVKUFIRwfQYVGZWbvfDFwILzneioBD2oeW4DIl3XPqrPpudXSX2dZGonUuyR/0MVIbPlzlpwzkl1GbtwH0Yl7LzWJXpB7rINlNh1PKSPTiJYxgFveKDg58QeaYA26pRSEnLpHbqUzD3Z4MWT9UspL0mxoQyCkOsRyTtZuQfnJodHoNSSGeDFZNy6ToQpQ15VsiMVkKDebuYJ7HfuqUbdIbKH/5m7sSuDIGe2YPvwFobxMCbPQwGzr9M+ea6Cli/xWv8P1Md/vsE5pQn7Beg3lR6lqlIOlkxtNXRr86mfFMtiJzO6yGoLg5YnghbZtixkz9O1sLJQIBMm6XrJu8tr9P+CKthSO21g2yIM+Slmu8F33S0Z+Tgpw87UwSJXNTxl6iyuScGwlHxXCBZU5LaXt8hui7sgR+fNFO9WDCBZYGNg4upxtR+qTjOG3VUXtwJLR60NpgBnfyIeOG1s+dve7gnxgPKrglsFzwQ1NIcBQYA8V60WWfS3lJd8lTRHMBgdk+1UW+w0xFheEYdyP+YXz4wLjKluFKdffmTvbjilpHDD/nJyQ89dCjbFJR7XTH5tYHzw2FrzVaUJJBDGUj5mvWW4ZIz0VcerQRav04Yg+CA7mkw2ygMjmgU9znsgZ9/+26mBbjzvsWtAEgwx+VwalXWC+ZSUKvwddgNhyjGjSn7C1UKklVWew/Qzt0mr3/Z4hPwGIvRnRNhv2sYo0hZKQaMrL96NPfRiibUwVAi8bTua04pdCKlNIY0OF5VxN7Kpoov3vLtIWpbcdyPTWBljixZ1UKwHNXz2wLc+6L54TGdGxAx6imt9QHMK/1zMEEJpxsR9s9WsLDNuCWfGMUxrNCBJYAdLI3ugNruA9mHmpCVaQCAfInKtLLVDXdHDTkPVAfyzR2QrnKk064cqI0KzQi5w+qBpzvu/lzJ+IzvOWSfxH7kDPYgERbs6fZU9UBxHQL2j7hNJgyobUkqYuDNnHCjlzYl1q6+HMqu21sqkC15WUl+SuxJLEooqWAkybkTAAn3+TwrxpzII0BBn2wXPZYaxzqgDE2gVZH23VP05uVzv+aE9CkZctx2YlQBJ4/iaSd2lhxtXXa9tow1mfItaBSRRw3R3WTBgtIJzfLH0LSJp2GMxbpGx4w+nP12cZqtrUf/gajVY6kr2+DBuHkZa7b+IC3zeZwScWfEnaIebs+HGpIsNF906g4PXKL4BWctfX4EW4c5fT+GWbnMfxeJyOZGvCqhBGCAIRbXBc9Jhimib/apECP5B0kpMMxsjjqbJUkMWYvGUZOD6qDznnK7GSdvC1jfpH5LWiqqfBhOsqCOOpnqJat4UI4uccnQwEij7jMD6sb0Qsx+WkScxiz2sDGQ8ZrP0rqHrHryTGyTJRNYLLDPEhjvL6+cZaK2CGISKcX7kTdCMFg7yZh46V55Gn/ntOezI8GbJUdbul/y+E/+gp8R1y4/ynpQJyR0aOL3ZasyoWbrCfz8CxTMfncib9YYm1WgVcY6JotsOtlz/CQtmST1yfGHZLctnxUw/bF+NfkYXBtncyh1kv1vFJixVdYZjRL7ISWmNpMOBLR+skUuGpBqqEmCBL2Yd1Sc7i9Wa7blXaEL5laAL9jSDVLT78ZdApfIAMC5uQYeH96b3SirLGsey26E6D2HL95eM3A3ot6khQFTn+0l/mAJUxLfwie1v9Vb0r803Lc98ACh50zHL4zpAwUmCyIUKC7IlgICkLEtGvn8pG8tuu6tRCcxGwDpUkmiGxysgvMsOaEWKvry1snTlUMTAVN29pViXTermRfD8a8NNLkgpiEc2rh1UEyC5djv9+jXRRgoaaulUAEuSbUDw6VS2UstvrpX2n5RcvEB94Q30peGLao/hwFIGalZqn/UsSVta0U4ufQFxkiS9Zn2An9lIupKQBy1PgE1hyw/ZJ/xBUsnLm+SlZ6u6719qp5DjNlkK9xrQ0Zyvc9A3uGvpYnEjW29GssgC9qHeUIw83HcpdSuAISk9yK+sI9clYXfSjXSX5fHuKgeWx8/NMSLrHfg7rZeaFwG/Ng47as+Kx6Zwiykq+18LcxzuQIouIdKI4kEpYxNF2x+U+5F9nUydaWLIVWMhrE9hwy9KOhG0mzSvyDOucc1RXA01mPJkn0C5zD/F4bToCTEDRBdbe3xtyAjFdMI9j79KBcKh6M0ETR5h4UR57015kjChkda/swTCZpCoXYP8vG/+Z+ayntAhXr0bwbF6YsxFbzbk+v+Z1O39mQ8spQPgju4slB+lYhPScLnt023ZhK/DyoHMgT28QQ4NtofAD/CBBqVF19Wpb9CM9T9Iz6bkqjpbPaB3lqxGL8fgMtaulxiA0kiwK3gEKgindIiCDkIYEKnDpL20fw9vritkSdQhsPodq8g1g8Ds+CkTB3E6i4QsDztDyxMzeDMBfPKPosKE4nzPHfQ88I1GvI/EaNFc+GxH/F42+c5golt24ydny0gr5cljA9nnZloypstMrKFCUiDvNZvvWm3tPGHaGVMszLqdHCnWN3JhdujwMetOfpdhwUp+vnchvviRvEMCLc1F99pFAbPu8JpYq7uK5F7oEDufCn3QBMBZ/U1r6aoxAXpni2djF2JLqmCNv4vdlKqX5qIRZSpzZJjGFUGvL/7emJ3A6K98SV9AfTZOL/DQk4yr+zNwQY1o/W0E+sIn0lGDoJYkjg6wD2UWmSR7nlP1kGpazwLSSeBvkHTCcomB5HNduaiAeDB/FKUM+ytzbsRCaQMG/cvDZTXS8mVD+t+0ChZOoncOa+LQFm4/nzIZiIpWlMORtzR9VU/9WVpE27SqTq6LE3QvXCvxvjWE/vZTaLApo5U2MtswjWdiaPASOhLmMPM5gYQVNRIeqHpecveptPr0iDDYBRLP2AvjibzuZnmku9LtJSmvSMyNS+RqgMJSaRASpNm9UMqaWD7K/V/6Q2vYiRhvS/iUxIRBuPgE/UTl02ZNk5ULmCxMSxPyguFzN14uSzrd4U9sjT2E1tCfwAOFtmoqBvkdoRfpyWXd5sUEzB8Sl0e1cZPyaRDWxMzXcgB6rEtoq96ujjBfIQKjNb2Y2vJAFsz83RyEOQ/8qH+m87wVX2ihdFSjBItRH8pmQwnmFCCozsH24D1hEUbQ9+54x+xYXIZBi2hBNsp44zx5aqhSAE+rNjTda1Xp15UPEnKASiPGGdaeR9HESrwfXO92ea4HncseQvNUpHDRIignO8/qe8MMSOtoVaX2RFDcaZCKggjfvkWAYqK4vbpNu583HqtyMOzaxS/IQi9TspGDlOOHXw/BS0gQDvdByjd3a50k6LuBC8lfa6lDt7sfOlwS+uqBc5rgGTmwlnV0ylm5R73mO2SrBVGuOicwnuBoz+vzxp6yqH9gUoVDiAGEhSJuzOxuTOmfm57aDkUh7FLYcwEYS8hNw2cNrAaaXaCMiHjU79RE+y3B6qKtBKs/yGSYkAkpT7SiRDFUsadvJ8cAhT/IY7Ed14hSz1i+MxtOuNDV0zeMnuyipPQ9yAgdRDE0fng8Qbxvvku+0DFVo29XdtbU4PmvHLu5Nklzp6LKjNZNf6rIY5n6T/iSIvSUrxIIvh+VtQqQu+SV4dt7bbK6F12rKV30aRhEY2OVSX4eMQCj2sGcATogEtw6N9trtcSBemnEpZMU88bAOyO229q+qvoB7GbCCX2n+0KsXrue6m6l0gS2Wu5LmvSXMkpJS8lTMQnwiwrVIlPTh7zn/3ut5rN2PMabyTsliPo+tHNEs+OCXNzD4d3bv/5JH3Uowa972SptbOKQAaKCv6Ul2Yo7+A4QvZ7QFvj/uv7zoPlUXfX8S2vp/EUEjAmQ9yXtqsEP+66BqIj5egUNEIX5wYXPFvtNH3lGcyvwBG0R/SgCKy5iygisTLac4lS+Adqedsxl/19mo8yG7G5Yj0XLVlqt/r7lZiE8eHwSet2bMUj13HLptFZlU7qH60+NXM4xveQEv5Jh4OG4g84EjzVkJOi67yjP8aIdtE5fmECTHtXRIPLdHCOXGFbRLwphE6vAPs30qoKQvr7afYDm3fpTjuvHLlqtAtb75H6vOytCjf7OPu5r2w6q3UDF1rXvk1zt2R8oxGvyMsQ2KK648BxVO4DK9uoj7T+/odWXf5X2Oq3huNUzgLeqYlVijMVvLBMsjAyuIOWSJcpCaGWT+OM/uyYSpmleRpin9/q1N3IfZQDPkevTsrelW5xE5bwOB4gX+v0ZhkH8fJWwQmkmmu62uH2syfADj9WOuNb7SyvkHV2F9djxPWaSMcuG1wNgrC1Mat5i6mveu3JLDjevJ+r5+KJ+Q6ZjRqp2LFLZlA3SPpUBmQkqCNwo1xUKC5PI8QyBansbWNPJcyzcBRuoEWxZHi2FWMO8FMZJUwxBMEzdbB/jQrA6HlXqxNqeyXdkpp58F86tuXbR8MWBQDZUxiWCn+Ol4k+J464UvQxnxYU1jxXA++1r5yN1Csgike2h+sl7eBi6e2T/x5HMqlwswafi8ix6mw8PGb+EioxEepMJZli2nsGkw8pjAXoNYpANw9fjuTTJU2SsGLb/KBXn+dXi5gzE1K0LBJLRdrbLZN5YbNDYGRpaaEPXPKe3J8EmjtdyxdPVD4bIZfVKDvfVErnETgO8ceQGaKFhwlQ+o3SgW1tooHAmmMSQwYCkgJn40Tb1O5+xYPG/dvE8B09e41O2+S8FmauRWmWrGAs5arnZCMiYVg/eAQbgs5kZkxKUgaPCsd5QKWWsq+h//4O/hFmz7GrZtXFjJXjmdKothnWasWJK+IgmQPYazRHOij8y5cBmXnQh/ZLvPKptNJLSF7ylR9R+AOdqCppk6EFKvZwYMUKed0egaRf+Pu15SdGhBqWD/SmZl52AeSP3n5QmQHr1mJ0LRVtp8LD3vk1ZmS9/yo5pBEJGycHXYe6s7GAx6nZ3yp3m/vxWLpSKTJPcqe/6ydxLBcP2hfRDe/nPUzApZTQGHdcav2T5mWn0mKhjZu51PJgIWaCOXP1KpVJPHqNSi+TuupUhCniE0hP34W2X66JAZ7b/a5DfDDswd1WQIWVUnvJ7ZFOyVwz2mcmLG2qqYYXURqq+zrjJCDU9BpL3gvxLUdQwaebF8VgKS8hBtKzxrp3V0lRWSBZYY/nrF0f7wwfH+qU3gvg2wLs0UQqOMvatfRn5lAS0EvN4nJzh9wgMYe3VTxZClC1MViWZuANy8HQK7gqv62fBVOiIjltxF0FqXgFsEgXau3Nlu92t1iZPgMIRoJ+sH8ACCTfy9T5qFN84BmPTjy0nurUJdt1PJesIS8nFj7oa+fRu5unthRmxJs/lvhOJeufEXZg0SWbJCakT7JGthvWYh+EHbqvVRbmFbxDfkUtalV5F2e+x/FZ4jN7CMCNcQTcw5iyIVwH2VM5IqCt+9s3GZk7JVxj8CBJAJzXaVeJe07sjfCxRFJLP4HT0wZW0TIZzeJEYtQh/q5igdbT6Z9y7v+OaxSXtzQDYC3h7rSkc6YaJPayp9yO5DSfh7nhADlC91cpjOWhuPe8qVBIsuxbEKNb1meCPuA0Hps8uR6A1cPl3Edfdtmpo2GHJoq+HHfX1zsFD3Ni4UiDHa2fJUkq85FksfuCSzSDW5Ubwto7JE16S7yBWi4AZVFUSj9YDoWlzB30s7Fyp+ww53ra6X5E9sesOgJib19bCdMCv4ctQB1zHzLZGvfM/i7wILCQBeE2wPxN6l0mXttmvVfHiSWKos8QoQHjEaytQQFBlBteu56u8lPoevpmWQALpiDKdb+/P7ZG2IBN6HYtoxGI6YoeQaabRXQ3MAtZmaOs0lKBmHaulYOdx6aA/SZP3EW+DfrrV9P6cahhjAhJQDmWMaxiGBr9HdePy6hBuLaLrMYsBSBfOGY3t5or+b5AoezZMvGooe30wk23Z0tFuCZGLfnxjK15GEUg/HKNq1HOZ9Ake2mjP0De4SmdWgqPdU0gPGumTfPqtm+qhiun2FpoqDGu66T0qtij/bdOfrJig7VeOW5HuXgKNi3ARvulQvZD7Mi9P9PLmgxIVGu6P3zYhOycMRDJ89kgoktCvQiXsCpbr+RzqYAQjMxb9Ku4BlCF70sNkvBKzzqVKt/ZC7KwaXqCqz3z8rF0Xye1Yg3P+TJET7C261SUoDvPiCMAqiM+ofTayssUTPrjOnPz3DvopaeMphheZ/J4kWtb6ouU5nRIR+CMqLdC7OsuA86k65T3pcSeJLh4WdPrfvHwl58NvGPrJ63Yi4PUStePrGLQ13WkS6IdUXIsd4pGo0xYi+6aELLzaN+t2nppavkw85tyTZA4siJYOjxSmoUz515l5LpqB7S/sR6w9f7h7ggupCoK/ORClvTOpEAD163NPOzUlMsYxkvsffv8qGVm/ckAylxt2KAPegr1OFctquOsy/UCDkqyHH3wX1rqgSM11WJyqd1mmywlHZe5mG1LASR4B/yE7UgAffV1Tymvm/ahT0pZq9ne7vUS3AB0cA0ZD7GLT7B2Qaey5YfUiqiwfzRPr6mseYv9uKwAHQPi/kEO6El+q17Bn5nGoOHFg4T9FB5uh18OHe0BsJ+ygAwnLed03+UakL4LLeVb8G3EmfBCvka4DcSH4X0ebs0oRFJ5631EXQTX0m1jtz5KivmSuKDAB8DiyfWKr/7byHGZ2PYrGRT03HBw9WS7wsJ401iFlgmRNyfMU7lf4Kiav1BXkAwRALDZifD0q2I4Q+hXMgNoEtvfe3t4SiWej1rXz3B7/ZUOsbeeXigF7jklnkuDyH3+XTq9I0Bcvt8la0oRDaWEJMgyEMOQK5PYsfVfUhGY+1yQm3KirJ2DGvIRqLahLTLc/vomiAmsYzZ9HZT48qmqur1gYs8s2PcuoDoxE0hEYjxfxAGh+cUbyIPv/tTnPGj6N+ddWOwrjBTdAfyt2mVZ3PD663HqwrXFGxeJ1lLA/7W+ky8Wq2zIMeU58KQ7LINVWjzR/l2AvOWRzQp2q9KzM6gwQd2h/OIG3mcxxmcu3huWzPvHSfVD51lR66ueDbdtoxgvve+FFk5l8lqyiSSy5G9CRe/RGwihr4/bbHFIeSXNrl8GJfcExQY32xPUEcOrCKqmZhwMggHakdYySCU+T/ghHwGE+7YZgQzQsRvjXwW+/+HFh3Avz3W7/ZTlTryLOdkP756+5jGD/xKhtwSd+9V1/FZupmqIb+DDke+uut+5jKfZFz8JAiooUnl6b1vFwH94BWc0KFEJDWsB0KtB5PoFeYNsvWLom2YjO16RA2pS0jwImnXbGKWSZ8qPuhjx6vv/rN3gaRD1QAaY4PXq0qSbSlB7n8K2PG0oIVsIHggHROkaBBZ+H0R0xUV4E+wDJL52FLK2FB7hbSzLBPU2hSD1rO7um4MR58ROZjpxXTJHmTxWiG9wvqxsxG/xpOsup2uYWjJ0J2wbdG57+FKywSM9h5UnGU6SBCGIjI0iWRdKBDoTyEgniMq9nZjXjtCkAjGRf9j41aRC9Torbt8PeSvR41fb8e1aXpF1GEozd5ut9oSguA6UdvNhWfdZC1+SQbyzqSNxNkCbwiChMINFxFwGNOKilMBrSss5vvbsDQZ1hjZR1XQLaPZOccttAB8WF52hLhDQdGwz4AcfkeQbYhnEadr/kUYsK4uEjrUnTJbw2QPCTsQMHE9HVdYYKP3OfsDksxLZ4WAfenBwGBKNzPYIjDDOyy3Y+NPxD4TMDwHn5XRGVE/UYoIBuDjqv1kxSbcprDLSRvfe5xEhtLBcCqLdVMyhKgsNgGvQPkxb+17uJnnWCbAlB3XYtT2jxNCdjOtGIz+IMaXr84R5JcqhSbZpU89bvP+PtCcJNpMAAwlwCcoRuZEfXJx23Bh/ETw/K/G+E2L6EujVwJiqDw4nms1KjrhFt4z02WKYfAihtL/0he7ZfcfMShcTcRMDK9WnxTGSnGDU5ts1nx+sykO/49tc6LC4t8eiy4M5a8+/IeSnXcYUopFXTrH0wJWLYDqMxHlxPSqI8rAhz5dyqXuCk2CblBtMdFklHTz2orkkDNR1eoiCqw1xnbJoA2GFL4cS50DW1dJJEHqaHMYvlYp7+pJuwObcNva5POrpnxhi2XNrhjnN42Hx7Xil2ff5KHWybnhwgRjBwZSriV4GWcy28f25jYR2Zi6FbNmtTQbazUS2pHhg7ZztVJbIDPsJoOXp+DSavy7Uo8xcxA2h2nUXNVhw9vC/a+2If/FgHve9iG/+FfBno7s2PJnwXNvrQhn+03aC15HJPCQeUQLAzIo9wBkBKnKNtmehzngJU/gac6iAEJy/CWDTBFhI3tuen0NjqALIAaaD4x2CadA0C6S2KaGey6D8pjbIazr4dUB6LI0cXoGxscZhuLjHiRnqz2uTQPmKNbptg205BexM5kuLnrTSyNTL9T6AHRCsAG+eh/319s3AaORpkshdMs9Goq46LB1vBfAvjJECHju9t8+ZC+XzuVSMCfV4qTSSmxttQxwEF0b/dZntEGyC6PfYdd2HYSgxUY+4cd1CpxPGrTKh8ClbGwsZ3+rRzd2PE5PUmjeYx+RTJ1UcS3SI/1yDgm2UUnOdwFwcN/RLxzC2lTvm1A0ShgQo52aWkAUrU9eTfQ9FkWYL5sk4wSxQa8LIvDo/Xq9tAJB7roAcQ0CLM5U4Cf/rD020f4hIb0pnaVdIpd85TCDioVfUsvAnyGqtYqQYb9WF0ec9aaJDgseyC6Z7xXpMJFvLKX0Dz751RaBha1okUiOs5cGek8tb7xokUERLRfIyB+1XANER2eKMUkqfM81262IX8rLUPaeMJOER10t2j/GCc9hzQlkqke82z3/MTaf+dSLlJQJrOjCII/FlMz9T3Eoqb7Nzepmtu7/uf1pX8HfI8VCHy2F5aPggnNVD9TZtyHwxwQA1DjOIDXUMAt7T8fIHErV7BdPo1R9vaN5akMLpSzwMG/zVW39No9yo/ONifpU4F3QbGrHzwQlzCCh8q7MAET/wQ/1Zi7/0rDYGmtYRXPo3XUJl9U6tqWMWWkv3dwiAYuiR9aK1OddPfhmX77MCpvHKrp01Qoi7Ro0C+E+t8YYSqZAgkrnEsQ5to7bEmd7N2r/zCmSYn4ApoyEMelVyq98cRHuVA5MM3o/5iayJrSLx84vdM6b2i1nomvvemIXLlTuXN1yodBqFNo7uYr8+v52adv2uueefjVso0mzpKEMF5rxckdKQd9T8U7VE1e4y8krfH57undzOnY8Ec43xqT25DqclHlDZWIbXy07B1IE40aJdezcLcq76wTi71bB22Gtmri91BlM5tMWhh8W4qHudkRCarXMGkZJRzS6pME+rmNvT4nvPzd2M7xWXrYLFogYilZ1PrY/HPwCNb1yNWwZXzrLradVvcDRFU9IjfbtbR0Z7A2sgq8WRyf5fidjjJoFQnc8YtWX+knUG+g7/C4T0yDZi0nhW4Bh1wTNldCjQlYME0p6WGvI4bQHF1Qv2EBU4fqi+z5weFCSt+z6kL+PfpxfPTZL7VFADcCgTR1ew2gMB2onO6Z06NsshiBada9vOO1ePh6wafvRkAIkog2p7YlqvMY9Z+4ATb5PcqjlG2nfjZVhKK1BwyThtqdOr7ASFX5tzahqDkeJ4W8wkQx0CJ9G6DqBcSFiLoiPrJSn+VfeH75CLj4qeLA4zSsJfUiQIe/zA435VKeQRWp5UERWBT+jP6Vy99TD28hYTh31+m8TRSkT1F+iqRjJITW4APsWrH+7n83uxbJj9RJqS/JHNZQyEU+j/9I5chFDzy7NxRfvlSYNY0mpsEUHDIDfLiGuYPQ+tn4Q26VD7+bIzjiIiXY9/ZjEqdaV+hvsBjfop4GvEmpKv8S1dbsKrdmnDuPWT8pXji15tVEKtzoPK9vyZZzoBZEGOMl+Xz1O5hksMSex2wfLLlfhEmOyjr5RR+uTegKuyJ7NHevVjpGdufkLb4iltzMbKEWOjTt94YHVd7ACFmYg+CcT4tt1x2Bme9+MMGa+eqn18JKVZEYX6Px7O+SyOGFCAVUUgBh1QM5o8ilvk/sV9PhJVtcz5/TE5XnO6zF98M4UjyRVXMqRxn7bgvcasNvbaLj99yyWyuF/sJTfDay9rVlGb6+Syxntd5M4AzfoYCipZTL3tztTote3W2z7BHmRWVjiEMp9b5hiv2GaifL2ncKOp33zcK7F0RMCiO4MLrB4+0yw8Zs6cJQVUc9tBSP/SnZb78P6ru/sIkNiPGqpGu67beh1wt3+1KbdZkpNyh0cMfBjO2eJpYh3C1fDajacp66uToNLkIerg/cI1FRt/xfezcugHRO9Ds2ah9E6LyNzAE5HujCO7plNnLPXHJOqU4pg1aCDKajP/aiIwoDjUcABP4K06f2vVV7c7J5B6a98RHH5h47Z6sqmFWHpRY8SB2LZkzGnR8H1DtKTQMFE+4vdg2fO4RGVlXL4reiF1qRQmsLmC5BRyxzGC38uixxPNbBdC8Xb0sdKPDWE8eUOM1TfreOW+28ZBQYzF2asx1VbBRBDMQZLwb9eRWOifAfE0egaYYl7qNcZDtsiKFZwBEcTobNJJM9kd412p5r0piNu68gcUzQwKufGBii09DLh7S0PzjYsGOQ5C2nlImNHbAXKGH1wFbodSWlZcp3FoxBNG7eo7kje2lK+3ewHOzUa+an4ZNNRkBYBFgkAIvyT9aIvbD+3aKID1cwJCpA7636lw4oZ2nfIwapWIf+1ehfvkjCofiexKDgkfdXQu4TVeW4/b4WWhxSneP5a7H4ItP+wU1jpIBHqRRQNW/MkHureNbsmhJ/VfHbcPK0fvkQATk44wMVhzQfc6PJpZr/k14YhAl6Mg56Vk/KjlNojBA+RtD3cWFPNKnx2XHn0eL89ynG8HsNraDOhxVQ4mI7LKmSY1/phFvJKM3C+qzqqFrUlb0oQWt/agg7YFp7+EkclF76IW3vERhoJ42L7gjfkow080T3ujNfeqm7uKHl6gpEZ/SGslJY+F40xPgA3KwMzJhLlcAumAnoOeSNFYppDKh9jp1MVuY+RFpgcIHouk+fwedX2y4QWChwk0ZsOu6UhrdRzTuhKHTHZ6Go9T7G/dCpFmgdft8qG598O7HzlTJi8/VRRnVf4a1bxMmBiDM/SZWRNIk6vHH+hIo8DBKx4oe6Xx+ukaSKCcl+jPKmnWX53CMdSd+q1rZsXtPDHhtZBImFZcI57VYF4LSCHFvv8jk2/VfSufsw5B+VRVkKFHaF08Re/zRVccNRkxRXCx3beUYMn9mjvwi5l0ANwz99Ijlbh7Xbw1zg8Z5bx6eMx67O4c26mJHQDjPwfUSIfn/ToZsVjs/MYKO+kilxoSyGvnsryU6X8KqAKgA/6g2euJSRuMig6BAZzLAGm3sspRT+ZvbJxuFafN8/XwjawF//OV0Kw+i8OgcxoTVz1ieRiX2qu2KJfLPFFrC/TL1k0D/C7EiM8MDQCioZ7v66rTg/9fJc2FpdC4aBnCA69h74r5gGvE1TBtgJ4zkS/w6fEwh6ZyDzuL7k3DZy+qMyF42gn6XLrW+ro+JGIYihns3Tu6hWsegp3NokbruaLHTah3YoI/Y81ZsCtC7mDuKOAtXavWrPOAN5Uz1em7mEM8J0EO0ncn1RqNCpjjUCVIRSprI6HVgzSoO0fL8nF2gJcf9UMJzEhsvV+nFuc7iDCFsD3QgvJ/+0tan4X4dOs6uvPIFjOSqVoDrkDCa8b5FRRXrMBR6m9pG+PPtkH4TVF2z7FcUnbmycPk0r4KAzCGC6DaRLtuyhVfcDLy2NhKQj3jjglY6Kk2nnQ4/iFWeZzBdqoUGHYiZsMAFkVuydkFfdOTDmUfpAWFoi83JMnlG1/injxazqYtuZ5S55bpLCuMxIZZz8gWKM6l4Y0GrVbUJu5cDVOAudmYXYzYGOcNRaEOCgDOlHkdIue/r0BcdtKkD3PRwRb+xeQB2WS2wvnubwQlIn6ljptI1Oos7ES+fusehqbVukqmKZQYOVSJ2mm+nAaEQWCchgoTmjAGOTV6h5aajAHp9vyeb6MlZROA10q8G9VUL/88H5NzvFzWrvHqDxNd8B6IiyY+mjC8XYj3AiWdzWORltD4Ncr1mVQHxkMXkXxg6xfrh7Mkl5QTYOO1W/BWlJ4TmIwl1Cgml9WjGRG0cIcP/L7FL5iFlsmQmEP9/VMIMZ3H9VBmT/RRUUqOqHguBJPkgLbx+K0hbzNbvWnj9vo4hFE+rj8f3o3wi5FEMOYJ3gzZx7W7jLMqj4C1/bfw+bJW9f30oHuL1YlNsXkG0ck5tSknUhL/KS/20AR7QJQWA8XRPgbJDZOa7eMdOATri1YJZW8zxV9gAmaE5Yrno0jNRkthVuz3Ol2C3aXXgn5xWeYK9rtJ9cb/+3DoRUxGiDqCREamZ5bPtrOlnDD5P7Uj5KkuCW3jAI4hvYexQ4MDkB+wPvXbDPUqNDK9XRvR7YpHJRwH7saKX+ECw3Gkslvs0rcvUoH34vYutyR+oSTP9tIPAeYeX+awDx7KgNfqtT7hBdAIQTHhLIZ7P0eP06gW6iwmoItAwzIBvjzIRrhkSs6dggVL6rR7IhIeDVJWV9VHaTtp0kYf5qbgFh08vjxvzLIwgI3OXrKpw33d66mKg1+Z7g6jeE9ssaQd2nI50epZXsw5UCwfixf9a5hVw9KquOagJ4pSnTiTg4rAABnK6cWW2bQJpf06ofgOJRVMfdG5tF84h1BvLSmv06V3OI1dZUhQUkIgx9V0EWQheDBJ3CaJg3ZzzcBmNOclgtMxMXqCT2j0E7Y4biRg/a9X8YKX14FDBHwRaSrv22bi/BaG/1is3oWgeiPwXHWfOknA5sMgw1pGg1UvUbHtGIQ3I3DgrkYzV+yIMZ/uTUZZHq1HCIlaDHftjR4g1sc8YWYOgoYx67lsybcXGZ4mNL/GhJk1ZOUSIQKh5LgzPdwK4IQK3IsYPswVrJNuncShLLMTaNT7GlN//OufmQBOt4++G1EcDutNc8pdq6MXC0FVnUMNnVRj3qkeHSPFqdo32APSPqZ4LEQhA69jOhsfdvLvPfzNaqSDj83uJQDXo1ea++FSTUERNdcgA/VhCJKl2SBp9vcmKve2QZ9sasnv7Vflaa2KTJEPBQkD5tTFoaeAGN9a1qAabLAYxC3v+0reQF/4gyP3/+GrejbEB90BfyHLv36wB8KQq1z91fO7eRX3Lop8mjF0z9Z+oHTk44GvzeGD6V9+9SLFOMvH8LP3FxHhLL8/8wV0wd2sonClhRoYJ8bIPD7ZBR/eNFT49uAVHlsMOtGO8pRfgkWafLZ0ckLTKGt/0Sts4PTOHMWdqRJsv1LprnVTuAOVxI+R1wNCIEMM/IAFRZP1oJO57so4IUuaGZHbwukRikltiMLgMN6JQj4PaoaYeYLMbUsD6PQrtXTmTef/VkpcqExlk09C4jJYQTj2gpexnxM8MswT/nkGSNtqiIqUK1e0ms74tPePh+Z2PEbH9/J+Iip2MzAxL/8XizXevA6ylotPisCs9awJanw1n2713We26W+AlZRhf8Sl1B56q1abRhIyVT6vTNOv26ERDN1upbTeSMXwwnQBtcPvXjcq16/pjw4rUoIPgOJc6ThUj/8SFrCJ/vAfojVCWolaRfN16yGCm879/MwWSs1K5vwaiwkztGLTXLn/2zz4Ye1ngp4yroHxRrSG7p/Mva2zHvByNQqp2VQ9jyeaWbDB4QOhX4w0f+Q7jh+LXXNMvRAsqB/kEaVcD3ryj34KHYyZzAlgbQ9Y87EaZIdajbfhWCzpHRP811rY8SDTtjRDORz1TnOr4xc6T616r33Y6mrVEDb3cL/2vwLd+dRRbVefNfnscADKOGX6aN/NAMqiKAg5X6lMNFOHzotk8JoJCI0FylQQDwUYJjIsHGEXBwTUFUBLgZdsxEqjClBnXdQ3PiAGuqTqcoCNE0rs2NFgbAaeq+fEm7iVk+aR9uDpOrHZMuGoj11Y05gMRnfDz/l8B0RBeOGu1C2JrGiFmof5xgCfPYZT+RL+zcvHVkAfngEMBp7oNR3zbS2xgJqNazNX3lDj5nuk41hLtVXPn1Ns+RA43PyxomTj5oJ8uv5ywXTPdYryRXO92pIr5u0WODLFZEm2nOPKFG6ktZVQaFwdfX4UPmD8A/Jywc0qE21VHGywZ1SZRSz8ZK/BfQzVCkRfXTA8Sg+NIn98j+IXO64MfFHj6nEhYvgdIIlmPEKNmDl+iwEUqFtKJrczIem29SKgmamk65bhHtadcBNGJRpCXAFJx19uq7Y7RuEGpxMCb5X45HLUSYr1uuUmIgQ/Uex0DI3oVFSvVNskFF++4ETvJB88rUJNr6beqfVa1jdpffymZqbDGYhd+23Mbukjt/JDHm3xSqSJ2ZKerHAXjVj+GzD/kV0KMVOEVb2pKanMRYDB3a10OTaLTupO0GLbzT0yYxJl6OMp52ZXVJAHNX5dGRsONRckQMC7uuGUiwWWlNr24sdfsue/oAmbKciwPIjiIHgu/3C4wD+c82pWLIvj16a5qxX2cSmWWGwNwNJtLQRR7wTeOBF82lj2y8+nDYGSOu/jVQwc1TMZBhtnQPDwu/TD6Zv3Ps1DLbIVTpn0kQgxNFi5s5h06UvKE1L52lAkjxlrqk02QoSC5jdnoHRF85mrXtYzJKm+9MLmKaocZPe05bK4iHmQ240TVMfhrC0W4oiN4UOw6QPE75R7RI8JCM8vLWirF/GgSewVkQD1q6KcL5m+m6R0OkxsfoXkuYNgNjQzBq/RCZizGI3uhvVK0nFKe5c/mtZiETR64S9W/RorHfWr531jO61U6ss1alpvDcjupO9Arftg4Nfr8NOzEb9txioEhLPBFK1Tl+ZiIk5nt0zkiDNGwfX+g7O8W8iNhZuzOCFTZcdIIhF0VPOUMrM2pSECy0M363wgdzU6TguEB7P2eHFbiebpCMVoCfCsXkxvmBPmgt6T/fJIYtg9rUMzZveKddg3ITOShqghc5czULq5Bbu7wuXP6T4nOPuBr8lhnGpuG9l2TLItWZSq7/JLrSRaZisGgid9/QrSi/+ZnDe7FDiv0nVD6u1ji69/p2s3RAnZsxAJoZKHTmUQyea6Ddt1l/Maonl4eNzcoHoXPo5t5yEZSHp/Lu1bKZgM4iGsCzL6ehm3bfB5CwNN1zzY+FgxFXNeYKKsR9NXPck1HEEhbw/hkUkKAfYyEMjzlGBtJ7KaE0LUco3SFM+QX5TvnfDFtgtAbv788LJu7F39vMwSul2HeJuOhNzjK+ilvZhYlFl9kIiTi8vhUfUJ8/+D/mkj6MG0o21TWLyUuTKD9J84OZBxV9Ymclc/2iGCDLbalM1Qm7quYBM2ClSoaU84mBrwfr2Fr5jyGqmSymzoppppEypbEII9ne83ieK7Pi0/CgIIPPTlvNXJ1oNP7mQweyw4v9wCYu5mf0fjyIPwvz2mRVKKd8G8Fo9mSqNGI8JiHyDXfNaRUSCvZnLJcfKPuCtSOBfL9UscVBwRcK9weoC4vtYO56PPXqoqWcX5xBxdWLoAg1jMhLHqAseEfowvJvOaUGieR4MMoaZcg1+wVkHdqWF0DEmGbgXBhav2dTFLHm68RSRdaMjuumfC9nhzL/sI45y7Y4/PTZWrRS31NaucK1uVRZq9hwDTJgvbRxcfNC/8e9jullrEwADLQTqePnnIqP6jUhOWos/QfQUezfnZ7xlEcrjupl1H1jhqtV+i467GN2gzrEP6ITtmjAIt+xoyQlRLzc4VmbiNDuvBsGCvFijNotzXMNdvcJwxSksn8wcpJXgrfw5igMNjD9bCCX9gWxr8BCz5Pz6/OPSFHTTDlKyWjUtQxzMibG6Z6LjrHvri+kJFsOEj2kshkjp/7Jj0HhvfC16WT/TXwmYKdlZYkW6Cxah48aNo5FHhyBcBoFaJ00lMh8UpCV8qlWMuIEBVUQm/+EuiNrImapK07XgBY2+XVIkGo1dC5vx0FcsDHC8798tfvGWUN7fGBHiUm85U2LnkGJCzr4Mspbo9KYrVY4ulhivIVJqoMC8CEsRyUYG10sjWlBwc6M7ixzzhkNzxkPdcVNWymGv3KGwyLurQTSbC704HOx+lyNVkQZ8fjc0iBGs53VQt+lh0OAkyHUEdCoG7sP4/aCyWJYbM+AO9gS6ZTQsoml+pt7P32VDuQk6aAxaCyodTiie5+TcACSLR1QF65bVGjY+E18iBoRxFCFQy27VEl18RKp1KHIISQ7fktSA84074D0R77PdIwUL1uqw08TusaGU0UzKBCqR9UMBioUAVBABx9FOKD9HulYwjeaFmiWdKKMCJjOD/8t9Lkzq4W7NG2uVEn3TW9pQlSyFppG/mVB16FJ5a1HLCYSiOh+CBdlOG4b1y+Rer1GMkQfcNtbDfLFaDRbb5L9LH98E/EC5j41O+tzlvDspAE1IKh7ix9HppZC+sRDyU4HIC4B5qC2sdziP0BTlIdM+gx70gtA3Az/kCuQvt9yIbNM3/keJ2sNbOiqKe/1M3RWYhSYTrIszR/h0ly8ITyarXxSDK3TzKGglDspcu3Jlr9WZerArMf50uoE1c9AqefkTOVBzsA77kduyrhbUm6EfzNy/WZtppv+KTQ9IPxa1JeR2aOnc7yXRLhQD44Q8adZSIXV1wOFQWvfsaoFrAkrTaNs2UeYDDxXz9IfFUiSpbbDR8WL6GJ4hdWjxdnCFBAJogHOx7g54JD4+9jGg9vYisH93d6PxtnZxhwNvZRe5CpVa04JnRZKdOZutKQmhy68HDbxMOIT/Ppv6z+HATfe7HGYj0AOkgv9l48nB0RKuvLeAjmV7WQq0NXWXz5uxh6pKj6X09YlPNKlCWbw6Glxh1C+XBB7btkml7+m0ocFLKQcOHUUCwl4kS5/eA3y3zSkiOjfPMDIJ2GmiqmWVcAOO8LCRy6iKhEwnBboGIWx5DITyUyr5TUN7aGDdBLdmEcTUecKN9imwT/C5Df2dddvURT5RMCm9UOYwN1KA/37KI92a/lVqwvkyFAK6OAgJaNzur5u6ozVEgGbwNwQMwL0fpLjXYMyY/MsJAg/TxBoCILtNMHlGJYvu4FtHRF3k1KtZFqL30P6di+z5SbHTtK9elsLUjNQt0DVFEk827vgIkiMCZ6+yF0PBSBqsWkzB/mB25IuWvu9BqV9ZQpbhh/tiOOFuoKv4wGBiJL4s1jRTSySvmtYXYDFuIf5RFHNgu6XziVRcNlDSCYHiHKH2W1Z0sEtHvfiY+cbM0KOx/pbNPiDa06IoUHZ1UYNrVNRWGo/zQfi+E+Ox5HNSezsTbgX2fvZB9bmmHL8RCXzQFSja/lg1yJ8dwTQ9Q8j+MmV00Q43FHeENmJaMovzRHN8xlCUhzq+z7Y6Rgfi7vTFCLNwHbSdfSgK6d4ptPkFUhsyRth03OF9VQvZwNz3nv5Fkv+BLs5FlJfkrij7QTdIuAiTcKb9UcTu3GdvVkBzNDBc6SkBXWfaIpbTm1gSZNzRyvqQtnsc+0YCJR4h97L4VfPceoGzQXLVBT46FtQ3GF31SUJNa9jIROfwqy8Gug7akCDFMMyxld/mf60auT1YHBr2u1448l3+4qR69UttyTJnIPpn16qP+vddGda7to3PT2cmqcbhCPVAIIf/LkJcvquDgPNHF7svaW/OX8rTYJZfenqPadn/BNKvy2+tunTk1AydApWRbHLBLI2piHFRC0K/Hdd/c2ncaz83iJvJ3uocmG9LuoGCDnU/JysMljZPDN+n2heP6D/ZwCM2V1zToS1qepTw5zB39/+Pip4BuI69LNIy0XNWTRFuKlum9hJ3iaLdZZUka6qbR6wAjhMQ4/ABCr6zfLcNvuMeuoct5r0kZMYsqEB7RY19glD8hkF+iGGc9XHqUvBA8IK6qLsl4Qbd0N+YKeByNfrRVd4ebS/HhXQNNO0OS3wKffvM8T+pBoDWcBULGtQeIODcyaAjYnDQ0S1EagpSpGTq+R4wRvlXVo0mqcX7z7BBbGnWR30xHaGHX1mh/9+uebMej5ZwfJNt4tYCncbuKitDgZMNtPgB7CtAmvBVsawxihsE55/9OSh0s8q2FHHEwvQGcgk64JJZN33/zG7bEGBsbQVVyWHhG6G1AFDsstvENBzBSN5EVY7lp8g4oNHQ186MtZm9NS8IRkv/JywlGaMmVoI49u/K1haDEpghzZbMfrlma4LAKK0xDnXsqpN5OKs/0LfVC5lanf8Rw4oIfl6nMnyaJfK+LVRbvw5XF0ooSsoyzcd6j+NAoOz6YribgjxDPNEUa82I+hUHPvnLePf1OcYbCKjeF/4FrSd4hee02DqvP5Bn6G88BQOzudsOIfVm7ogNGPhOo+BYQPEPgNuOEBTXMnuSFzrhYoR6JsaNaSJ+2GfA8TgVlx0HbtcQaw6Fi9mly8KstdN3K6ltNTQgGO7CPHPRpXeYzlnGkogwLMnGUJCQgDHVowBlbQVYJ4nApIqbxDj7zcK0gjUBA4eWcvbPwGQ/37HEzaHoxN2EP9Uk2XceXEBmVBnzP342g3f5Ae560fNxOnO5RX+YsijZprK0wNqxgyJ7ynxoxRjaN2NxM3OB6e2Ne6ag6zvvleViWsbNdbkfUnF/IZs/46zClObA5+aPzqulTv/B4M6x69n8Rl2P38vnEO+Nt5fhJsLIu6KxcLGovGAbcoe0wmDWM+nqLd5+UJBR+vMmfNLP7DVEicUAlCo+eP/FPNSQZaIZJw2CuOfEZtRJ20RJMIbIo6Qf0z+XeuAGnP9HDa81b5Ff9OaPoq0w2AphhLR1j2GalQc37przeijdNbvJvfDMST2EOVKskUflV+VyXnvt/UyzHdAz6RsIp7YAx/WExsDLDxIXSAzIubJ00cDdP1lgeDib1MI3Bzaz5jajf38Wa8RzfQnDnoKLgZTDHqN5TBTp6JgbRSH2G961ynxUYaORP0MN+Kqlwn4ssekrfu5XAfyRIzGecSYyQ6Mc4cJ0qCsqAjK1oLUjbukn1T56V83GHd8hOgYz8ZIqkkEcCIcJ5SMyCxtuj7LwBTI92NzzHIyUtCAjfqrT95FswB+uDZGc24wh69mQ5DxyXVCpckp0eVAU8QvgiE+CfZivOg88tEpgpkHy4wKV6KOUjE3zjfsiHbmDSyrahuKFwTNNa621IPoWhGb/o+ZbhFSr+ip0/dnr2Xig3cqxzxeISnosOW6E0g0yJ2xh89icNuh9Nw1ObG3jNle17mnP6jyq21coTinqMTN5HhsL8bc97cDgSeiiHwfY6TYIMGKcq58A7Gg3G0YnNEVAvJav9HkzFQUgOaKHVr3KGRuM8Rkgx8tKKeMoZYGl8GPyyH3/yLvv+L9oF46qiIX/RT3M0aqh2q/y62nWBfae82IfynO0fjY6D5kf5BYp3BftG5dQ7db+jHrGjK8ahjAKrAlghE/V05xP/YJjXAQc5+C9mtqTNjB0mGUu67Mq+yF73k/s/PJfzZNZSVaALPEGDbSvBs+zSmhAn7nOgB80INfPndoIlTpYM4+WiMM81wM4OdLBtEkMArnO34gfNrZw1f5O5tAyYF+ordKXLzEDSxXiOZhLEUcPkbMgzscssPlO7nx3J0bpI9nw4Pg6Sqh2kFwOPsL79fABcwCPCwB0Wl78r9pugZBWQ9TlLRcAKIozRku6KCh6GXdZI79UOYAKq8RGZN7nJbYGkdlhT5YDKLjOKnq1WoARxgT/UOsAK0C7a3PP+VCaruyBqLLjr7YUnDQG/4ynsM6y4K8K3DRFqCV2FstpVfsE/f5aMZxFRaCLwxk9MxX84ow+GPwQ0hNxpBdAE5VSU5Ej/3rug4Hs98qpD7jJPtQAXUrJ9rLiRb+cprSA4zKM39VFneVqMuN7A9D3gD3d538wzuvzXuhKmpSqFndBm0RI4jbd/mrWPpsq7WHsoru6jxCbhkWsXwpZl3iZcW8mS2CqNcvhdHD0D6jwk8LMcnJVk/h9JsL5cwvQpH6L7bJ3nJhFiDQQ6CFYYdGv8xC2rC7it1tTI3TlzlSrQVRcx/nrtvqW7ypmCDSdI2+r+wOb9n9eaqSdal5XnuQ/oakUXKO6CTjKjimTxObPwQbYokIGXYRewtkvJjqypNUDJLKmTLsTo4jFKbkFNUxTQRUsmZ423QELnFY6nahElQZtZs+wEwd5ex24TVmaRtEetpCKBt3o8byLCZm4ynMSUY5/YGBlas//Xj+gBFSEoWCeksS71FkQmS6gIIZ5Qc6JmvONWpupk98ECTiGYPhig0XocDonyXfIy2DBCJaJwoQxZLqGv5Zeetf8HxGoakJZnSb8uiv9lb/CKSpJxLJLMWtMb3VmY0sDc9havz8mrAxtTunq1NCx/tIE++IDYhViLJjFM/88R7lsMwfy2XMP6pIAyxD6BTDqSw+0tiEAtblMGfhSmNChVyx6LPD1Tn2GAM8aM9LRtMAuJeV7hvi/Fl4a74N6divCcwuBGV3m4ms77srtx2IbHNCgG0biQRu4YjFdk/2thi+jlyY88LRNyYsAe/DM1KU3YbV6ArweRO/oV+g2f/AfDoq8hAzm7Vkkui+/Tqjq/Jdyqqi+rrlQjqwPkXIWWoR3W+nqVS8CqZywv0lfSHjioWH6YT9pE9fZpbw7CieOv7Yx5ahuAaOJzILNi8TeD7MyTNNm0lJzg35VeuzMgC0Pe09TWHs0D/szayOMuSmcE8IcUnNwwlGewER8Mcv64zJKbaXKxy57vuVscknpBofAhKcGrRPX4sq8/8S1rSwP/sRjnFTSiavMUOCfkSe7TojBUiOL03oCqG+gPPk55YG/2gACVMWZMqUduAewIktHzpk/ghfDkVrrDaXXdV10r1RhuviDAW2rrQBc0MqTlvg9N5cMfs1/9a9uJreDxK0zWNv7EQsjRjJC54aIZoFto3QrdbhqwXC2M+l5An7oSQAHB8qNxvjv7ttU7ypoukgNtpuYXBv/mZwiFInEZ3eIgkY44hR9w96lSNlTupYxfpoNGYl645tieIBh5z/PRmNGcjNz6M4lZwUw4xqkESOukIzAtjNKiN193zds4T+GyIAU862HLzcDo07vm6I6borUqaHbw82hmXRxBr1So3AEoOoS9zxtXtP3Z8BO6uEx7M5RiMCc0PlcaerLKN1M+xlv1bqGUQGsSeL3nf9LL/3Stt/U8GqH2S8a8xzv1dnuOT4/x6l4qV73T91Tri05q8xC76Xb8nupDnjaN12DrueTQrqMcUWfhM9mJOvd7+3OqyTVc/1GPvdR/4k2CI2PEiTacbslVGzvhvqkqUbTPjQOXFRYqYfeqi6y2qTC30mS7fPENTgHI/y/iZTUoDseLiNvR9quJhNtwUH2+x+gwJYVOCbScCskmoSn+uT4mi2oJj2cFy2OlbMIiHlcD0w7w0lchKcJt7HBFfZ8XnolNO9SH9h3A4tM2jIXewKgjqsetz4YCBT4d/QfHcmle/zy8pdb+AD5FMYH18fo4kkuiU4eeexFFkX3ERCp+wr8+l5Q05TOXB4k3BsMRsJ9dqY6nmebi3z7ijrZ0iDwZn7cRSiykAQUH5mUXzJSp5nMs+stf/1z64iTexB1AIjIqCbKtzBzE5emwhqn2nleBSPEit3atF7Eg4KWBAuPtvD7hrKQRMQ2a8fRdQkqPkChmLf06Gxk6/A47flaEAQj+rIX4lXrFW88uAVGY98UOvINyqnhXJsCg+Q22i3XlJioWLV0dUgQE8PqdVdpdNLnfoZ/aQugLU9NheXzFJU9lPtQfOH/9ItdZexAFeZgQVpl/e58NCnxcOsF79BJ6eAPIuM8bQ+JGe1dck96rCJkI1kQfd096/SRS9akiTEv6ZvHED1uDpFwf5ztwMiayDuG2rPk20SO5ohHZaH0T0zVd2v4zQ1Sty5D9mrJn/NPfUhYSnCwoBuHMPsn7vI/nVmA9GBNnbSqeb8yg8wDRrJC8RZ8uZ7oPeLhPsWizHvtD6RPClp2YNEmyiJEfz/sd12JUccY8pU0cIQpBdBKVC2fLk9Xo7LPYWfilKea5JHfeeaNaj2nzm7Spkv7PO6Av83DQewzNSltxIoXswUQ8OxgLehDfEcKSfwxPifsnlbY9mErtcTOlCH4XUA5foW8TKI0IYUvuxT3ne/bbf8I2kms3CQQaxS8l3IbpMvpC9goQ+X0GvZrZWwFFkjTF84+XTS+3bWAIuUoBZ2KCSkL+ca0so4/fX7KblxH6a8RHO/uGSmhEEw16f/M4TY1De4xpQ5nHSct52ore3aBVkAoHhIOIVmJAaIZV5ZOPnnz8K/r+Obj9bYYpj1dHNOPldzc6z+adoIUAlkmABP0rxGyY6TJSvEwdKhgp3yOxxRAXMj0j0HstgcM/29JkmPjwehPP1JIa+DP3aJKP129yv3QeDybqzBM8oEQq80AAiYwmFq9cpbUeGQl2AT+324QSBU1ql150MYEou8JEssWV44enKrHw/HkduAiw0Jzxc2BAOm5fz5awxOo0DAeL4AckA1rpLHK1hDjqO6PVU0uCvVB/GZxYKmdzJtoUftYyA94A1IITWnJgmewFtIFTdC6NRcJNR3XVdv0zpB7xwDXXBtFHIDpP2Uy9wy7nBZmjNbuo5SADCoPGSIU7Hhcv2002CIKxGg9t6kd9LpGmRP2qlq8V4lg64KaFA/nXzZ5DXLf5dZZcvN0x0ep+qnzIufkAcJ7G2gfJ3qwKeTuQc07lCyQ6l52ug6+YqJ8RNPS+kgP61Xzy3gNjWKdExEmPM4ZBEjDGM7nt4Kne/uNdyUTnrKa7McTrWTu7TDHr1puz9V12ZlCunL2qBZGo4mxK6xPX/AANcHCJS4ObkTPCuKm/6Is/kj7LF9gaPV3BxJXru9uFukbrfKuiGTcz3L26s/Cl/90WsW2Wh4TOnnOT+thCFwATppiAE+/MmYrb7Rm4aKxR9DiAfAe1JdzXITozEC0jW4pmU2QicR7KVFe18G+7YleoYadkIrNA0OWvErSynmQ3mrH6aEC3hbbrxCNICMT4OzCs6Z3FWrpHUy+BiB3pt1kie9Jj8NDz37XfxFdKmoYMA3tVcBdkUlynVI2WdaZDJ+qjtmyUXxahPx6qpCLI2lBBwOLB3pIcdcmK71U9qSSr+YjRWa1bjQaLXtlypHgE70uVITqHrDAUwWr/lxacdQAp8Lo1D+7CvbIpD7eRSkyuPy6ZfmHiIS4J/f1ZHbfNycv02uPsc+DyyQ0nRf4q2tlxrBWKLUFo9Rr63XGVUQQnSTIMhQUhZ/zGCwRnSeK/VE8IUrINxmjbeWwCYBVGHMn34NBIAWEdi9RWPx7UrnlPM41BY1r451tQJCbX0WHoymQkHNwFDBWNtEChF0aCdPtf3A839H0z9sd52tGgL8E+jPFo1cU4x+yZ6X1DLrW4CEmHFoyLwNKvbTRr7+1qbTl0g7JhIKSi3IWeX+CmxcHSRNXB7swRzk4hA7M1FbqJsEde6/lYD8AgVZL9wogU1L90KUe8HZ8wwd5e9BrtPA+U2q0jM1AbatrLRsgkgtdTbB+pyzoHsor0Ywo8ou+ccndCJmb+YSym+IxK3uaw2Ey8f3+VOsI/FCupPcozCdRp3EIbWLrpFOAbdLGL5pDMmRL/qAMSXnMmKazutZFYzwzL/FZ0nmf0oUPwzc5fVSU5kuneGXAFMlDa2dtiv/CSfFVELYWBymdWJA/7JpB7FLQ3/7in0hS60404B/pmyuJNDtRYGj8LnbjNCKFHWv42jVI2Y0cRMmFBFIQAbSOB3aztOV6dBpRhygOAOZl5rQ22mexOi/4+pxa5vtnUc1V/+E0rBZgUOfX7hkp5dAh4zKbTb8cUudn44UY6qCuGgVgGiOVte4I76CrSnxaHTQudqZfqFLPGf5egZUNe1oonjdJPcx1u4HERLDfoDARx6P+mUoKQuoNcSb7wGOqTFMMkYDdSEAZJ+uPnMhcXZTVpHPm1TLnz+QhPe0JjTjrn9aIqOCIZpwKGib916dbz+HNbLRRN+lJ5CyZAXSJ9M+CvTKP/tc4A5E9CdLJAM+961Zhl0S4jhPizdO2xjc9y2a1OJzUnxyQ7sV8EknaWoXGhXp969GjDlhA4F+PMdcEPw22odqJ0TxOwcSZqmO440fPplGYTe0PEaM4xYirZ3GUJ88l6Gnle9jxjVjXh7VNudnveIiilyXahIf5VCm2w3nQQ1fWtFrKZYx6RIvhuGZGCRUylxu+1m1tJ6JE8NnNdjCP4H1ncAL4K7w7R4bYSHzT2cseZC8HUml6M3rsLdn8Kwbh/eoBQG+8rMaQWzsWai3b2woGzYjMRzVisgqUYe81oEiQefoba9rg7qwJM64EALZob/JdFIt4Msc/X62F4R97Y62xGxDTzKsGn7XW0ar3WSecQmECeOSIZ4axOi9UYkCCF7weyme0Rj0gtb/kWbHl3bnidMFGtHNumohQjHA5BEauWIq/dx7gdbcxP3sy3BM301jZ+NghHHisEpp9v0AzmzQMBNHN9AHEyVZOQw2gDTaBwu71mh9+gY3YrE0UQMZVc/sqP7ByTqOk2APIvtckk5/fD3b54/06rU8guyJFEj5/MUd3LSTvfK6kTF/0U5TSAGuee4IdSMtumdX1oI9WD/Ew6fO+bN1Xl52iuST1VSV+W9jdyRg/YyfyGsJxx5h9LnUu+5memwsyzuavbYn08+0Ao/5/OKJ8ww2WxNUGdAtS0IvkvjMDlbjQ7Q9jhAfyblf2Cr0IcDEfGnxWfWwpJap49bsmwcFVk3RwzxtFEHPYb7VMekrZl9K2zokcMpdxnAHA055wyeNSxJ27IandeNnqwE5+alTsZvM0a0JEs0w33lJacPeb2LUyztmnr0+ix1Zoflu7N1pXksJxQrrArr+2ODbmTYC6uttBY4sXaNqYYGWMT52FXkiDFw4AhaCFGTMTpLe8kW4MATDNGL8Mzi7RNMx7oCZYpvyAqyda1EgGvYN2WFTCng+wxM9Z69kyIwDkCFA5mDFrqxl3jdTr86nH5sv6pN7AVyA4x22fMqjNGJ3pRgX5aD9TIWX6Cn+dmt7eGxxaJxp+KFVviwjSjOByYFhlefvLd/2HepPB/wcxNfTmWe7F104X0nN0DwAvqbahS9QS4bbprY8DarQJjaDVzOwV46P3j04mDGKfQff6ILPOdLCj8CYKNVL1ArNYnbkv9wIy+xFtQVzcNcIOBp0DdsVMtgEDXflAwBljXy4jy6BSuFH6xTR7T1aedNP+Gs2D2u6BjCE1yHPLjtRL2ixwtJyz14q4R5sUL3e/5XyrgwvVVj/0mWHrEw5CqjGwUCStggkUZB1bNJHzOqZPW5DL/u5nPV1NTAtjSycMEWhqABYt0FY/vmxpuYtYKZTHOlxczTd68BgMKblfiZctNWSqvHt7qR84IrQnAvSny5yW/idQ66DIdLyW5zeGrFjttZB/dNUqtduYAX83AnU0rbNAkkkD5F5JjbTrnNDnFrywh0Lbl/suThkBz6q/aEKz+ZTIEO2eNXicRx3AVSAYFZQ9xO2qeCAHfERHZ9S41/iwIWwrbAoGXpgwo01PxEeenz1ATubfOnTKmCsj2c9nKsfStlVxG9gOABzAw/Z/56EGlFdsvyVANTT8vIf6zMt+GFDGZ4fmWwKxdjJtpi6/mQtTUTtzVs8UcvdYQy5stFuPVHncl2ag1a8tmyi/BoFOYfxBlcpZu6R2f/rlhjpq7Oao5VZ0HQp1JpyE1FqHsKm0TdHtj6Jm+TCzu4XXIVc4qux3ojzkrxvH0wa8Y1SdQPzbz0MMzU2R3Sq6EPGfYUJ/CetM0kTRbDtNcWnD17YNl1lXKGqo1uPaA31POej2jbWJgQpHoxsPHgv0VdbRWo9wnf/dPNEol5twjO/9cKIJSC9bKtZAt9v8BARGeZUYQskS5jbtS4ivo8KUIIZVk9A/bDy2SbN8jTgJd4gjRvJ/lu5RbWl6nQE4WGKkGTOdBDvUIPRT464x6Oj6W9bqAuFEfF6GqCq+qUAiKQ4VP2aNfj37j8gFOS9bPAYhops3E5GlQ1hB4FBsqBx49YQOU7mvhxRJArYTjVRZNUA+xNP27W9szgD7iM1CbI+OumD412AzUr4hpd+Ue020Bp+T53G9J3mnAFkJLupnxlVGLZdXw5IaWZ/ZqnGK9BDuLHv3htMQjNxNVnIDuYa+QHab7TaFtjGPOVSEjDvNhcbzpODp3rvaTPkG08tv6aZKrrSlSRvpIOpgKk46sAS45rPuXdd2mAq7YjjUmUeLAdNVGgkyrELW5CoW5hGs6RtVj9VIemSi4mGIrC7k3VLJ7yOw6R63GPkdJyXYEpPt3co/dZjOn37xy763d8JgDxAkhyc0Xu/8nNq4Y47MVLAX6iPfI0uefxeMM0+K3QGv7AldoUfgmvtdbCVeGEgK5njdg+mH1MsZACkWr27zY/3LwzNz8EFXms9Yk5rn2odlHAtek5scVtEFcBJ78rHIU+Vahcety2ZD2w4zWtpWVBn4UVySro1PourIS1n7cRYY7U/1dSEnilH7QM2CIpDL4FdJZD7jIVWfPPzNnRKME1bwAVKasD6zWI0WumGUEqUUwdQsjiGdgFgulG+KNLTWwgLdzjZCki0FypIcSOgy1A+M7qK+FDQg4F06+FkbPvhjS0l8Ovf7qiTzdaLdYvofSIo/BENBflJACsc7PQF+Cb/ndaDmxyYe347q9hBPceF8vVMtqL+CMpKsHQegV+gAN2HvUXyQP59+GcuLu7ko3clE655R51Ic9jLTFhhQsYKq9oklyp3+3NLp1ml1hBrL1yfLvwlW+x96Te0t33MxGqGThUcXfNCagK4izYN8GyBtf+f1RJ46uV4v9VHFNErc8KCULa+/zuem3Yu/IcXkcwc6/8xRjvqJoP35NaA08F7v1ts5kuiHYxh6SYISAZQA2S/dLZZCo5HdsZr3nm+brMp6PqFrCW7Yoyo1u+5T8Lhmh+qzRE1jkLmkk5h9DX73k5OoCW9BybwW+2WmnjaroouXsKZTAvYS7HjBvmSKA6VL124BAz5NGovILLf2cqZRYqVFTfgnhtaoYt8o7Kr2IrlFfevgGQharfbWY4dpvAs/WWLtjwPvvP5JITHvoQDR3kCOjV5/ullF7s9jfGwextb9e9McaQMFMn2ERFlubFLJ37R1p6691hQp+LXW/iHllL1zwn82Ag5foU5s5HjSGHiecdphH6r9zL4nAq8I9+WFPHZ/kG3TZxCKZy+ZOBP7+jotA3X/ADqutFLQhIz8jXAUuFtEI8tah7w5BU4tAimCs0lCNVhbx5FnupxXA2ptTleneFedjKQW/JVDtJxNVEwvNHRakAm+fh7DqqBRMW3hz5IGCoCqlNi6RiXN+sFKvDJgE9ZMih11esH+l/p+OMGAjLFz1Tl+BAAH8BtOy5OWN7FiRoh3MTCwESFyxYF9CacNamZ9zRjahlnPIEk2b1ZBJDX5sWw1Vdbsma4Rx349AFMdyI0Qw+N6oKzxai4Rseu78TCYwJWqlmmYqUVZw3NegRYmxjyJtmYbtwuuFh2sxYxTLUrUg6Xictq63CADufvHnLG6MJznsi5ZfcOiYq0JqB3Pbfa31iPQy28jH+HzH6wf4aUVnTJZ3zU1bSv8WJl4fVx/5YDEPvhVXYyC8ipdNXH9Q4xtl+9CUDlHoRY5k1emj/HmxZPjQGSq8Bc+qJz8hk0EAi6Eb0pslJKq++8od81j3IM6WL3W9WRN2qRgKRuG2b6J3QUhNmLeg6cqYXEBawszPzRhfwiqlB2rrUw19Qqps+78uKmEbVb0dluDp2l2yrYJFHSlqml5Ndrvn7O/JqhUoWBQ7YO1A/purKSAjBJa6/Vn2YfvbuxMop+4d9vPilpCT47RtFj+mJP54AE25TOJBJh2DMtRPStQEJgnqH//XSXp82Vf7V9n4rVGijry85wuhInXbnUee6vsiouDB9UJB9ihl4p2WOe//3eJ5hHySIHfU1TwY+ke//CinfhZzlPwqE5RD0oh+l+hUTkYQjipWAc9DJ4En97wY5p0XSPQ1934kaOxdQV4Q9tZRmoOcb85be8xoCsiNKeLPVMV3np4YFcTDDx0RmDj8hSrjZYVihU0HcW8FT7HV5rGZQwD57PtUCDBjAl/Rx6Qs4iPmF5IcFuoZMjj7uoMCxg0cgkobavZCArpB8bmDAOU3m9hyTDma4c11R0y5smPp8iXrHf1KXeD4CSSuIEG+4NwMX/p98HH9Q/jLt0iHguwo6eQ9Xiw0it8j7RtwNUTQ2dkFMcwrT7UvpC+dxlAbO5rw5fwV9vm4dwhb7LuwEYq0rxCCMHy8yGQsU2fNWLsOpviQwqHdYpatQwXJtndOr1bIVT4MYO9eloyCDfi6EeiQ+1En2+jOUlY5ayp1oklpGvDBfpqLyp+wIXlCdhNVkeH97RZ1GtFF0ajw0olh9Y78BQAe/+MJet2OeN7Q1cK8HyX6IgWqfulg5JSHIOZViTkFKZhgOR6AluOK2JC4tUJChPCBC7k/DzQC/z3PVDfxmrGzS2i6/1544di+FCUw/fFQ9EYGOO2nuz3xWI2euhJe88Bl4fxJ1svrppxMJ1YAKihHWLjHZiD+4ZsRV0aEDtuQMxJkjGHrpiXZ7Bv9wt8jwX9kMefxCRrT3Rn0eFEdtjFA7MaOexuvMcOPL+QaozV21sg/klxstLan0gkfHeXXdP0J5fo3/hAsDMjf4R4WH5RMO5Tnfj3Him3x88k28M6+flDyuEAd4cc/45Fn+gvy8LOiBNScc804dAPWHe4bVNoNqO/GG6KoyHRbUNSH0N6NURPmwzp3TNqfgLyJ0ZH9IFcG3ca3sFFojmYkn2TxrEyEBnlvwNkN6C81fjsVR8ea0MW4+a2xsGH0MWslNuFwjFGn37cJikWwotC/95AdBO04rSECbgIsUAc/LIrX7kBkQxk0Jb+gQsMQuMLGe7pUu8kiSP+t5wtCnS5ecGnT7zEt++nd8fPlRlkHWy7Gj2MCJBzlxyFe+mc/MQLrkhTeYLZmND6nb0s2EWPO1xDKL1VZV1A5BT/9WTVh51DFlP5v8/bd0brSyTq0Lfbgv8wrJCG33f7xLAUAygDZ7BvJqTHpZOKXJlDqsXvqWrH+ORlqaSd3i6S0KottTuotWz8Dt+92NV2+Fu7hbut46Tjt9BpZZIoT6JmRTDfuB/uwwNSEUhm1cFWnA6YuiwiKbgkGsF5jBAHbyUzEqv4llnEM4MZ13MaPdIp/mT6mJOmdMsRTkZP718JpE+0yGpYY2T3mCkBJac9vV1YuaawebvBpcJYyg03rB7/ylmrf4u/EMyOHfIpB+K+sp0Qby162O43kdmVa13hZJA2muIFv7HYWiH0bJyMnsrnqoWGNpu/vsOYUWmR4rWfCQ5MDq4WZtdJlEIXrVrhoL2YUdht+KqgGBiT8YE1Ujmz6TOFJpqQI1w1dU5fFYqCPusa8YakA68/VH1jRgHhuKU/hefHbWH9SEbVKDVvWSsJuA++vyEeML2bs25MRFuM22n5effPVZZxPjofQb3EmX3sYn4DegyTw64vKw8bJoQndxtYnQ7Vs7UEIjPszfd23ADH/JFhfqoqLurRGzxpPgCYscPUV4CTacrhsJAL822fwq8vVwN/pq7YLaEB+uSKXwsUi0gWmDVtAKibUj1rPxlcsrztWq0fA0+Hg1jGzS9x/UYbP9LKBFIuvxDedGufqBvCzmD5iTiTc/KLnBIRaCH2qtXdmHQ3M6SZSXbqKJdjENF8VjyBg8LCK5KvTl6oHcJb7A5z90sQ7BryXIg2PwvqSd/Iw6zvI1GRFioEXLzV9oq5PdPCs3RTP1vs1kWtgKI6B3kYrQvln4o/eX5W2ySuGcuJ81sl0j0J4UrApFYb3AfVvE3AEBMsWDQOCUTLPwA2MYkfaiegPIPqVekE01utpyPis1LfM2QNyUpyeTgcuwAZAwSlQ0pzwSLGHWvsK9e4+/YqBX7FEg/2SKV+wbkti6A1Ub2UKi2FqBFtjlK3Fo41b6thUzwSb8Ehl3x7ZUAVVVq+4tJxXCewUvHKDRXQpM5+QAOOz7hpXLw/tXQENur28FP5VlGXjckDFV15Rq+H1oE8AHesc8mMD5EOxK41sqchWMfgyyDZtFE+xXo4vfMF/2k0zttZ9qC7gjpodpQ9mnOezjyizV+N4Zyi2sZjB+XswRzludplhp9DMFvcFfnAjXIWyNhG9oWUhnPbOT5PGzD+jSZMHm3r8uyM9T1sdEOOB4PZH1WOg68OHsjWtnMe5o85ncPt0NrF6Z195ip18hX5nL7i2TrJucv6ElXUKMJJB7gODUN2HPmKc2eB99InLUooGYiGa74EMm8xJqAe6yMQhPHGss+AsuTAJDjN9CxDYVhzExeZ4x0j9jQJUgeGU7jE9i70/n7IBZnC2G0ZT61BAS0M45yH7cOkouEXSZlmUctuz2ksQhKsrqjMdmiPpH9AIniapjI5HezAP3yvUL4i1uVVirbR8+hOMxhT6SyZk+dMkqOMdTvk7q2nL/WrmqCzEP+l+irW5jL0jrRWWfViIhE0AbIvHt9TtUuUKk4oTAYitx/ODA5iLHsz7YryQ/ZchIhqWRyu1294UGAkSyNXBYoueJYxhOIYQf8WZtwHGPniTp8qtrqo6TN82oZJ+n1oglRDsSw6TPP0c3POZDWnRiSmhWRKr2CmsIPqPbu6wlYcj53py69U60nXewQ00ixdpbKbHQd+116w1mjW4Pd9xQZjEokYSlEBCQsYla5PsjmIh7X2oB9Bt5u+IJ+wtGq7E40s8nfQ4spKdRRAC9mYQf52j37cBjUvczVzA29qi1eSbO7O3dBkeZ3fjQGS0daZ1GdO43HTI+B5WqzCmhAbpYurPPkUVKZg+D0fou+FuaJEwtA+maTyNW2t83kIWdG58bfe5GaGZR7WvbD1CHAAA=" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['mainForm'];
+if (!theForm) {
+    theForm = document.mainForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZEwxevNHYVPiVa1Imd_CfwV7Ab8FE1aS0qMo2VVt5LKJo2QwSrlAqlF7-BPzzVxibA2&amp;t=639190689332169432" type="text/javascript"></script>
+
+<link class='Telerik_stylesheet' type='text/css' rel='stylesheet' href='/WebResource.axd?d=bZQu9IErOfGRZdP9C3BB5WEYs1kXhya_p9tAmbn7VJ7_7hNsNFtX7P3CeFaRqBAvu8nfSHOFrwYVcSOuYt9JctQczmnCSlqFwQ6AY89n-o3MDUX0IIYSHU8sE4u_74ks0&amp;t=639258512240000000' /><link class='Telerik_stylesheet' type='text/css' rel='stylesheet' href='/WebResource.axd?d=EkHr37SACCjvnXcRDMYA5QDHffoPB5zqqkTl3zO5GFecPyxIlVRTpdPdwWihPg07U43zWUamz0KFoC6JMJ0xsre5rLX9FEj7SSiPFzjo-li9yJH9qauR1AtwadanXj--2tqfRBZMRb0YR02QtHivDA2&amp;t=639258512240000000' /><link class='Telerik_stylesheet' type='text/css' rel='stylesheet' href='/WebResource.axd?d=AvBWCtbpLXYjyyNienFv2CMw156KfXHTYNClOKzLazQZPw-ImEsGVroTkgjM1mqynbNiPJBaXdPE1tUQ9lE248S76drBgzTdxypswG_gbOIFh-HHu5Hpa4YXbDKkZbnOWQWmNy_e1-k5AqZxSggxOA2&amp;t=639258512240000000' /><link class='Telerik_stylesheet' type='text/css' rel='stylesheet' href='/WebResource.axd?d=QioIuMiTvakjAw8Q44fnHqwFzWqLw469V7gTNrk2cvLvjuhyUg0JfUserrKyYAbRGpgN_lEgN4GXYxarh15lie502tG3A0ekaugu4sNjl91_XQ_rw6tEtWBWr6X7dbobxtfjGrOSAEzehpBTcOsZ015hS6-okwSmha5nVkqbEyM1&amp;t=639258512240000000' />
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl04_seamless_script_manager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-GB%3add3ac3d5-1e29-4112-8fed-529caffa8f24%3aea597d4b%3ab25378d2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=EYVjNsQ7oYmzBqCI0dkEyYe0LYmPcVFL4WPcQCXhKfQwUqkAT7lLra0za-OLMuUUcCyPINdTVMHIWti96-8R_oN-trjXUUZnJRzckxTjid4ecctwwEJyNI-05jZYvXHBRiEKL0MUQMEyEJ2FXanyE1uBk88RxZ1wVK6AUn9D4v8rW-LNx2OOtB8vE3hC8P0jk4XZt7GAPiCeYQolxUlwFZA8cuOfgd4u08OASxFdh8mChz3A0YHhuwRrXGVlulfs9SJVkAvulhjdHYIIp1SRohDxt9acTwxUQrOlxuxC847b00zOOWg9SlpwD_iBuQQ1rOK9WH9O_wN9c2TXm4GeXaQHHT4yQ9IlzZXw6th8ch3f-k_n1yYeeurDMbwChXW1Vh_7rpu00kgmegsg9w2J3ququXIPfy2Gq8IscVTmtwouupfmUzAOicU_yESgQ-dG0" type="text/javascript"></script>
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl04_seamless_script_manager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bOpenCities.CustomControls%3aen-GB%3a7197b077-b068-4a69-9481-a6cf2e7718f9%3a8e1d32bf%3bTelerik.Web.UI%2c+Version%3d2020.1.114.45%2c+Culture%3dneutral%2c+PublicKeyToken%3d121fae78165ba3d4%3aen-GB%3a40a36146-6362-49db-b4b5-57ab81f34dac%3a16e4e7cd%3a365331c3%3a33715776%3a88144a7a%3a7c926187%3a8674cba1%3ab7778d6c%3ac08e9f8a%3aa51ee93e%3a59462f1" type="text/javascript"></script>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl04$seamless_script_manager', 'mainForm', [], [], [], 90, '');
+//]]>
+</script>
+
+<script type="text/javascript">
+    try{
+        function SeamlessEndRequestHandler(sender, args) {
+            try {
+                var dataItems = args.get_dataItems();
+                if(dataItems.ctl04_seamless_script_manager)
+                    document.getElementById('__SEAMLESSVIEWSTATE').value = dataItems.ctl04_seamless_script_manager;
+            }
+            catch (e) { }
+        }
+
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(SeamlessEndRequestHandler);
+    }
+    catch (e) { }
+</script>
+
+    <div class="unsupported-browser-warning js-element"></div>
+    
+    <div hidden>
+        <span id="new-window-0">opens in new tab or window </span>
+    </div>
+    <div class="overlay-container"></div>
+    
+    <div role="region" aria-label="Site announcements" class="emergency-container emergency-container-position-1"><div id="PublicEmergencyAnnouncementList" data-cookiekeydismisseditems="OC_EA_EmergencyAnnouncementList_Dismissed" data-querykeydismisseditem="OC_EA_EmergencyAnnouncementList_Dismiss">
+   <div class="oc-emergency-announcement-container">
+  <div class="oc-emergency-undismissed max-severity-30 results-1">
+    <div class="side-box message-box emergency-message-box oc-emergency-severity-30 " >
+   <h3 class="side-box-title">Construction alert: explore the DTO Action Plan projects</h3>
+   <div class="side-box-content">
+      
+      <p class="oc-single-url"><a href="https://Orlando.gov/downtownconstruction" target="_self">Construction</a></p>
+      
+   </div>
+   
+</div>
+        
+  </div><div class="oc-emergency-dismissed results-0"></div></div></div></div>
+    <div class="background-container">
+        <div class="page-container">
+            <!-- OC Layout Element GROUP TEMPLATE -->
+            <!--groupTemplateStart--><header><div class="print-header-outer-container print-element">
+<img src="/files/assets/public/templateimages/print-header.png" alt="Orlando Downtown Development Board / Community Redevelopment Agency - Logo" />
+</div>
+            <div class="toolbar-outer-container">
+  <div class="toolbar-inner-container clearfix">
+    <div class="toolbar-item toolbar-language notranslate toolbar-display-dropdown"><div class="no-js-element">
+		  <ul>
+		    <li id="toolbar-language-option-en-us-noscript"><a href="https://www.downtownorlando.com/Fun/Events?oc_lang=en-US" class="lang-item lang-en-us" data-translate-to="en-us" lang="en-US">English<span class="visuallyhidden"> Select this as your preferred language</span></a></li>
+          </ul>
+		</div>
+	<button type="button" role="combobox" aria-controls="toolbar-language-drop-down" aria-expanded="false" aria-haspopup="listbox" aria-autocomplete="none" aria-labelledby="toolbar-language-label" class="toolbar-button toolbar-button-language js-element">  
+        <span class="toolbar-language-globe-icon" aria-hidden="true"></span>
+        <span id="toolbar-language-label" class="current-language">
+            Select a language to translate to
+		</span>
+		<i aria-hidden="true"></i>
+	</button>
+	<div id="toolbar-language-drop-down" role="listbox" aria-label="Available languages" class="toolbar-drop-down toolbar-language-drop-down js-element clearfix">
+		<ul role="group">
+		    <li role="presentation"><a id="toolbar-language-option-en-us" role="option" aria-selected="true" href="https://www.downtownorlando.com/Fun/Events?oc_lang=en-US" class="lang-item lang-en-us" data-translate-to="en-us" lang="en-US">English<span class="visuallyhidden"> Select this as your preferred language</span></a></li>
+        </ul>
+	</div></div>
+  </div>
+</div>
+            <div class="header-outer-container clearfix">
+		    <div class="side-menu-btn js-element">
+		    <button type="button" aria-expanded="false" aria-controls="nav"><i aria-hidden="true"></i><span class="side-menu-btn-text">Menu</span></button>
+		    </div>
+ 	<div class="header-container header-layout-2  clearfix">
+			<div class="header-site-logo">
+				<a href="https://www.downtownorlando.com/Home" lang="en-US" aria-label="Orlando Downtown Development Board / Community Redevelopment Agency - Home - Logo">
+				</a>
+			</div>
+		    <div class="mobile-search-btn js-element">
+		        <button><i aria-hidden="true"></i><span class="mobile-search-btn-text"><span class="visuallyhidden">Open </span>Search</span></button>
+		    </div>			
+			<div class="header-search-control-container" id="header-search">
+				<div class="search-inner-container">
+					<div class="sc-search-panel" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;ctl07_btnSearch&#39;)">
+	<label for="ctl07_txtSearch" id="ctl07_lblSearch" class="sc-search-label">Search</label><input name="ctl07$txtSearch" type="text" id="ctl07_txtSearch" class="sc-search-text" placeholder="What can we help you find?" /><input type="submit" name="ctl07$btnSearch" value="Search" id="ctl07_btnSearch" class="sc-search-button" />
+</div>
+					<div role="status" id="predictiveResults"></div>
+				</div>
+			</div>
+	</div>
+</div>
+<div class="navigation-outer-container">
+	<div id="nav" role="navigation" class="navigation-container" data-menu-type="offscreen" data-offscreen-position="left" aria-label="primary">
+		<div class="grid">
+			<div class="col-xs-12">              
+                <ul class="sf-menu" id="sc-main-menu" ><li  class="nav-section-quarters-1   first-item nav-item-seq-1">
+<a href="https://www.downtownorlando.com/Home" class="nav-level-1"  target="">
+	<i class="item-icon" aria-hidden="true"></i><span class="item-text">Home</span>
+</a>
+</li>
+          
+          <li class="nav-section-quarters-1   nav-item-seq-2">
+<a href="https://www.downtownorlando.com/Events" class="nav-level-1 "  target="_self">Events</a>
+</li>
+          
+          <li class="nav-section-quarters-1 nav-active-path  nav-item-seq-3">
+<a href="https://www.downtownorlando.com/Fun" class="nav-level-1 nav-has-children"  target="">Fun</a>
+<button aria-label="Expand" aria-controls="sc-menu-second-level-nav-item-seq-3" aria-haspopup="true" class="mobnav-subarrow"><i aria-hidden="true"></i>
+            </button>
+<ul id="sc-menu-second-level-nav-item-seq-3" >
+
+          
+          <li class="nav-active-path nav-active-page"><a href="https://www.downtownorlando.com/Fun/Events" class=""  target="">Events</a></li><li class=" "><a href="https://www.downtownorlando.com/Fun/Things-to-Do" class=""  target="">Things to Do</a></li><li class=" "><a href="https://www.downtownorlando.com/Fun/Food-Cocktail-Scene" class=""  target="">Food + Cocktail Scene</a></li><li class=" "><a href="https://www.downtownorlando.com/Fun/Art-Culture" class=""  target="">Art + Culture</a></li><li class=" "><a href="https://www.downtownorlando.com/Fun/Sports-Entertainment" class=""  target="">Sports + Entertainment</a></li><li class=" "><a href="https://www.downtownorlando.com/Fun/Family-Fun" class=""  target="">Family Fun</a></li><li class=" "><a href="https://www.downtownorlando.com/Fun/Districts-Neighborhoods" class=""  target="_self">Districts + Neighborhoods</a></li><li class=" "><a href="https://www.downtownorlando.com/Fun/Nightlife" class=""  target="">Nightlife</a></li><li class=" "><a href="https://www.downtownorlando.com/Fun/Hotels" class=""  target="">Hotels</a></li><li class=" "><a href="https://www.downtownorlando.com/Fun/Take-a-Step-Back-in-History" class=""  target="">Take a Step Back in History</a></li><li class=" "><a href="https://www.downtownorlando.com/Fun/African-American-History" class=""  target="">African-American History</a></li><li class=" "><a href="https://www.downtownorlando.com/Fun/DTOLive" class=""  target="">DTOLive!</a></li></ul></li>
+          
+          <li class="nav-section-quarters-2   nav-item-seq-4">
+<a href="https://www.downtownorlando.com/Business" class="nav-level-1 nav-has-children"  target="">Business</a>
+<button aria-label="Expand" aria-controls="sc-menu-second-level-nav-item-seq-4" aria-haspopup="true" class="mobnav-subarrow"><i aria-hidden="true"></i>
+            </button>
+<ul id="sc-menu-second-level-nav-item-seq-4" >
+
+          
+          <li class=" "><a href="https://www.downtownorlando.com/Business/Profile" class=""  target="">Profile</a></li><li class=" "><a href="https://www.downtownorlando.com/Business/Developments" class=""  target="">Developments</a></li><li class=" "><a href="https://www.downtownorlando.com/Business/Getting-Around" class=""  target="_self">Getting Around</a></li><li class=" "><a href="https://www.downtownorlando.com/Business/Incentives" class=""  target="">Incentives</a></li><li class=" "><a href="https://www.downtownorlando.com/Business/Programs-Services" class=""  target="">Programs + Services</a></li><li class=" "><a href="https://www.downtownorlando.com/Business/Organizations" class=""  target="">Organizations</a></li><li class=" "><a href="https://www.downtownorlando.com/Business/Helpful-Links" class=""  target="">Helpful Links</a></li><li class=" "><a href="https://www.downtownorlando.com/Business/Parking" class=""  target="_self">Parking</a></li><li class=" "><a href="https://www.downtownorlando.com/Business/Nighttime-Economy" class=""  target="">Downtown Orlando Nighttime Economy</a></li><li class=" "><a href="https://www.downtownorlando.com/Business/Research-Insights" class=""  target="_self">Research & Insights</a></li><li class=" "><a href="https://www.downtownorlando.com/Business/Maps" class=""  target="_self">Maps</a></li></ul></li>
+          
+          <li class="nav-section-quarters-2   nav-item-seq-5">
+<a href="https://www.downtownorlando.com/Life" class="nav-level-1 nav-has-children"  target="">Life</a>
+<button aria-label="Expand" aria-controls="sc-menu-second-level-nav-item-seq-5" aria-haspopup="true" class="mobnav-subarrow"><i aria-hidden="true"></i>
+            </button>
+<ul id="sc-menu-second-level-nav-item-seq-5" >
+
+          
+          <li class=" "><a href="https://www.downtownorlando.com/Life/Districts-Neighborhoods" class=""  target="">Districts + Neighborhoods</a></li><li class=" "><a href="https://www.downtownorlando.com/Life/Move-In-Turn-Up-Guide" class=""  target="">Move-In Guide</a></li><li class=" "><a href="https://www.downtownorlando.com/Life/Schools-Daycare" class=""  target="">Schools + Daycare</a></li><li class=" "><a href="https://www.downtownorlando.com/Life/Pet-Life" class=""  target="">Pet Life</a></li><li class=" "><a href="https://www.downtownorlando.com/Life/Senior-Life" class=""  target="">Senior Life</a></li><li class=" "><a href="https://www.downtownorlando.com/Life/Things-to-Do" class=""  target="_self">Things to Do</a></li><li class=" "><a href="https://www.downtownorlando.com/Life/Getting-Around" class=""  target="_self">Getting Around</a></li><li class=" "><a href="https://www.downtownorlando.com/Life/Healthcare-Campuses" class=""  target="">Healthcare Campuses</a></li><li class=" "><a href="https://www.downtownorlando.com/Life/Down-Payment-Assistance" class=""  target="_self">Down Payment Assistance</a></li><li class=" "><a href="https://www.downtownorlando.com/Life/Parramore-Homes" class=""  target="">Parramore Homes</a></li><li class=" "><a href="https://www.downtownorlando.com/Life/Faith" class=""  target="">Faith</a></li><li class=" "><a href="https://www.downtownorlando.com/Life/Volunteer" class=""  target="_blank">Volunteer</a></li></ul></li>
+          
+          <li class="nav-section-quarters-2   nav-item-seq-6">
+<a href="https://www.downtownorlando.com/Parking-Getting-Around" class="nav-level-1 nav-has-children"  target="">Parking + Getting Around</a>
+<button aria-label="Expand" aria-controls="sc-menu-second-level-nav-item-seq-6" aria-haspopup="true" class="mobnav-subarrow"><i aria-hidden="true"></i>
+            </button>
+<ul id="sc-menu-second-level-nav-item-seq-6" >
+
+          
+          <li class=" "><a href="https://www.downtownorlando.com/Parking-Getting-Around/Parking" class=""  target="">Parking</a></li><li class=" "><a href="https://www.downtownorlando.com/Parking-Getting-Around/Getting-Around" class=""  target="">Getting Around</a></li></ul></li>
+          
+          <li class="nav-section-quarters-3   nav-item-seq-7">
+<a href="https://www.downtownorlando.com/News-Info" class="nav-level-1 nav-has-children"  target="">News + Info</a>
+<button aria-label="Expand" aria-controls="sc-menu-second-level-nav-item-seq-7" aria-haspopup="true" class="mobnav-subarrow"><i aria-hidden="true"></i>
+            </button>
+<ul id="sc-menu-second-level-nav-item-seq-7" >
+
+          
+          <li class=" "><a href="https://www.downtownorlando.com/News-Info/Discover-Downtown-Info-Center" class=""  target="">Discover Downtown™ Info Center</a></li><li class=" "><a href="https://www.downtownorlando.com/News-Info/News" class=""  target="">News</a></li><li class=" "><a href="https://www.downtownorlando.com/News-Info/Online-Store" class=""  target="_blank">Online Store</a></li></ul></li>
+          
+          <li class="nav-section-quarters-3   nav-item-seq-8">
+<a href="https://www.downtownorlando.com/About" class="nav-level-1 nav-has-children"  target="">About</a>
+<button aria-label="Expand" aria-controls="sc-menu-second-level-nav-item-seq-8" aria-haspopup="true" class="mobnav-subarrow"><i aria-hidden="true"></i>
+            </button>
+<ul id="sc-menu-second-level-nav-item-seq-8" >
+
+          
+          <li class=" "><a href="https://www.downtownorlando.com/About/Community-Redevelopment-Agency" class=""  target="">Community Redevelopment Agency</a></li><li class=" "><a href="https://www.downtownorlando.com/About/CRA-Advisory-Board" class=""  target="">CRA Advisory Board</a></li><li class=" "><a href="https://www.downtownorlando.com/About/Downtown-Development-Board" class=""  target="">Downtown Development Board</a></li><li class=" "><a href="https://www.downtownorlando.com/About/Appearance-Review-Board" class=""  target="">Appearance Review Board</a></li><li class=" "><a href="https://www.downtownorlando.com/About/Downtown-Ambassadors" class=""  target="">Downtown Ambassadors</a></li><li class=" "><a href="https://www.downtownorlando.com/About/Downtown-Clean-Team" class=""  target="">Downtown Clean Team</a></li><li class=" "><a href="https://www.downtownorlando.com/About/Staff" class=""  target="">Staff</a></li><li class=" "><a href="https://www.downtownorlando.com/About/DTO-Action-Plan" class=""  target="">DTO Action Plan</a></li><li class=" "><a href="https://www.downtownorlando.com/About/Apply-for-a-City-Job" class=""  target="_self">Apply for a City Job</a></li><li class=" "><a href="https://www.downtownorlando.com/About/DTOLive" class=""  target="">DTOLive!</a></li></ul></li>
+          
+          <li class="nav-section-quarters-3   nav-item-seq-9">
+<a href="https://www.downtownorlando.com/Contact" class="nav-level-1 nav-has-children"  target="">Contact</a>
+<button aria-label="Expand" aria-controls="sc-menu-second-level-nav-item-seq-9" aria-haspopup="true" class="mobnav-subarrow"><i aria-hidden="true"></i>
+            </button>
+<ul id="sc-menu-second-level-nav-item-seq-9" >
+
+          
+          <li class=" "><a href="https://www.downtownorlando.com/Contact/Subscribe-to-Our-Newsletter" class=""  target="">Subscribe to Our Newsletter</a></li><li class=" "><a href="https://www.downtownorlando.com/Contact/Submit-an-Idea-for-the-Newsletter" class=""  target="">Submit an Idea for the Newsletter</a></li><li class=" "><a href="https://www.downtownorlando.com/Contact/Submit-an-Event" class=""  target="">Submit an Event</a></li><li class=" "><a href="https://www.downtownorlando.com/Contact/Add-Your-Business-to-Our-Directory" class=""  target="">Add Your Business to Our Directory</a></li><li class=" "><a href="https://www.downtownorlando.com/Contact/Report-a-Problem" class=""  target="_self">Report a Problem</a></li><li class=" "><a href="https://www.downtownorlando.com/Contact/Subscribe-to-Event-Notifications" class=""  target="">Subscribe to Event Notifications</a></li><li class=" "><a href="https://www.downtownorlando.com/Contact/Report-an-issue-with-the-Explore-DTO-app" class=""  target="_blank">Report an Issue with the Explore DTO App</a></li></ul></li>
+          
+          <li class="nav-section-quarters-4   nav-item-seq-10">
+<a href="https://www.downtownorlando.com/Online-Store" class="nav-level-1 "  target="_self">Online Store</a>
+</li>
+          
+          </ul>
+			</div>
+		</div>
+	</div>
+</div>
+            </header>
+            <div class="content-outer-container">
+                <div id="main" role="main" class="main-outer-container clearfix">
+                        
+                        <div class="content-main-container">
+                            <div class="grid">
+					            <div class="col-xs-12">
+						            <nav id="breadcrumbs-container" aria-label="You Are Here :">
+							            <span role="list">
+<span role="listitem">
+	<a href="https://www.downtownorlando.com/Home"  lang="en-US">Home</a>
+	<span class="nav-separator" aria-hidden="true" role="presentation">/</span>
+</span>
+          <span role="listitem"><a href="https://www.downtownorlando.com/Fun" >Fun</a><span class='nav-separator' aria-hidden="true" role="presentation">/</span></span><span class="current-page" role="listitem" aria-current="page" >Events</span></span>
+						            </nav>
+					            </div>
+                      
+					            <div class="col-xs-12">
+						            <div class="main-inner-container">
+							            <div id="main-content" class="main-container clearfix">
+							              
+                            <!-- OC Layout Element Conent Template -->
+							              <!--normalTemplateStart-->
+<h1 class='oc-page-title '>Events</h1>
+
+<p>Downtown has so much to offer everyone, who lives, works, and plays in Central Florida. Check out what's going on in and around&nbsp;downtown Orlando.&nbsp;</p>
+<p>Stay in the know on road closures. <a href="https://orlando.us14.list-manage.com/subscribe?u=872b20cf4aa196c2f1062c243&amp;id=55c954b1d2">Sign up</a> to receive email notifications.&nbsp;</p>
+<p><span style="font-size: 1em; font-family: inherit;">&nbsp;<div class="oc-quick-list oc-quick-list-grid oc-quick-list-grid-1 landing-page-list-container clearfix"><div class="grid" role="list"><div class="col-xs-12 col-m-4" role="listitem">
+	<div class="list-item-container" >		
+		<article>
+			<a href="https://www.downtownorlando.com/Fun/Events/Events-Newsletter"   target="_blank">
+				<H2 class="list-item-title">
+					Events Newsletter
+				</H2>
+				<p>		
+					Check out what's going on in and around downtown Orlando. Sign up for our events newsletter and be among the first to know about new downtown events.
+				</p>
+			</a>
+		</article>
+	</div>
+</div><div class="col-xs-12 col-m-4" role="listitem">
+	<div class="list-item-container" >		
+		<article>
+			<a href="https://www.downtownorlando.com/Fun/Events/Submit-an-Event"   target="_blank">
+				<H2 class="list-item-title">
+					Submit an Event
+				</H2>
+				<p>		
+					Do you have an upcoming event you'd like to promote? Send us the details and we'll consider it for our calendar.
+				</p>
+			</a>
+		</article>
+	</div>
+</div><div class="col-xs-12 col-m-4" role="listitem">
+	<div class="list-item-container" >		
+		<article>
+			<a href="https://www.downtownorlando.com/Fun/Events/Special-Event-Grants-Program"   target="_blank">
+				<H2 class="list-item-title">
+					Special Event Grants Program
+				</H2>
+				<p>		
+					Seeking sponsorship funds for your downtown event? Click here to learn more about our Special Event Grants Program.
+				</p>
+			</a>
+		</article>
+	</div>
+</div></div></div>
+</span></p>
+<p>&nbsp;
+<div class="grid">
+<div class="col-xs-12">
+	<div class="search-filter search-filter-full-width">
+		<div class="search-filter-header">
+			<h2 class="filter-title">Search Events</h2>
+				<span class="accordion-trigger search-filter-trigger" data-accordion-body="#eventsListBody" data-open="false" data-accordion-all-device="false">
+					<i aria-hidden="true"></i>
+				</span>
+		</div>
+		<div class="search-filter-body accordion-panel clearfix" id="eventsListBody">    
+				<div class="grid">
+					<div class="col-xs-12 col-m-6">
+			      <label for="ctl10_ctl00_ctl01">
+				      By Phrase or Keyword
+			      </label>
+			      <span class='sc-search-box'><input name="ctl10$ctl00$ctl01" type="text" id="ctl10_ctl00_ctl01" class="inputBox" /></span>
+          </div>
+					<div class="col-xs-12 col-m-6">
+            <div class="date-from">              
+			        <label for="ctl10_ctl00_ctl04_ctl00_eventDateFrom_NoJsDatePicker" data-swap-label-id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_dateInput">
+							By Date
+								<span class="visuallyhidden">
+									MM/DD/YYYY
+								</span>
+			        </label>
+			        <div id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_wrapper" class="RadPicker RadPicker_Default sys-gen-raddatepicker" style="display:inline-block;width:130px;">
+	<!-- 2020.1.114.45 --><input style="visibility:hidden;display:block;float:right;margin:0 0 -1px -1px;width:1px;height:1px;overflow:hidden;border:0;padding:0;" id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker" name="ctl10$ctl00$ctl04$ctl00$eventDateFrom$JsDatePicker" type="text" class="rdfd_ radPreventDecorate" value="2026-11-02" title="Visually hidden input created for functionality purposes." /><table cellspacing="0" class="rcTable rcSingle" style="width:100%;">
+		<caption style="display:none;">
+			RadDatePicker
+		</caption><thead style="display:none;">
+			<tr>
+				<th scope="col">RadDatePicker</th>
+			</tr>
+		</thead><tbody>
+			<tr>
+				<td class="rcInputCell" style="width:100%;"><span id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_dateInput_wrapper" class="riSingle RadInput RadInput_Default" style="display:block;width:100%;"><input id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_dateInput" name="ctl10$ctl00$ctl04$ctl00$eventDateFrom$JsDatePicker$dateInput" class="riTextBox riEnabled" placeholder="MM/DD/YYYY" value="11/02/2026" type="text" /><input id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_dateInput_ClientState" name="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_dateInput_ClientState" type="hidden" /></span></td><td><a title="Open the calendar popup." href="#" id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_popupButton" class="rcCalPopup">Open the calendar popup.</a><div id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_wrapper" style="display:none;">
+					<table id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar" cellspacing="0" class="RadCalendar RadCalendar_Default" border="0" role="dialog" aria-modal="true" aria-label="Choose Date">
+						<caption>
+							<span style='display:none;'>Calendar</span>
+						</caption><thead>
+							<tr>
+								<td class="rcTitlebar" aria-live="polite"><table cellspacing="0" border="0">
+									<caption>
+										<span style='display:none;'>Title and navigation</span>
+									</caption><thead>
+										<tr style="display:none;">
+											<th scope="col">Title and navigation</th>
+										</tr>
+									</thead><tbody>
+	<tr>
+		<td><a id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_FNP" class="t-button rcFastPrev" title="&lt;&lt;" href="#">&lt;&lt;</a></td><td><a id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_NP" class="t-button rcPrev" title="&lt;" href="#">&lt;</a></td><td id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Title" class="rcTitle" aria-live="polite">November 2026</td><td><a id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_NN" class="t-button rcNext" title=">" href="#">&gt;</a></td><td><a id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_FNN" class="t-button rcFastNext" title=">>" href="#">&lt;&lt;</a></td>
+	</tr>
+</tbody>
+								</table></td>
+							</tr>
+						</thead><tbody>
+	<tr>
+		<td class="rcMain"><table id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top" class="rcMainTable" cellspacing="0" border="0" role="grid">
+	<caption>
+		<span style='display:none;'>November 2026</span>
+	</caption><thead>
+		<tr class="rcWeek">
+			<th class="rcViewSel" scope="col">&nbsp;</th><th id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_1" title="Monday" scope="col">M</th><th id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_2" title="Tuesday" scope="col">T</th><th id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_3" title="Wednesday" scope="col">W</th><th id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_4" title="Thursday" scope="col">T</th><th id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_5" title="Friday" scope="col">F</th><th id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_6" title="Saturday" scope="col">S</th><th id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_7" title="Sunday" scope="col">S</th>
+		</tr>
+	</thead><tbody>
+		<tr class="rcRow">
+			<th id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_rs_1" scope="row">44</th><td class="rcOtherMonth" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_1" title="Monday, October 26, 2026"><a href="#">26</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_2" title="Tuesday, October 27, 2026"><a href="#">27</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_3" title="Wednesday, October 28, 2026"><a href="#">28</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_4" title="Thursday, October 29, 2026"><a href="#">29</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_5" title="Friday, October 30, 2026"><a href="#">30</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_6" title="Saturday, October 31, 2026"><a href="#">31</a></td><td class="rcWeekend" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_7" title="Sunday, November 01, 2026"><a href="#">1</a></td>
+		</tr><tr class="rcRow">
+			<th id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_rs_2" scope="row">45</th><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_1" title="Monday, November 02, 2026"><a href="#">2</a></td><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_2" title="Tuesday, November 03, 2026"><a href="#">3</a></td><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_3" title="Wednesday, November 04, 2026"><a href="#">4</a></td><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_4" title="Thursday, November 05, 2026"><a href="#">5</a></td><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_5" title="Friday, November 06, 2026"><a href="#">6</a></td><td class="rcWeekend" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_6" title="Saturday, November 07, 2026"><a href="#">7</a></td><td class="rcWeekend" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_7" title="Sunday, November 08, 2026"><a href="#">8</a></td>
+		</tr><tr class="rcRow">
+			<th id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_rs_3" scope="row">46</th><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_1" title="Monday, November 09, 2026"><a href="#">9</a></td><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_2" title="Tuesday, November 10, 2026"><a href="#">10</a></td><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_3" title="Wednesday, November 11, 2026"><a href="#">11</a></td><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_4" title="Thursday, November 12, 2026"><a href="#">12</a></td><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_5" title="Friday, November 13, 2026"><a href="#">13</a></td><td class="rcWeekend" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_6" title="Saturday, November 14, 2026"><a href="#">14</a></td><td class="rcWeekend" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_7" title="Sunday, November 15, 2026"><a href="#">15</a></td>
+		</tr><tr class="rcRow">
+			<th id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_rs_4" scope="row">47</th><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_1" title="Monday, November 16, 2026"><a href="#">16</a></td><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_2" title="Tuesday, November 17, 2026"><a href="#">17</a></td><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_3" title="Wednesday, November 18, 2026"><a href="#">18</a></td><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_4" title="Thursday, November 19, 2026"><a href="#">19</a></td><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_5" title="Friday, November 20, 2026"><a href="#">20</a></td><td class="rcWeekend" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_6" title="Saturday, November 21, 2026"><a href="#">21</a></td><td class="rcWeekend" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_7" title="Sunday, November 22, 2026"><a href="#">22</a></td>
+		</tr><tr class="rcRow">
+			<th id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_rs_5" scope="row">48</th><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_1" title="Monday, November 23, 2026"><a href="#">23</a></td><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_2" title="Tuesday, November 24, 2026"><a href="#">24</a></td><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_3" title="Wednesday, November 25, 2026"><a href="#">25</a></td><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_4" title="Thursday, November 26, 2026"><a href="#">26</a></td><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_5" title="Friday, November 27, 2026"><a href="#">27</a></td><td class="rcWeekend" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_6" title="Saturday, November 28, 2026"><a href="#">28</a></td><td class="rcWeekend" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_7" title="Sunday, November 29, 2026"><a href="#">29</a></td>
+		</tr><tr class="rcRow">
+			<th id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_rs_6" scope="row">49</th><td headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_1" title="Monday, November 30, 2026"><a href="#">30</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_2" title="Tuesday, December 01, 2026"><a href="#">1</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_3" title="Wednesday, December 02, 2026"><a href="#">2</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_4" title="Thursday, December 03, 2026"><a href="#">3</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_5" title="Friday, December 04, 2026"><a href="#">4</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_6" title="Saturday, December 05, 2026"><a href="#">5</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top_cs_7" title="Sunday, December 06, 2026"><a href="#">6</a></td>
+		</tr>
+	</tbody>
+</table></td>
+	</tr>
+</tbody>
+					</table><input type="hidden" name="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_SD" id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_SD" value="[]" /><input type="hidden" name="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_AD" id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_AD" value="[[1,1,1],[9999,12,31],[2026,11,2]]" />
+				</div></td>
+			</tr>
+		</tbody>
+	</table><input id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_ClientState" name="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_ClientState" type="hidden" />
+</div>
+
+<input name="ctl10$ctl00$ctl04$ctl00$eventDateFrom$NoJsDatePicker" type="text" value="11/02/2026" id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_NoJsDatePicker" class="sys-gen-date-input " />
+<input type="hidden" name="ctl10$ctl00$ctl04$ctl00$eventDateFrom$JavascriptEnabled" id="ctl10_ctl00_ctl04_ctl00_eventDateFrom_JavascriptEnabled" value="False" />
+
+<script type="text/javascript">
+  if (window.addEventListener) // W3C standard
+  {
+    window.addEventListener('load', SetJSStatus, false); // NB **not** 'onload'
+  }
+  else if (document.attachEvent) // Microsoft
+  {
+    window.attachEvent('onload', SetJSStatus);
+  }
+
+  function SetJSStatus() {
+    document.getElementById("ctl10_ctl00_ctl04_ctl00_eventDateFrom_JavascriptEnabled").value = "True";
+  }
+</script>
+<style type='text/css'> 
+  .sys-gen-date-input { display:none !important; }
+</style>
+<noscript>
+  <style type='text/css'> 
+    .sys-gen-date-input { display:block !important; }
+    .sys-gen-raddatepicker { display:none !important; }
+  </style>
+</noscript>
+            </div>
+            <div class="date-to">
+			        <label class="short-label" for="ctl10_ctl00_ctl07_ctl00_eventDateTo_NoJsDatePicker" data-swap-label-id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_dateInput">
+							To
+								<span class="visuallyhidden">
+									MM/DD/YYYY
+								</span>
+			        </label><div class="clearfix"></div>
+			        <div id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_wrapper" class="RadPicker RadPicker_Default sys-gen-raddatepicker" style="display:inline-block;width:130px;">
+	<input style="visibility:hidden;display:block;float:right;margin:0 0 -1px -1px;width:1px;height:1px;overflow:hidden;border:0;padding:0;" id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker" name="ctl10$ctl00$ctl07$ctl00$eventDateTo$JsDatePicker" type="text" class="rdfd_ radPreventDecorate" value="" title="Visually hidden input created for functionality purposes." /><table cellspacing="0" class="rcTable rcSingle" style="width:100%;">
+		<caption style="display:none;">
+			RadDatePicker
+		</caption><thead style="display:none;">
+			<tr>
+				<th scope="col">RadDatePicker</th>
+			</tr>
+		</thead><tbody>
+			<tr>
+				<td class="rcInputCell" style="width:100%;"><span id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_dateInput_wrapper" class="riSingle RadInput RadInput_Default" style="display:block;width:100%;"><input id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_dateInput" name="ctl10$ctl00$ctl07$ctl00$eventDateTo$JsDatePicker$dateInput" class="riTextBox riEnabled" placeholder="MM/DD/YYYY" type="text" /><input id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_dateInput_ClientState" name="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_dateInput_ClientState" type="hidden" /></span></td><td><a title="Open the calendar popup." href="#" id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_popupButton" class="rcCalPopup">Open the calendar popup.</a><div id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_wrapper" style="display:none;">
+					<table id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar" cellspacing="0" class="RadCalendar RadCalendar_Default" border="0" role="dialog" aria-modal="true" aria-label="Choose Date">
+						<caption>
+							<span style='display:none;'>Calendar</span>
+						</caption><thead>
+							<tr>
+								<td class="rcTitlebar" aria-live="polite"><table cellspacing="0" border="0">
+									<caption>
+										<span style='display:none;'>Title and navigation</span>
+									</caption><thead>
+										<tr style="display:none;">
+											<th scope="col">Title and navigation</th>
+										</tr>
+									</thead><tbody>
+	<tr>
+		<td><a id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_FNP" class="t-button rcFastPrev" title="&lt;&lt;" href="#">&lt;&lt;</a></td><td><a id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_NP" class="t-button rcPrev" title="&lt;" href="#">&lt;</a></td><td id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Title" class="rcTitle" aria-live="polite">November 2026</td><td><a id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_NN" class="t-button rcNext" title=">" href="#">&gt;</a></td><td><a id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_FNN" class="t-button rcFastNext" title=">>" href="#">&lt;&lt;</a></td>
+	</tr>
+</tbody>
+								</table></td>
+							</tr>
+						</thead><tbody>
+	<tr>
+		<td class="rcMain"><table id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top" class="rcMainTable" cellspacing="0" border="0" role="grid">
+	<caption>
+		<span style='display:none;'>November 2026</span>
+	</caption><thead>
+		<tr class="rcWeek">
+			<th class="rcViewSel" scope="col">&nbsp;</th><th id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_1" title="Monday" scope="col">M</th><th id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_2" title="Tuesday" scope="col">T</th><th id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_3" title="Wednesday" scope="col">W</th><th id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_4" title="Thursday" scope="col">T</th><th id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_5" title="Friday" scope="col">F</th><th id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_6" title="Saturday" scope="col">S</th><th id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_7" title="Sunday" scope="col">S</th>
+		</tr>
+	</thead><tbody>
+		<tr class="rcRow">
+			<th id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_rs_1" scope="row">44</th><td class="rcOtherMonth" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_1" title="Monday, October 26, 2026"><a href="#">26</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_2" title="Tuesday, October 27, 2026"><a href="#">27</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_3" title="Wednesday, October 28, 2026"><a href="#">28</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_4" title="Thursday, October 29, 2026"><a href="#">29</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_5" title="Friday, October 30, 2026"><a href="#">30</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_6" title="Saturday, October 31, 2026"><a href="#">31</a></td><td class="rcWeekend" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_7" title="Sunday, November 01, 2026"><a href="#">1</a></td>
+		</tr><tr class="rcRow">
+			<th id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_rs_2" scope="row">45</th><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_1" title="Monday, November 02, 2026"><a href="#">2</a></td><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_2" title="Tuesday, November 03, 2026"><a href="#">3</a></td><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_3" title="Wednesday, November 04, 2026"><a href="#">4</a></td><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_4" title="Thursday, November 05, 2026"><a href="#">5</a></td><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_5" title="Friday, November 06, 2026"><a href="#">6</a></td><td class="rcWeekend" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_6" title="Saturday, November 07, 2026"><a href="#">7</a></td><td class="rcWeekend" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_7" title="Sunday, November 08, 2026"><a href="#">8</a></td>
+		</tr><tr class="rcRow">
+			<th id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_rs_3" scope="row">46</th><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_1" title="Monday, November 09, 2026"><a href="#">9</a></td><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_2" title="Tuesday, November 10, 2026"><a href="#">10</a></td><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_3" title="Wednesday, November 11, 2026"><a href="#">11</a></td><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_4" title="Thursday, November 12, 2026"><a href="#">12</a></td><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_5" title="Friday, November 13, 2026"><a href="#">13</a></td><td class="rcWeekend" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_6" title="Saturday, November 14, 2026"><a href="#">14</a></td><td class="rcWeekend" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_7" title="Sunday, November 15, 2026"><a href="#">15</a></td>
+		</tr><tr class="rcRow">
+			<th id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_rs_4" scope="row">47</th><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_1" title="Monday, November 16, 2026"><a href="#">16</a></td><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_2" title="Tuesday, November 17, 2026"><a href="#">17</a></td><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_3" title="Wednesday, November 18, 2026"><a href="#">18</a></td><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_4" title="Thursday, November 19, 2026"><a href="#">19</a></td><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_5" title="Friday, November 20, 2026"><a href="#">20</a></td><td class="rcWeekend" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_6" title="Saturday, November 21, 2026"><a href="#">21</a></td><td class="rcWeekend" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_7" title="Sunday, November 22, 2026"><a href="#">22</a></td>
+		</tr><tr class="rcRow">
+			<th id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_rs_5" scope="row">48</th><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_1" title="Monday, November 23, 2026"><a href="#">23</a></td><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_2" title="Tuesday, November 24, 2026"><a href="#">24</a></td><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_3" title="Wednesday, November 25, 2026"><a href="#">25</a></td><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_4" title="Thursday, November 26, 2026"><a href="#">26</a></td><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_5" title="Friday, November 27, 2026"><a href="#">27</a></td><td class="rcWeekend" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_6" title="Saturday, November 28, 2026"><a href="#">28</a></td><td class="rcWeekend" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_7" title="Sunday, November 29, 2026"><a href="#">29</a></td>
+		</tr><tr class="rcRow">
+			<th id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_rs_6" scope="row">49</th><td headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_1" title="Monday, November 30, 2026"><a href="#">30</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_2" title="Tuesday, December 01, 2026"><a href="#">1</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_3" title="Wednesday, December 02, 2026"><a href="#">2</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_4" title="Thursday, December 03, 2026"><a href="#">3</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_5" title="Friday, December 04, 2026"><a href="#">4</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_6" title="Saturday, December 05, 2026"><a href="#">5</a></td><td class="rcOtherMonth" headers="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top_cs_7" title="Sunday, December 06, 2026"><a href="#">6</a></td>
+		</tr>
+	</tbody>
+</table></td>
+	</tr>
+</tbody>
+					</table><input type="hidden" name="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_SD" id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_SD" value="[]" /><input type="hidden" name="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_AD" id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_AD" value="[[1,1,1],[9999,12,31],[2026,11,2]]" />
+				</div></td>
+			</tr>
+		</tbody>
+	</table><input id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_ClientState" name="ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_ClientState" type="hidden" />
+</div>
+
+<input name="ctl10$ctl00$ctl07$ctl00$eventDateTo$NoJsDatePicker" type="text" id="ctl10_ctl00_ctl07_ctl00_eventDateTo_NoJsDatePicker" class="sys-gen-date-input " />
+<input type="hidden" name="ctl10$ctl00$ctl07$ctl00$eventDateTo$JavascriptEnabled" id="ctl10_ctl00_ctl07_ctl00_eventDateTo_JavascriptEnabled" value="False" />
+
+<script type="text/javascript">
+  if (window.addEventListener) // W3C standard
+  {
+    window.addEventListener('load', SetJSStatus, false); // NB **not** 'onload'
+  }
+  else if (document.attachEvent) // Microsoft
+  {
+    window.attachEvent('onload', SetJSStatus);
+  }
+
+  function SetJSStatus() {
+    document.getElementById("ctl10_ctl00_ctl07_ctl00_eventDateTo_JavascriptEnabled").value = "True";
+  }
+</script>
+<style type='text/css'> 
+  .sys-gen-date-input { display:none !important; }
+</style>
+<noscript>
+  <style type='text/css'> 
+    .sys-gen-date-input { display:block !important; }
+    .sys-gen-raddatepicker { display:none !important; }
+  </style>
+</noscript>            
+            </div>
+          </div>
+					<div class="col-xs-12 col-m-6">
+            <label for="ctl10_ctl00_ctl09_ctl00_ctl00">
+				      By Neighborhood
+			      </label>	
+			      <select size="4" name="ctl10$ctl00$ctl09$ctl00$ctl00" multiple="multiple" id="ctl10_ctl00_ctl09_ctl00_ctl00" class="scSearchInputBox">
+	<option value="Orlando">Orlando</option>
+
+</select>
+          </div>
+					<div class="col-xs-12 col-m-6">
+          		<label for="ctl10_ctl00_ctl11_ctl00_ctl00">
+				        By Category
+			        </label>			
+			        <select size="4" name="ctl10$ctl00$ctl11$ctl00$ctl00" multiple="multiple" id="ctl10_ctl00_ctl11_ctl00_ctl00" class="scSearchInputBox">
+	<option value="Downtown Events">Downtown Events</option>
+	<option value="Virtual Events">Virtual Events</option>
+	<option value="Lake Eola">Lake Eola</option>
+
+</select>
+          </div>
+					<div class="col-xs-12 col-m-6">         
+			        <table id="ctl10_ctl00_ctl12_ctl00_ctl00" class="scSearchInputOption" border="0">
+	<tr>
+		<td><input id="ctl10_ctl00_ctl12_ctl00_ctl00_0" type="checkbox" name="ctl10$ctl00$ctl12$ctl00$ctl00$0" /><label for="ctl10_ctl00_ctl12_ctl00_ctl00_0">Free</label></td>
+	</tr>
+</table>
+          </div>
+					<div class="col-xs-12 col-m-6 search-trigger-row">
+						<input type="submit" name="ctl10$ctl00$ctl13" value="Search" />
+					</div>
+      </div>		
+		</div>
+	</div>
+</div>
+<div class="col-xs-12">
+<div class="listing-results">
+167 Result(s) Found
+</div>
+
+<div class="list-container events-list-container left">
+<div class="list-item-container homepage-show ">	
+	<article>
+		<a href="https://www.downtownorlando.com/Fun/Events/By-Heart-and-By-Hand" >
+			<h2 class="list-item-title">By Heart and By Hand</h2>		
+			
+			<p class="clearfix">
+				<span class="list-item-block-date"><span class="part-date">02</span>
+<span class="part-month">Nov</span>
+<span class="part-year">2026</span></span>
+				<span class="list-item-block-desc">
+				By Heart and By Hand is a powerful celebration of artistry, heritage, and community, showcasing the work of Black craft artists across Central Florida.
+				</span>
+			</p>
+			<p class="list-item-address">Orange County Regional History Center,&nbsp;65 E Central Blvd,&nbsp;&nbsp;32801</p>
+			
+			<p class="tagged-as-list">
+	<span class='label'>Tagged as:&nbsp;</span><span class="text"><span class="separator">,&nbsp;</span>Downtown Events</span></p>
+		</a>
+	</article>
+</div><div class="list-item-container homepage-show ">	
+	<article>
+		<a href="https://www.downtownorlando.com/Fun/Events/Golden-Girls-The-Laughs-Continue" >
+			<h2 class="list-item-title">Golden Girls: The Laughs Continue</h2>		
+			
+			<p class="clearfix">
+				<span class="list-item-block-date"><span class="part-date">02</span>
+<span class="part-month">Nov</span>
+<span class="part-year">2026</span></span>
+				<span class="list-item-block-desc">
+				Golden Girls: The Laughs Continue is a hilarious, modern-day stage show featuring male actors in drag playing our favorite Miami roommates. Relive the heartfelt hilarity of four sassy seniors who never stopped being your friends.
+				</span>
+			</p>
+			<p class="list-item-address">Dr. Phillips Center for the Performing Arts,&nbsp;445 S. Magnolia Avenue,&nbsp;Orlando&nbsp;32801</p>
+			
+			<p class="tagged-as-list">
+	<span class='label'>Tagged as:&nbsp;</span><span class="text"><span class="separator">,&nbsp;</span>Downtown Events</span></p>
+		</a>
+	</article>
+</div><div class="list-item-container homepage-show ">	
+	<article>
+		<a href="https://www.downtownorlando.com/Fun/Events/Orlando-Magic-vs.-Washington-Wizards-112" >
+			<h2 class="list-item-title">Orlando Magic vs. Washington Wizards</h2>		
+			
+			<p class="clearfix">
+				<span class="list-item-block-date"><span class="part-date">02</span>
+<span class="part-month">Nov</span>
+<span class="part-year">2026</span></span>
+				<span class="list-item-block-desc">
+				Come see the Orlando Magic vs. Washington Wizards at the Kia Center!
+				</span>
+			</p>
+			<p class="list-item-address">Kia Center,&nbsp;400 West Church Street,&nbsp;Orlando&nbsp;32805</p>
+			
+			<p class="tagged-as-list">
+	<span class='label'>Tagged as:&nbsp;</span><span class="text"><span class="separator">,&nbsp;</span>Downtown Events</span></p>
+		</a>
+	</article>
+</div><div class="list-item-container homepage-show ">	
+	<article>
+		<a href="https://www.downtownorlando.com/Fun/Events/Orlando-Solar-Bears-vs.-Atlanta-Gladiators-113" >
+			<h2 class="list-item-title">Orlando Solar Bears vs. Atlanta Gladiators</h2>		
+			
+			<p class="clearfix">
+				<span class="list-item-block-date"><span class="part-date">03</span>
+<span class="part-month">Nov</span>
+<span class="part-year">2026</span></span>
+				<span class="list-item-block-desc">
+				Experience the chilling excitement of Solar Bears hockey live at Kia Center!
+				</span>
+			</p>
+			<p class="list-item-address">Kia Center,&nbsp;400 West Church Street,&nbsp;Orlando&nbsp;32805</p>
+			
+			<p class="tagged-as-list">
+	<span class='label'>Tagged as:&nbsp;</span><span class="text"><span class="separator">,&nbsp;</span>Downtown Events</span></p>
+		</a>
+	</article>
+</div><div class="list-item-container homepage-show ">	
+	<article>
+		<a href="https://www.downtownorlando.com/Fun/Events/Mathew-Glarum-113" >
+			<h2 class="list-item-title">Mathew Glarum</h2>		
+			
+			<p class="clearfix">
+				<span class="list-item-block-date"><span class="part-date">03</span>
+<span class="part-month">Nov</span>
+<span class="part-year">2026</span></span>
+				<span class="list-item-block-desc">
+				11:30 am to 1:30 pm.<br/>Ready to feel the art beat of the city? DTOLive brings you more than 800 free arts and cultural events between now and June 2027. There is something exciting for everyone. Enjoy Mathew Glarum's performance at 54 W!
+				</span>
+			</p>
+			<p class="list-item-address">437 N. Terry Avenue,&nbsp;&nbsp;32801</p>
+			
+			<p class="tagged-as-list">
+	<span class='label'>Tagged as:&nbsp;</span><span class="text"><span class="separator">,&nbsp;</span>Downtown Events</span></p>
+		</a>
+	</article>
+</div><div class="list-item-container homepage-show ">	
+	<article>
+		<a href="https://www.downtownorlando.com/Fun/Events/Paul-Van-Wormer-113" >
+			<h2 class="list-item-title">Paul Van Wormer</h2>		
+			
+			<p class="clearfix">
+				<span class="list-item-block-date"><span class="part-date">03</span>
+<span class="part-month">Nov</span>
+<span class="part-year">2026</span></span>
+				<span class="list-item-block-desc">
+				11:30 am to 1:30 pm. <br/><br/>Ready to feel the art beat of the city? DTOLive brings you more than 800 free arts and cultural events between now and June 2027. There is something exciting for everyone. Enjoy Paul Van Wormer performance at City Hall!
+				</span>
+			</p>
+			<p class="list-item-address">City Hall,&nbsp;400 South Orange Ave,&nbsp;&nbsp;32801</p>
+			
+			<p class="tagged-as-list">
+	<span class='label'>Tagged as:&nbsp;</span><span class="text"><span class="separator">,&nbsp;</span>Downtown Events</span></p>
+		</a>
+	</article>
+</div><div class="list-item-container homepage-show ">	
+	<article>
+		<a href="https://www.downtownorlando.com/Fun/Events/Quickdraw-Phillips-113" >
+			<h2 class="list-item-title">Quickdraw Phillips</h2>		
+			
+			<p class="clearfix">
+				<span class="list-item-block-date"><span class="part-date">03</span>
+<span class="part-month">Nov</span>
+<span class="part-year">2026</span></span>
+				<span class="list-item-block-desc">
+				11:30 am to 1:30 pm.<br/>Ready to feel the art beat of the city? DTOLive brings you more than 800 free arts and cultural events between now and June 2027. There is something exciting for everyone. Enjoy Quickdraw Phillips performance at Duncan Park!
+				</span>
+			</p>
+			<p class="list-item-address">Duncan Park,&nbsp;S Orange Ave and E Jackson St,&nbsp;&nbsp;32801</p>
+			
+			<p class="tagged-as-list">
+	<span class='label'>Tagged as:&nbsp;</span><span class="text"><span class="separator">,&nbsp;</span>Downtown Events</span></p>
+		</a>
+	</article>
+</div><div class="list-item-container homepage-show ">	
+	<article>
+		<a href="https://www.downtownorlando.com/Fun/Events/Housing-Workshop" >
+			<h2 class="list-item-title">Housing Workshop</h2>		
+			
+			<p class="clearfix">
+				<span class="list-item-block-date"><span class="part-date">03</span>
+<span class="part-month">Nov</span>
+<span class="part-year">2026</span></span>
+				<span class="list-item-block-desc">
+				Join for a free workshop open to everyone. Learn your rights, available resources, and how to stay house!
+				</span>
+			</p>
+			<p class="list-item-address">Callahan Community Center,&nbsp;101 N Parramore Ave,&nbsp;&nbsp;32801</p>
+			
+			<p class="tagged-as-list">
+	<span class='label'>Tagged as:&nbsp;</span><span class="text"><span class="separator">,&nbsp;</span>Downtown Events</span></p>
+		</a>
+	</article>
+</div><div class="list-item-container homepage-show ">	
+	<article>
+		<a href="https://www.downtownorlando.com/Fun/Events/Cheyenne-Jackson" >
+			<h2 class="list-item-title">Cheyenne Jackson</h2>		
+			
+			<p class="clearfix">
+				<span class="list-item-block-date"><span class="part-date">03</span>
+<span class="part-month">Nov</span>
+<span class="part-year">2026</span></span>
+				<span class="list-item-block-desc">
+				A celebrated star of Broadway and television makes his Judson’s Live debut.
+				</span>
+			</p>
+			<p class="list-item-address">Dr. Phillips Center for the Performing Arts,&nbsp;445 S. Magnolia Avenue,&nbsp;&nbsp;32801</p>
+			<p class="published-on small-text">1 more date</p>
+			<p class="tagged-as-list">
+	<span class='label'>Tagged as:&nbsp;</span><span class="text"><span class="separator">,&nbsp;</span>Downtown Events</span></p>
+		</a>
+	</article>
+</div><div class="list-item-container homepage-show ">	
+	<article>
+		<a href="https://www.downtownorlando.com/Fun/Events/Monty-Pythons-Spamalot" >
+			<h2 class="list-item-title">Monty Python's Spamalot</h2>		
+			
+			<p class="clearfix">
+				<span class="list-item-block-date"><span class="part-date">03</span>
+<span class="part-month">Nov</span>
+<span class="part-year">2026</span></span>
+				<span class="list-item-block-desc">
+				Hot off a critically acclaimed Broadway revival in 2023, this Tony Award-winning Best Musical now takes the quest for the Holy Grail to Orlando. Lovingly ripped off from the film classic Monty Python and the Holy Grail, Spamalot has everything you need for a great knight at the theater.
+				</span>
+			</p>
+			<p class="list-item-address">Dr. Phillips Center for the Performing Arts,&nbsp;445 S. Magnolia Avenue,&nbsp;Orlando&nbsp;32801</p>
+			<p class="published-on small-text">2 more dates</p>
+			<p class="tagged-as-list">
+	<span class='label'>Tagged as:&nbsp;</span><span class="text"><span class="separator">,&nbsp;</span>Downtown Events</span></p>
+		</a>
+	</article>
+</div>
+</div>
+<div class="seamless-pagination left seamless-pagination-count-17">
+	<div class="seamless-pagination-controls">
+		<span class="button-previous"><input type="submit" name="ctl10$ctl00$ctl19" value="Previous" disabled="disabled" title="Previous page" class="btn_scPagingNonJS_disabled" /></span>
+	    <div class="seamless-pagination-data" aria-label='Pagination' role='navigation'>
+        Page <select name="ctl10$ctl00$ctl21" title="Please select the page here." class="scSearchInputBox">
+	<option selected="selected" value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+	<option value="13">13</option>
+	<option value="14">14</option>
+	<option value="15">15</option>
+	<option value="16">16</option>
+	<option value="17">17</option>
+
+</select><input type="submit" name="ctl10$ctl00$ctl22" value="Go" title="Change page" class="btn_scPagingNonJS_enabled" />
+	    </div>
+	    <span class="button-next"><input type="submit" name="ctl10$ctl00$ctl23" value="Next" title="Next page" class="btn_scPagingNonJS_enabled" /></span>
+    </div>
+    <div class="seamless-pagination-pages" aria-label="Pagination" role="navigation">
+    </div>
+</div>
+<div class="seamless-pagination-info right" role="status">
+  Page 1 of 17
+</div>
+
+</div>
+</div>
+
+
+
+</p>
+<style>
+    .tb_button {padding:1px;cursor:pointer;border-right: 1px solid #8b8b8b;border-left: 1px solid #FFF;border-bottom: 1px solid #fff;}.tb_button.hover {borer:2px outset #def; background-color: #f8f8f8 !important;}.ws_toolbar {z-index:100000} .ws_toolbar .ws_tb_btn {cursor:pointer;border:1px solid #555;padding:3px}   .tb_highlight{background-color:yellow} .tb_hide {visibility:hidden} .ws_toolbar img {padding:2px;margin:0px}
+</style>
+<style>
+    .tb_button {padding:1px;cursor:pointer;border-right: 1px solid #8b8b8b;border-left: 1px solid #FFF;border-bottom: 1px solid #fff;}.tb_button.hover {borer:2px outset #def; background-color: #f8f8f8 !important;}.ws_toolbar {z-index:100000} .ws_toolbar .ws_tb_btn {cursor:pointer;border:1px solid #555;padding:3px}   .tb_highlight{background-color:yellow} .tb_hide {visibility:hidden} .ws_toolbar img {padding:2px;margin:0px}
+</style>
+<style>
+    .tb_button {padding:1px;cursor:pointer;border-right: 1px solid #8b8b8b;border-left: 1px solid #FFF;border-bottom: 1px solid #fff;}.tb_button.hover {borer:2px outset #def; background-color: #f8f8f8 !important;}.ws_toolbar {z-index:100000} .ws_toolbar .ws_tb_btn {cursor:pointer;border:1px solid #555;padding:3px}   .tb_highlight{background-color:yellow} .tb_hide {visibility:hidden} .ws_toolbar img {padding:2px;margin:0px}
+</style>
+      
+
+
+
+</div></div></div></div></div></div></div>
+
+
+
+
+<div><div><div><div><div><div><div>
+
+
+
+<!--normalTemplateEnd-->
+                            
+                            
+                            
+							            </div>
+						            </div>
+					            </div>
+                        
+                            </div>
+                        </div>
+                        <div class="back-to-top-container text-center">
+                            <a href="#body-top" id="back-to-top"><i aria-hidden="true"></i><span class="js-visuallyhidden">Back to top</span></a>
+                        </div>
+                </div>
+            </div><!--groupTemplateEnd-->
+            <footer>
+                
+                    <div class="footer-outer-container footer-first-row">
+                        <div class="footer-container clearfix">
+                            <div class="grid grid-pad">
+                                <div class="col-xs-12 col-s-6 col-m-4 col-lg-4" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Quick Links</h3>
+			
+	<p style="margin-top:10px"><a href="https://www.downtownorlando.com/Fun/Events" target="_self">Events</a> | <a href="https://www.downtownorlando.com/Parking-Getting-Around/Parking" target="_self">Parking</a> | <a href="https://www.downtownorlando.com/About" target="_self">About</a><br />
+<a href="https://www.downtownorlando.com/About/Community-Redevelopment-Agency" target="_self">CRA</a> | <a href="https://www.downtownorlando.com/About/CRA-Advisory-Board">CRA AB</a>&nbsp;|&nbsp;<a href="https://www.downtownorlando.com/About/Downtown-Development-Board" target="_self">DDB</a> | <a href="https://www.downtownorlando.com/About/Appearance-Review-Board" target="_self">ARB</a><br />
+<a href="https://www.downtownorlando.com/About/Downtown-Ambassadors" target="_self">Ambassadors</a> | <a href="https://www.downtownorlando.com/About/Downtown-Clean-Team" target="_self">Clean Team</a><br />
+<a href="https://www.downtownorlando.com/About/Staff" target="_self">Staff</a> | <a href="https://www.downtownorlando.com/News-Info/News" target="_self">News</a> | <a href="https://www.downtownorlando.com/Contact" target="_self">Contact</a>&nbsp;| <a href="https://www.downtownorlando.com/Contact/Subscribe-to-Our-Newsletter">Newsletter</a></p>
+
+
+	
+	
+</div><div class="col-xs-12 col-s-6 col-m-4 col-lg-4" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Contact</h3>
+			
+	<p style="font-size:.6em;margin-top:10px">City of Orlando's Downtown Development Board and Community Redevelopment Agency<br />
+DowntownOrlando.com<br />
+400 South Orange Avenue, Orlando, FL 32801</p>
+<p style="font-size:.6em">407.246.2555</p>
+
+
+	
+	
+</div><div class="col-xs-12 col-s-6 col-m-4 col-lg-4" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Share + Connect</h3>
+			
+	
+	<ul class="footer-links with-icons ">  <li class="footer-link-instagram">
+	<a href="http://instagram.com/dwntwn_orlando" target="_blank"  >
+<i aria-hidden="true"></i>Instagram
+</a>
+</li>
+          <li class="footer-link-facebook">
+	<a href="http://www.facebook.com/DowntownOrlando" target="_blank"  >
+<i aria-hidden="true"></i>Facebook
+</a>
+</li>
+          <li class="footer-link-linkedin">
+	<a href="https://www.linkedin.com/company/downtown-orlando" target="_blank"  >
+<i aria-hidden="true"></i>LinkedIn
+</a>
+</li>
+          <li class="footer-link-youtube">
+	<a href="http://www.youtube.com/user/CityofOrlando/playlists?view=50&shelf_id=9&flow=grid" target="_blank"  >
+<i aria-hidden="true"></i>YouTube
+</a>
+</li>
+          <li class="footer-link-x">
+	<a href="http://x.com/dwntwn_Orlando" target="_blank"  >
+<i aria-hidden="true"></i>X
+</a>
+</li>
+           </ul>
+	
+</div>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="footer-outer-container footer-second-row">
+                    <div class="footer-container clearfix">
+                        <div class="grid grid-pad footer-secondary-links">
+                            <div class="col-xs-12 col-m-7">
+                                
+                                    <div><a href="https://www.downtownorlando.com/Privacy" target="_self"  >Privacy</a>&nbsp;| <a href="https://www.downtownorlando.com/Terms" target="_self"  >Terms</a>&nbsp;| <a href="https://www.downtownorlando.com/Sitemap" target="_self"  >Sitemap</a></div>
+                                
+                            </div>
+                            <div class="col-xs-12 col-m-5 powered-by">
+                                <div class="right">
+                                    &copy; 2026 Orlando Downtown Development Board / Community Redevelopment Agency&nbsp;|&nbsp;<span class="powered-by">Powered by <a href="https://granicus.com/solution/govaccess/opencities/" target="_blank">Granicus</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="/files/oc-resources/4e1e2f6a-9868-4da1-ab24-9ab711d71828/JsTextSnippets.js?ocsvclang=en-US" type="text/javascript"></script><script>OpenCitiesResourceStrings["Sys Js Get Updates For Search"] = "Get updates for this search";</script>
+    
+    <script>
+$(document).ready(function() {
+	
+	// PROTECT ABBREVIATED DATES FROM GOOGLE TRANSLATE
+	$(function() {
+ 		$('.list-item-block-date').addClass('notranslate');
+	});
+	
+
+	// OPEN PDFs IN A NEW WINDOW
+	//$('a[href$=".pdf"]').each(function() { $(this).prop('target', '_blank'); });
+
+
+	// SCAN ALL LINKS INSIDE #main-content
+	// OPEN EXTERNAL LINKS IN A NEW TAB
+
+   $("#main-content a[href^=http]").each(function(){
+
+      // excluded domains list - this will not be considered "external" links
+      var excludes = [
+         'downtownorlano.com',
+         'www.downtownorlando.com'
+      ];
+      for(i=0; i<excludes.length; i++) {
+         if(this.href.indexOf(excludes[i]) != -1) {
+            return true; // continue each() with next link
+         }
+      }
+
+      if(this.href.indexOf(location.hostname) == -1) { 
+    // it exists 
+} {
+
+           // attach a do-nothing event handler to ensure we can 'trigger' a click on this link
+           $(this).click(function() { return true; });
+
+           //$(this).attr({
+               //target: "_blank",
+               //title: "Opens in a new window"
+           //});
+           $(this).prop('target', '_blank');
+
+           $(this).click(); // trigger it
+      }
+   	 
+   }) 
+   
+});
+</script>
+
+<script type="text/javascript">
+    window._monsido = window._monsido || {
+        token: "DWhw_Nbi5DfS0MCq9THw4w",
+    };
+</script>
+<script type="text/javascript" async src="https://app-script.monsido.com/v2/monsido-script.js"></script>
+
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com-->
+<script type="text/javascript" src="https://a.omappapi.com/app/js/api.min.js" data-account="16944" data-user="31398" async></script>
+<!-- / OptinMonster -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMHK7X"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Tag Manager (noscript) Digital Services tag 2023-->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPSZW7B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+window.__TsmHiddenField = $get('ctl04_seamless_script_manager_TSM');Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadDateInput, {"_displayText":"11/02/2026","_focused":false,"_initialValueAsText":"2026-11-02-00-00-00","_postBackEventReferenceScript":"__doPostBack(\u0027ctl10$ctl00$ctl04$ctl00$eventDateFrom$JsDatePicker\u0027,\u0027\u0027)","_skin":"Default","_validationText":"2026-11-02-00-00-00","clientStateFieldID":"ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_dateInput_ClientState","dateFormat":"MM/dd/yyyy","dateFormatInfo":{"DayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"MonthNames":["January","February","March","April","May","June","July","August","September","October","November","December",""],"AbbreviatedDayNames":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"AbbreviatedMonthNames":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"AMDesignator":"AM","PMDesignator":"PM","DateSeparator":"/","TimeSeparator":":","FirstDayOfWeek":1,"DateSlots":{"Day":1,"Year":2,"Month":0},"ShortYearCenturyEnd":2029,"TimeInputOnly":false,"MonthYearOnly":false},"displayDateFormat":"MM/dd/yyyy","enabled":true,"incrementSettings":{InterceptArrowKeys:true,InterceptMouseWheel:true,Step:1},"maxDate":"9999-12-31-00-00-00","minDate":"0001-01-01-00-00-00","styles":{HoveredStyle: ["width:100%;", "riTextBox riHover"],InvalidStyle: ["width:100%;", "riTextBox riError"],DisabledStyle: ["width:100%;", "riTextBox riDisabled"],FocusedStyle: ["width:100%;", "riTextBox riFocused"],EmptyMessageStyle: ["width:100%;", "riTextBox riEmpty"],ReadOnlyStyle: ["width:100%;", "riTextBox riRead"],EnabledStyle: ["width:100%;", "riTextBox riEnabled"]}}, null, null, $get("ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_dateInput"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadCalendar, {"_DayRenderChangedDays":{},"_FormatInfoArray":[["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],["January","February","March","April","May","June","July","August","September","October","November","December",""],["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"dddd, d MMMM yyyy h:mm:ss tt","dddd, d MMMM yyyy","h:mm:ss tt","d MMMM","ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","d/MM/yyyy","h:mm tt","yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","MMMM yyyy","AM","PM","/",":",1],"_ViewRepeatableDays":{},"_ViewsHash":{"ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_Top" : [[2026,11,1], 1]},"_calendarWeekRule":0,"_culture":"en-AU","_enableKeyboardNavigation":true,"_enableViewSelector":false,"_firstDayOfWeek":7,"_postBackCall":"__doPostBack(\u0027ctl10$ctl00$ctl04$ctl00$eventDateFrom$JsDatePicker$calendar\u0027,\u0027@@\u0027)","_rangeSelectionMode":0,"_showRowHeaders":true,"clientStateFieldID":"ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar_ClientState","enableMultiSelect":false,"enabled":true,"fastNavigationStep":12,"monthYearNavigationSettings":["Today","OK","Cancel","Date is out of range.","False","True","300","1","300","1","False"],"skin":"Default","specialDaysArray":[],"stylesHash":{"DayStyle": ["", ""],"CalendarTableStyle": ["", "rcMainTable"],"OtherMonthDayStyle": ["", "rcOtherMonth"],"TitleStyle": ["", ""],"SelectedDayStyle": ["", "rcSelected"],"SelectorStyle": ["", ""],"DisabledDayStyle": ["", "rcDisabled"],"OutOfRangeDayStyle": ["", "rcOutOfRange"],"WeekendDayStyle": ["", "rcWeekend"],"DayOverStyle": ["", "rcHover"],"FastNavigationStyle": ["", "RadCalendarMonthView RadCalendarMonthView_Default"],"ViewSelectorStyle": ["", "rcViewSel"]},"useColumnHeadersAsSelectors":false,"useRowHeadersAsSelectors":false}, null, null, $get("ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadDatePicker, {"_PopupButtonSettings":{ ResolvedImageUrl : "", ResolvedHoverImageUrl : ""},"_animationSettings":{ShowAnimationDuration:300,ShowAnimationType:1,HideAnimationDuration:300,HideAnimationType:1},"_enableKeyboardNavigation":false,"_popupControlID":"ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_popupButton","clientStateFieldID":"ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_ClientState","focusedDate":"2026-11-02-00-00-00","maxDate":"9999-12-31-00-00-00","minDate":"0001-01-01-00-00-00"}, null, {"calendar":"ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_calendar","dateInput":"ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker_dateInput"}, $get("ctl10_ctl00_ctl04_ctl00_eventDateFrom_JsDatePicker"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadDateInput, {"_displayText":"","_focused":false,"_initialValueAsText":"","_postBackEventReferenceScript":"__doPostBack(\u0027ctl10$ctl00$ctl07$ctl00$eventDateTo$JsDatePicker\u0027,\u0027\u0027)","_skin":"Default","_validationText":"","clientStateFieldID":"ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_dateInput_ClientState","dateFormat":"MM/dd/yyyy","dateFormatInfo":{"DayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"MonthNames":["January","February","March","April","May","June","July","August","September","October","November","December",""],"AbbreviatedDayNames":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"AbbreviatedMonthNames":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"AMDesignator":"AM","PMDesignator":"PM","DateSeparator":"/","TimeSeparator":":","FirstDayOfWeek":1,"DateSlots":{"Day":1,"Year":2,"Month":0},"ShortYearCenturyEnd":2029,"TimeInputOnly":false,"MonthYearOnly":false},"displayDateFormat":"MM/dd/yyyy","enabled":true,"incrementSettings":{InterceptArrowKeys:true,InterceptMouseWheel:true,Step:1},"maxDate":"9999-12-31-00-00-00","minDate":"0001-01-01-00-00-00","styles":{HoveredStyle: ["width:100%;", "riTextBox riHover"],InvalidStyle: ["width:100%;", "riTextBox riError"],DisabledStyle: ["width:100%;", "riTextBox riDisabled"],FocusedStyle: ["width:100%;", "riTextBox riFocused"],EmptyMessageStyle: ["width:100%;", "riTextBox riEmpty"],ReadOnlyStyle: ["width:100%;", "riTextBox riRead"],EnabledStyle: ["width:100%;", "riTextBox riEnabled"]}}, null, null, $get("ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_dateInput"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadCalendar, {"_DayRenderChangedDays":{},"_FormatInfoArray":[["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],["January","February","March","April","May","June","July","August","September","October","November","December",""],["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"dddd, d MMMM yyyy h:mm:ss tt","dddd, d MMMM yyyy","h:mm:ss tt","d MMMM","ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","d/MM/yyyy","h:mm tt","yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","MMMM yyyy","AM","PM","/",":",1],"_ViewRepeatableDays":{},"_ViewsHash":{"ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_Top" : [[2026,11,1], 1]},"_calendarWeekRule":0,"_culture":"en-AU","_enableKeyboardNavigation":true,"_enableViewSelector":false,"_firstDayOfWeek":7,"_postBackCall":"__doPostBack(\u0027ctl10$ctl00$ctl07$ctl00$eventDateTo$JsDatePicker$calendar\u0027,\u0027@@\u0027)","_rangeSelectionMode":0,"_showRowHeaders":true,"clientStateFieldID":"ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar_ClientState","enableMultiSelect":false,"enabled":true,"fastNavigationStep":12,"monthYearNavigationSettings":["Today","OK","Cancel","Date is out of range.","False","True","300","1","300","1","False"],"skin":"Default","specialDaysArray":[],"stylesHash":{"DayStyle": ["", ""],"CalendarTableStyle": ["", "rcMainTable"],"OtherMonthDayStyle": ["", "rcOtherMonth"],"TitleStyle": ["", ""],"SelectedDayStyle": ["", "rcSelected"],"SelectorStyle": ["", ""],"DisabledDayStyle": ["", "rcDisabled"],"OutOfRangeDayStyle": ["", "rcOutOfRange"],"WeekendDayStyle": ["", "rcWeekend"],"DayOverStyle": ["", "rcHover"],"FastNavigationStyle": ["", "RadCalendarMonthView RadCalendarMonthView_Default"],"ViewSelectorStyle": ["", "rcViewSel"]},"useColumnHeadersAsSelectors":false,"useRowHeadersAsSelectors":false}, null, null, $get("ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadDatePicker, {"_PopupButtonSettings":{ ResolvedImageUrl : "", ResolvedHoverImageUrl : ""},"_animationSettings":{ShowAnimationDuration:300,ShowAnimationType:1,HideAnimationDuration:300,HideAnimationType:1},"_enableKeyboardNavigation":false,"_popupControlID":"ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_popupButton","clientStateFieldID":"ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_ClientState","focusedDate":"2026-11-02-00-00-00","maxDate":"9999-12-31-00-00-00","minDate":"0001-01-01-00-00-00"}, null, {"calendar":"ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_calendar","dateInput":"ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker_dateInput"}, $get("ctl10_ctl00_ctl07_ctl00_eventDateTo_JsDatePicker"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>

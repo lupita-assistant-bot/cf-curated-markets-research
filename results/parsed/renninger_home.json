@@ -1,0 +1,103 @@
+{
+ "id": "renninger_home",
+ "url": "https://www.renningers.net/",
+ "jsonld_count": 6,
+ "events": [
+  {
+   "name": "Vendor &#038; Craft Show",
+   "startDate": "2026-11-07",
+   "endDate": "2026-11-07",
+   "streetAddress": null,
+   "addressLocality": null,
+   "addressRegion": null,
+   "postalCode": null,
+   "locationName": "Renninger's Kutztown",
+   "description": "Join us out back at the pavilion for our Annual Holiday Craft &amp; Vendor Show. The first 150 guests will receive a goodie bag!  Vendor registration:&lt;span style=&quot;color: #3366ff;&quot;&gt; &lt;a style=&quot;color: #3366ff;&quot; href=&quot;https://forms.gle/d4ak8etxwtiXQPVk9&quot;&gt;https://forms.gle/d4ak8etxwtiXQPVk9&lt;/a&gt;&lt;/span&gt;",
+   "url": "https://renningers.net/events/vendor-craft-show/",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "type": [
+    "Event"
+   ]
+  },
+  {
+   "name": "Guitars and Cars",
+   "startDate": "2026-11-08",
+   "endDate": "2026-11-08",
+   "streetAddress": null,
+   "addressLocality": null,
+   "addressRegion": null,
+   "postalCode": null,
+   "locationName": "Renninger's Mt. Dora",
+   "description": "Second Sunday of September, November, January, March, and May    8 AM to 3 PM  Admission $2 (8 AM to 1 PM)    &lt;strong&gt;Guitars (Big Al&#039;s Lake County Musicians&#039; Swapmeet)&lt;/strong&gt;  Buy-Sell- Trade  Tons of great gear and deals.  Central Florida Blues Lovers&#039; Jam at noon.    &lt;strong&gt;Cars&lt;/strong&gt;  Car Cruise, Vendors, Showing in multiple categories for a variety of prizes like trophies,  and other gifts.  $6 to show car.",
+   "url": "https://renningers.net/events/guitars-and-cars-2-733-490-999-567-508-593-557-384-610-683-940-103-520/",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "type": [
+    "Event"
+   ]
+  },
+  {
+   "name": "Antiques &#038; Collectors Extravaganza",
+   "startDate": "2026-11-20",
+   "endDate": "2026-11-22",
+   "streetAddress": null,
+   "addressLocality": null,
+   "addressRegion": null,
+   "postalCode": null,
+   "locationName": "Renninger's Mt. Dora",
+   "description": "&lt;p&gt;Friday, Saturday &amp; Sunday&lt;/p&gt;&lt;p&gt;A special event of over 800 vendors selling antiques, collectibles, vintage, and more. The show is outdoors, under open-air buildings, tents, and includes the Indoor Antiques Center and the Street of Shops at the Antiques Center. The event is three days. The show opens at 8 am all three days till 5 pm.&lt;br /&gt;Vendor information 352-383-8393.&lt;br /&gt;Parking is free.&lt;br /&gt;Admission: to the special Extravaganza Show&lt;br /&gt;Three Day Pass: $15&lt;br /&gt;Friday: $10&lt;br /&gt;Saturday: $6&lt;br /&gt;Sunday: $4&lt;/p&gt;&lt;h4&gt; &lt;/h4&gt;&lt;p&gt;Also on the property is the Flea and Farmers Market Saturday and Sunday open 9 am to 4 pm. The Flea and Farmers Market are free admission to shop.&lt;/p&gt;&lt;p&gt;For more information about selling call 352-383-8393, please &lt;a href=&quot;https://renningers.net/mt-dor",
+   "url": "https://renningers.net/events/antiques-collectors-extravaganza-10-722-948-207-670-184-347-477/",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "type": [
+    "Event"
+   ]
+  },
+  {
+   "name": "Special Thanksgiving Wednesday Hours",
+   "startDate": "2026-11-25",
+   "endDate": "2026-11-25",
+   "streetAddress": null,
+   "addressLocality": null,
+   "addressRegion": null,
+   "postalCode": null,
+   "locationName": "Renninger's Kutztown",
+   "description": "&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Make a stop at Renninger\u2019s Kutztown before Thanksgiving. We\u2019ll be open Wednesday, November 25, 2026, from 9 AM to 3 PM for Thanksgiving orders and last-minute supplies.&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Find us at 740 Noble Street, Kutztown, PA 19530. Plan your visit around these special Wednesday hours.&lt;/span&gt;&lt;/p&gt;",
+   "url": "https://renningers.net/events/special-thanksgiving-wednesday-hours/",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "type": [
+    "Event"
+   ]
+  },
+  {
+   "name": "Holiday Antique and Craft Market",
+   "startDate": "2026-12-05",
+   "endDate": "2026-12-06",
+   "streetAddress": null,
+   "addressLocality": null,
+   "addressRegion": null,
+   "postalCode": null,
+   "locationName": "Renninger's Mt. Dora",
+   "description": "Don&#039;t miss this opportunity to find Christmas items for your home.  Antiques, vintage items, and handmade crafts.    Free Admission - Free Parking - Pet Friendly    At the Antique Center!",
+   "url": "https://renningers.net/events/holiday-market-antiques-show-531-502-558/",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "type": [
+    "Event"
+   ]
+  },
+  {
+   "name": "Christmas Eve Hours at Renninger\u2019s Kutztown",
+   "startDate": "2026-12-24",
+   "endDate": "2026-12-24",
+   "streetAddress": null,
+   "addressLocality": null,
+   "addressRegion": null,
+   "postalCode": null,
+   "locationName": "Renninger's Kutztown",
+   "description": "&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Renninger\u2019s Kutztown will be open on Christmas Eve, Thursday, December 24, 2026, from 9 AM to 2 PM.&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Please plan your visit before our early closing time. The market will be closed on Christmas Day, Friday, December 25. Wishing you a Merry Christmas!&lt;/span&gt;&lt;/p&gt;",
+   "url": "https://renningers.net/events/christmas-eve-hours-at-renningers-kutztown/",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "type": [
+    "Event"
+   ]
+  }
+ ]
+}

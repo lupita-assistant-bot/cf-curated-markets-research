@@ -1,0 +1,1158 @@
+ERROR!
+ 
+ An error occurred! 
+ Action: events.default
+ Error: The key [APPLICATIONID] does not exist., but there is a similar key with name [applicationname] available.
+ Type: expression
+ Details: Here is a complete list of all available keys [ ALTCHASECRETKEY, applicationname, framework.one, Initialized, LAYOUTINFO, MAPBOX, NEIGHBORWAREBOUNCEAPIKEY, Redirect, VERSION ].
+ 
+ 
+ Catch
+Entries: 13
+ additional
+ Struct (ordered)
+ Function
+ string
+ onRequestStart
+ 
+ Component
+ string
+ Application
+ 
+ 
+ Cause
+ Struct
+ additional
+ Struct (ordered)
+ Function
+ string
+ onRequestStart
+ 
+ Component
+ string
+ Application
+ 
+ 
+ Detail
+ string
+ Here is a complete list of all available keys [ ALTCHASECRETKEY, applicationname, framework.one, Initialized, LAYOUTINFO, MAPBOX, NEIGHBORWAREBOUNCEAPIKEY, Redirect, VERSION ].
+ 
+ ErrNumber
+ number
+ 0
+ 
+ ErrorCode
+ string
+ 0
+ 
+ Extended_Info
+ string
+ 
+ ExtendedInfo
+ string
+ 
+ Message
+ string
+ The key [APPLICATIONID] does not exist., but there is a similar key with name [applicationname] available.
+ 
+ StackTrace
+ string
+ lucee.runtime.exp.ExpressionException: The key [APPLICATIONID] does not exist., but there is a similar key with name [applicationname] available.
+at lucee.runtime.type.util.StructSupport.invalidKey(StructSupport.java:68)
+at lucee.runtime.type.StructImpl.get(StructImpl.java:184)
+at model.gateways.applicationtreegateway_cfc$cf.udfDefaultValue1(/model/gateways/applicationTreeGateway.cfc:183)
+at model.gateways.applicationtreegateway_cfc$cf.udfDefaultValue(/model/gateways/applicationTreeGateway.cfc)
+at lucee.runtime.type.UDFImpl.getDefaultValue(UDFImpl.java:498)
+at lucee.runtime.type.UDFImpl.defineArguments(UDFImpl.java:140)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:354)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:811)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at model.gateways.applicationtreegateway_cfc$cf.udfCall2(/model/gateways/applicationTreeGateway.cfc:197)
+at model.gateways.applicationtreegateway_cfc$cf.udfCall(/model/gateways/applicationTreeGateway.cfc)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:687)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:604)
+at lucee.runtime.ComponentImpl.call(ComponentImpl.java:2110)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at application_cfc$cf.udfCall(/Application.cfc:82)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:811)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at framework.one_cfc$cf.udfCallf_000017(/framework/one.cfc:2964)
+at framework.one_cfc$cf.udfCallf(/framework/one.cfc:2953)
+at framework.one_cfc$cf.udfCall(/framework/one.cfc)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:811)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at framework.one_cfc$cf.udfCall6(/framework/one.cfc:991)
+at framework.one_cfc$cf.udfCall(/framework/one.cfc)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:687)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:604)
+at lucee.runtime.ComponentImpl.call(ComponentImpl.java:2110)
+at lucee.runtime.listener.ModernAppListener.call(ModernAppListener.java:479)
+at lucee.runtime.listener.ModernAppListener._onRequest(ModernAppListener.java:131)
+at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:43)
+at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2816)
+at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2803)
+at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2774)
+at lucee.runtime.engine.Request.exe(Request.java:45)
+at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1113)
+at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1070)
+at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:97)
+at lucee.loader.servlet.jakarta.CFMLServlet.service(CFMLServlet.java:52)
+at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+at org.apache.coyote.ajp.AjpProcessor.service(AjpProcessor.java:424)
+at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+ 
+ TagContext
+ Array
+ 1
+ Struct
+ codePrintHTML
+ string
+ 181: &nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;Replaces&nbsp;Application['Permalinks'][permalink]<br>
+182: &nbsp;&nbsp;&nbsp;&nbsp;*/<br>
+<b>183: &nbsp;&nbsp;&nbsp;public&nbsp;struct&nbsp;function&nbsp;getPermalink(&nbsp;required&nbsp;string&nbsp;permalink,&nbsp;string&nbsp;applicationID&nbsp;=&nbsp;Application.ApplicationID&nbsp;)&nbsp;{</b><br>
+184: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;cache&nbsp;=&nbsp;getRequestCache();<br>
+185: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;structKeyExists(cache.permalinks,&nbsp;arguments.permalink)&nbsp;)&nbsp;{<br>
+ 
+ codePrintPlain
+ string
+ 181: * Replaces Application['Permalinks'][permalink]
+182: */
+183: public struct function getPermalink( required string permalink, string applicationID = Application.ApplicationID ) {
+184: var cache = getRequestCache();
+185: if ( structKeyExists(cache.permalinks, arguments.permalink) ) {
+ 
+ column
+ number
+ 0
+ 
+ id
+ string
+ ??
+ 
+ line
+ number
+ 183
+ 
+ Raw_Trace
+ string
+ model.gateways.applicationtreegateway_cfc$cf.udfDefaultValue1(/model/gateways/applicationTreeGateway.cfc:183)
+ 
+ template
+ string
+ /var/neighborware/libs/model/gateways/applicationTreeGateway.cfc
+ 
+ type
+ string
+ cfml
+ 
+ 
+ 2
+ Struct
+ codePrintHTML
+ string
+ 195: &nbsp;&nbsp;&nbsp;&nbsp;*/<br>
+196: &nbsp;&nbsp;&nbsp;public&nbsp;boolean&nbsp;function&nbsp;permalinkExists(&nbsp;required&nbsp;string&nbsp;permalink&nbsp;)&nbsp;{<br>
+<b>197: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;mapping&nbsp;=&nbsp;getPermalink(arguments.permalink);</b><br>
+198: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;structKeyExists(mapping,&nbsp;&quot;ApplicationTreeID&quot;)&nbsp;AND&nbsp;len(mapping.ApplicationTreeID);<br>
+199: &nbsp;&nbsp;&nbsp;}<br>
+ 
+ codePrintPlain
+ string
+ 195: */
+196: public boolean function permalinkExists( required string permalink ) {
+197: var mapping = getPermalink(arguments.permalink);
+198: return structKeyExists(mapping, "ApplicationTreeID") AND len(mapping.ApplicationTreeID);
+199: }
+ 
+ column
+ number
+ 0
+ 
+ id
+ string
+ ??
+ 
+ line
+ number
+ 197
+ 
+ Raw_Trace
+ string
+ model.gateways.applicationtreegateway_cfc$cf.udfCall2(/model/gateways/applicationTreeGateway.cfc:197)
+ 
+ template
+ string
+ /var/neighborware/libs/model/gateways/applicationTreeGateway.cfc
+ 
+ type
+ string
+ cfml
+ 
+ 
+ 3
+ Struct
+ codePrintHTML
+ string
+ 80: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rc.permalink&nbsp;=&nbsp;ListGetAt(cgi.path_info,&quot;1&quot;,&quot;/&quot;);<br>
+81: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;appTreeGateway&nbsp;=&nbsp;getBeanFactory().getBean(&quot;applicationTreeGateway&quot;);<br>
+<b>82: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;appTreeGateway.permalinkExists(rc.permalink)&nbsp;)&nbsp;{</b><br>
+83: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;permalinkData&nbsp;=&nbsp;appTreeGateway.getPermalink(rc.permalink);<br>
+84: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;len(trim(permalinkData['ComponentInstanceID']))&nbsp;)&nbsp;{<br>
+ 
+ codePrintPlain
+ string
+ 80: rc.permalink = ListGetAt(cgi.path_info,"1","/");
+81: var appTreeGateway = getBeanFactory().getBean("applicationTreeGateway");
+82: if ( appTreeGateway.permalinkExists(rc.permalink) ) {
+83: var permalinkData = appTreeGateway.getPermalink(rc.permalink);
+84: if ( len(trim(permalinkData['ComponentInstanceID'])) ) {
+ 
+ column
+ number
+ 0
+ 
+ id
+ string
+ ??
+ 
+ line
+ number
+ 82
+ 
+ Raw_Trace
+ string
+ application_cfc$cf.udfCall(/Application.cfc:82)
+ 
+ template
+ string
+ /var/neighborware/libs/Application.cfc
+ 
+ type
+ string
+ cfml
+ 
+ 
+ 4
+ Struct
+ codePrintHTML
+ string
+ 2962: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setupSubsystemWrapper(&nbsp;request.subsystem&nbsp;);<br>
+2963: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;internalFrameworkTrace(&nbsp;'setupRequest()&nbsp;called'&nbsp;);<br>
+<b>2964: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setupRequest();</b><br>
+2965: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+2966: <br>
+ 
+ codePrintPlain
+ string
+ 2962: setupSubsystemWrapper( request.subsystem );
+2963: internalFrameworkTrace( 'setupRequest() called' );
+2964: setupRequest();
+2965: }
+2966: 
+ 
+ column
+ number
+ 0
+ 
+ id
+ string
+ ??
+ 
+ line
+ number
+ 2964
+ 
+ Raw_Trace
+ string
+ framework.one_cfc$cf.udfCallf_000017(/framework/one.cfc:2964)
+ 
+ template
+ string
+ /var/neighborware/libs/framework/one.cfc
+ 
+ type
+ string
+ cfml
+ 
+ 
+ 5
+ Struct
+ codePrintHTML
+ string
+ 2951: &nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;void&nbsp;function&nbsp;setupRequestWrapper(&nbsp;boolean&nbsp;runSetup&nbsp;)&nbsp;{<br>
+2952: <br>
+<b>2953: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;request.subsystem&nbsp;=&nbsp;getSubsystem(&nbsp;request.action&nbsp;);</b><br>
+2954: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;request.subsystembase&nbsp;=&nbsp;request.base&nbsp;&amp;&nbsp;getSubsystemDirPrefix(&nbsp;request.subsystem&nbsp;);<br>
+2955: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;request.section&nbsp;=&nbsp;getSection(&nbsp;request.action&nbsp;);<br>
+ 
+ codePrintPlain
+ string
+ 2951: private void function setupRequestWrapper( boolean runSetup ) {
+2952: 
+2953: request.subsystem = getSubsystem( request.action );
+2954: request.subsystembase = request.base & getSubsystemDirPrefix( request.subsystem );
+2955: request.section = getSection( request.action );
+ 
+ column
+ number
+ 0
+ 
+ id
+ string
+ ??
+ 
+ line
+ number
+ 2953
+ 
+ Raw_Trace
+ string
+ framework.one_cfc$cf.udfCallf(/framework/one.cfc:2953)
+ 
+ template
+ string
+ /var/neighborware/libs/framework/one.cfc
+ 
+ type
+ string
+ cfml
+ 
+ 
+ 6
+ Struct
+ codePrintHTML
+ string
+ 989: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+990: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;else&nbsp;{<br>
+<b>991: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setupRequestWrapper(&nbsp;true&nbsp;);</b><br>
+992: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+993: &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+ 
+ codePrintPlain
+ string
+ 989: }
+990: } else {
+991: setupRequestWrapper( true );
+992: }
+993: }
+ 
+ column
+ number
+ 0
+ 
+ id
+ string
+ ??
+ 
+ line
+ number
+ 991
+ 
+ Raw_Trace
+ string
+ framework.one_cfc$cf.udfCall6(/framework/one.cfc:991)
+ 
+ template
+ string
+ /var/neighborware/libs/framework/one.cfc
+ 
+ type
+ string
+ cfml
+ 
+ 
+ 
+ type
+ string
+ expression
+ 
+ 
+ Detail
+ string
+ Here is a complete list of all available keys [ ALTCHASECRETKEY, applicationname, framework.one, Initialized, LAYOUTINFO, MAPBOX, NEIGHBORWAREBOUNCEAPIKEY, Redirect, VERSION ].
+ 
+ ErrNumber
+ number
+ 0
+ 
+ ErrorCode
+ string
+ 0
+ 
+ Extended_Info
+ string
+ 
+ ExtendedInfo
+ string
+ 
+ Message
+ string
+ The key [APPLICATIONID] does not exist., but there is a similar key with name [applicationname] available.
+ 
+ name
+ string
+ onRequestStart
+ 
+ rootCause
+ Struct
+ additional
+ Struct (ordered)
+ Function
+ string
+ onRequestStart
+ 
+ Component
+ string
+ Application
+ 
+ 
+ Detail
+ string
+ Here is a complete list of all available keys [ ALTCHASECRETKEY, applicationname, framework.one, Initialized, LAYOUTINFO, MAPBOX, NEIGHBORWAREBOUNCEAPIKEY, Redirect, VERSION ].
+ 
+ ErrNumber
+ number
+ 0
+ 
+ ErrorCode
+ string
+ 0
+ 
+ Extended_Info
+ string
+ 
+ ExtendedInfo
+ string
+ 
+ Message
+ string
+ The key [APPLICATIONID] does not exist., but there is a similar key with name [applicationname] available.
+ 
+ StackTrace
+ string
+ lucee.runtime.exp.ExpressionException: The key [APPLICATIONID] does not exist., but there is a similar key with name [applicationname] available.
+at lucee.runtime.type.util.StructSupport.invalidKey(StructSupport.java:68)
+at lucee.runtime.type.StructImpl.get(StructImpl.java:184)
+at model.gateways.applicationtreegateway_cfc$cf.udfDefaultValue1(/model/gateways/applicationTreeGateway.cfc:183)
+at model.gateways.applicationtreegateway_cfc$cf.udfDefaultValue(/model/gateways/applicationTreeGateway.cfc)
+at lucee.runtime.type.UDFImpl.getDefaultValue(UDFImpl.java:498)
+at lucee.runtime.type.UDFImpl.defineArguments(UDFImpl.java:140)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:354)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:811)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at model.gateways.applicationtreegateway_cfc$cf.udfCall2(/model/gateways/applicationTreeGateway.cfc:197)
+at model.gateways.applicationtreegateway_cfc$cf.udfCall(/model/gateways/applicationTreeGateway.cfc)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:687)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:604)
+at lucee.runtime.ComponentImpl.call(ComponentImpl.java:2110)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at application_cfc$cf.udfCall(/Application.cfc:82)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:811)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at framework.one_cfc$cf.udfCallf_000017(/framework/one.cfc:2964)
+at framework.one_cfc$cf.udfCallf(/framework/one.cfc:2953)
+at framework.one_cfc$cf.udfCall(/framework/one.cfc)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:811)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at framework.one_cfc$cf.udfCall6(/framework/one.cfc:991)
+at framework.one_cfc$cf.udfCall(/framework/one.cfc)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:687)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:604)
+at lucee.runtime.ComponentImpl.call(ComponentImpl.java:2110)
+at lucee.runtime.listener.ModernAppListener.call(ModernAppListener.java:479)
+at lucee.runtime.listener.ModernAppListener._onRequest(ModernAppListener.java:131)
+at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:43)
+at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2816)
+at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2803)
+at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2774)
+at lucee.runtime.engine.Request.exe(Request.java:45)
+at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1113)
+at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1070)
+at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:97)
+at lucee.loader.servlet.jakarta.CFMLServlet.service(CFMLServlet.java:52)
+at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+at org.apache.coyote.ajp.AjpProcessor.service(AjpProcessor.java:424)
+at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+ 
+ TagContext
+ Array
+ 1
+ Struct
+ codePrintHTML
+ string
+ 181: &nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;Replaces&nbsp;Application['Permalinks'][permalink]<br>
+182: &nbsp;&nbsp;&nbsp;&nbsp;*/<br>
+<b>183: &nbsp;&nbsp;&nbsp;public&nbsp;struct&nbsp;function&nbsp;getPermalink(&nbsp;required&nbsp;string&nbsp;permalink,&nbsp;string&nbsp;applicationID&nbsp;=&nbsp;Application.ApplicationID&nbsp;)&nbsp;{</b><br>
+184: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;cache&nbsp;=&nbsp;getRequestCache();<br>
+185: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;structKeyExists(cache.permalinks,&nbsp;arguments.permalink)&nbsp;)&nbsp;{<br>
+ 
+ codePrintPlain
+ string
+ 181: * Replaces Application['Permalinks'][permalink]
+182: */
+183: public struct function getPermalink( required string permalink, string applicationID = Application.ApplicationID ) {
+184: var cache = getRequestCache();
+185: if ( structKeyExists(cache.permalinks, arguments.permalink) ) {
+ 
+ column
+ number
+ 0
+ 
+ id
+ string
+ ??
+ 
+ line
+ number
+ 183
+ 
+ Raw_Trace
+ string
+ model.gateways.applicationtreegateway_cfc$cf.udfDefaultValue1(/model/gateways/applicationTreeGateway.cfc:183)
+ 
+ template
+ string
+ /var/neighborware/libs/model/gateways/applicationTreeGateway.cfc
+ 
+ type
+ string
+ cfml
+ 
+ 
+ 2
+ Struct
+ codePrintHTML
+ string
+ 195: &nbsp;&nbsp;&nbsp;&nbsp;*/<br>
+196: &nbsp;&nbsp;&nbsp;public&nbsp;boolean&nbsp;function&nbsp;permalinkExists(&nbsp;required&nbsp;string&nbsp;permalink&nbsp;)&nbsp;{<br>
+<b>197: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;mapping&nbsp;=&nbsp;getPermalink(arguments.permalink);</b><br>
+198: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;structKeyExists(mapping,&nbsp;&quot;ApplicationTreeID&quot;)&nbsp;AND&nbsp;len(mapping.ApplicationTreeID);<br>
+199: &nbsp;&nbsp;&nbsp;}<br>
+ 
+ codePrintPlain
+ string
+ 195: */
+196: public boolean function permalinkExists( required string permalink ) {
+197: var mapping = getPermalink(arguments.permalink);
+198: return structKeyExists(mapping, "ApplicationTreeID") AND len(mapping.ApplicationTreeID);
+199: }
+ 
+ column
+ number
+ 0
+ 
+ id
+ string
+ ??
+ 
+ line
+ number
+ 197
+ 
+ Raw_Trace
+ string
+ model.gateways.applicationtreegateway_cfc$cf.udfCall2(/model/gateways/applicationTreeGateway.cfc:197)
+ 
+ template
+ string
+ /var/neighborware/libs/model/gateways/applicationTreeGateway.cfc
+ 
+ type
+ string
+ cfml
+ 
+ 
+ 3
+ Struct
+ codePrintHTML
+ string
+ 80: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rc.permalink&nbsp;=&nbsp;ListGetAt(cgi.path_info,&quot;1&quot;,&quot;/&quot;);<br>
+81: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;appTreeGateway&nbsp;=&nbsp;getBeanFactory().getBean(&quot;applicationTreeGateway&quot;);<br>
+<b>82: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;appTreeGateway.permalinkExists(rc.permalink)&nbsp;)&nbsp;{</b><br>
+83: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;permalinkData&nbsp;=&nbsp;appTreeGateway.getPermalink(rc.permalink);<br>
+84: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;len(trim(permalinkData['ComponentInstanceID']))&nbsp;)&nbsp;{<br>
+ 
+ codePrintPlain
+ string
+ 80: rc.permalink = ListGetAt(cgi.path_info,"1","/");
+81: var appTreeGateway = getBeanFactory().getBean("applicationTreeGateway");
+82: if ( appTreeGateway.permalinkExists(rc.permalink) ) {
+83: var permalinkData = appTreeGateway.getPermalink(rc.permalink);
+84: if ( len(trim(permalinkData['ComponentInstanceID'])) ) {
+ 
+ column
+ number
+ 0
+ 
+ id
+ string
+ ??
+ 
+ line
+ number
+ 82
+ 
+ Raw_Trace
+ string
+ application_cfc$cf.udfCall(/Application.cfc:82)
+ 
+ template
+ string
+ /var/neighborware/libs/Application.cfc
+ 
+ type
+ string
+ cfml
+ 
+ 
+ 4
+ Struct
+ codePrintHTML
+ string
+ 2962: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setupSubsystemWrapper(&nbsp;request.subsystem&nbsp;);<br>
+2963: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;internalFrameworkTrace(&nbsp;'setupRequest()&nbsp;called'&nbsp;);<br>
+<b>2964: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setupRequest();</b><br>
+2965: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+2966: <br>
+ 
+ codePrintPlain
+ string
+ 2962: setupSubsystemWrapper( request.subsystem );
+2963: internalFrameworkTrace( 'setupRequest() called' );
+2964: setupRequest();
+2965: }
+2966: 
+ 
+ column
+ number
+ 0
+ 
+ id
+ string
+ ??
+ 
+ line
+ number
+ 2964
+ 
+ Raw_Trace
+ string
+ framework.one_cfc$cf.udfCallf_000017(/framework/one.cfc:2964)
+ 
+ template
+ string
+ /var/neighborware/libs/framework/one.cfc
+ 
+ type
+ string
+ cfml
+ 
+ 
+ 5
+ Struct
+ codePrintHTML
+ string
+ 2951: &nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;void&nbsp;function&nbsp;setupRequestWrapper(&nbsp;boolean&nbsp;runSetup&nbsp;)&nbsp;{<br>
+2952: <br>
+<b>2953: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;request.subsystem&nbsp;=&nbsp;getSubsystem(&nbsp;request.action&nbsp;);</b><br>
+2954: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;request.subsystembase&nbsp;=&nbsp;request.base&nbsp;&amp;&nbsp;getSubsystemDirPrefix(&nbsp;request.subsystem&nbsp;);<br>
+2955: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;request.section&nbsp;=&nbsp;getSection(&nbsp;request.action&nbsp;);<br>
+ 
+ codePrintPlain
+ string
+ 2951: private void function setupRequestWrapper( boolean runSetup ) {
+2952: 
+2953: request.subsystem = getSubsystem( request.action );
+2954: request.subsystembase = request.base & getSubsystemDirPrefix( request.subsystem );
+2955: request.section = getSection( request.action );
+ 
+ column
+ number
+ 0
+ 
+ id
+ string
+ ??
+ 
+ line
+ number
+ 2953
+ 
+ Raw_Trace
+ string
+ framework.one_cfc$cf.udfCallf(/framework/one.cfc:2953)
+ 
+ template
+ string
+ /var/neighborware/libs/framework/one.cfc
+ 
+ type
+ string
+ cfml
+ 
+ 
+ 6
+ Struct
+ codePrintHTML
+ string
+ 989: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+990: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;else&nbsp;{<br>
+<b>991: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setupRequestWrapper(&nbsp;true&nbsp;);</b><br>
+992: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+993: &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+ 
+ codePrintPlain
+ string
+ 989: }
+990: } else {
+991: setupRequestWrapper( true );
+992: }
+993: }
+ 
+ column
+ number
+ 0
+ 
+ id
+ string
+ ??
+ 
+ line
+ number
+ 991
+ 
+ Raw_Trace
+ string
+ framework.one_cfc$cf.udfCall6(/framework/one.cfc:991)
+ 
+ template
+ string
+ /var/neighborware/libs/framework/one.cfc
+ 
+ type
+ string
+ cfml
+ 
+ 
+ 
+ type
+ string
+ expression
+ 
+ 
+ StackTrace
+ string
+ lucee.runtime.exp.ExpressionException: The key [APPLICATIONID] does not exist., but there is a similar key with name [applicationname] available.
+at lucee.runtime.type.util.StructSupport.invalidKey(StructSupport.java:68)
+at lucee.runtime.type.StructImpl.get(StructImpl.java:184)
+at model.gateways.applicationtreegateway_cfc$cf.udfDefaultValue1(/model/gateways/applicationTreeGateway.cfc:183)
+at model.gateways.applicationtreegateway_cfc$cf.udfDefaultValue(/model/gateways/applicationTreeGateway.cfc)
+at lucee.runtime.type.UDFImpl.getDefaultValue(UDFImpl.java:498)
+at lucee.runtime.type.UDFImpl.defineArguments(UDFImpl.java:140)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:354)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:811)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at model.gateways.applicationtreegateway_cfc$cf.udfCall2(/model/gateways/applicationTreeGateway.cfc:197)
+at model.gateways.applicationtreegateway_cfc$cf.udfCall(/model/gateways/applicationTreeGateway.cfc)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:687)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:604)
+at lucee.runtime.ComponentImpl.call(ComponentImpl.java:2110)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at application_cfc$cf.udfCall(/Application.cfc:82)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:811)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at framework.one_cfc$cf.udfCallf_000017(/framework/one.cfc:2964)
+at framework.one_cfc$cf.udfCallf(/framework/one.cfc:2953)
+at framework.one_cfc$cf.udfCall(/framework/one.cfc)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:811)
+at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:773)
+at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:2075)
+at framework.one_cfc$cf.udfCall6(/framework/one.cfc:991)
+at framework.one_cfc$cf.udfCall(/framework/one.cfc)
+at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:112)
+at lucee.runtime.type.UDFImpl._call(UDFImpl.java:357)
+at lucee.runtime.type.UDFImpl.call(UDFImpl.java:224)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:687)
+at lucee.runtime.ComponentImpl._call(ComponentImpl.java:604)
+at lucee.runtime.ComponentImpl.call(ComponentImpl.java:2110)
+at lucee.runtime.listener.ModernAppListener.call(ModernAppListener.java:479)
+at lucee.runtime.listener.ModernAppListener._onRequest(ModernAppListener.java:131)
+at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:43)
+at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2816)
+at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2803)
+at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2774)
+at lucee.runtime.engine.Request.exe(Request.java:45)
+at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1113)
+at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1070)
+at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:97)
+at lucee.loader.servlet.jakarta.CFMLServlet.service(CFMLServlet.java:52)
+at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+at org.apache.coyote.ajp.AjpProcessor.service(AjpProcessor.java:424)
+at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+ 
+ TagContext
+ Array
+ 1
+ Struct
+ codePrintHTML
+ string
+ 181: &nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;Replaces&nbsp;Application['Permalinks'][permalink]<br>
+182: &nbsp;&nbsp;&nbsp;&nbsp;*/<br>
+<b>183: &nbsp;&nbsp;&nbsp;public&nbsp;struct&nbsp;function&nbsp;getPermalink(&nbsp;required&nbsp;string&nbsp;permalink,&nbsp;string&nbsp;applicationID&nbsp;=&nbsp;Application.ApplicationID&nbsp;)&nbsp;{</b><br>
+184: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;cache&nbsp;=&nbsp;getRequestCache();<br>
+185: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;structKeyExists(cache.permalinks,&nbsp;arguments.permalink)&nbsp;)&nbsp;{<br>
+ 
+ codePrintPlain
+ string
+ 181: * Replaces Application['Permalinks'][permalink]
+182: */
+183: public struct function getPermalink( required string permalink, string applicationID = Application.ApplicationID ) {
+184: var cache = getRequestCache();
+185: if ( structKeyExists(cache.permalinks, arguments.permalink) ) {
+ 
+ column
+ number
+ 0
+ 
+ id
+ string
+ ??
+ 
+ line
+ number
+ 183
+ 
+ Raw_Trace
+ string
+ model.gateways.applicationtreegateway_cfc$cf.udfDefaultValue1(/model/gateways/applicationTreeGateway.cfc:183)
+ 
+ template
+ string
+ /var/neighborware/libs/model/gateways/applicationTreeGateway.cfc
+ 
+ type
+ string
+ cfml
+ 
+ 
+ 2
+ Struct
+ codePrintHTML
+ string
+ 195: &nbsp;&nbsp;&nbsp;&nbsp;*/<br>
+196: &nbsp;&nbsp;&nbsp;public&nbsp;boolean&nbsp;function&nbsp;permalinkExists(&nbsp;required&nbsp;string&nbsp;permalink&nbsp;)&nbsp;{<br>
+<b>197: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;mapping&nbsp;=&nbsp;getPermalink(arguments.permalink);</b><br>
+198: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;structKeyExists(mapping,&nbsp;&quot;ApplicationTreeID&quot;)&nbsp;AND&nbsp;len(mapping.ApplicationTreeID);<br>
+199: &nbsp;&nbsp;&nbsp;}<br>
+ 
+ codePrintPlain
+ string
+ 195: */
+196: public boolean function permalinkExists( required string permalink ) {
+197: var mapping = getPermalink(arguments.permalink);
+198: return structKeyExists(mapping, "ApplicationTreeID") AND len(mapping.ApplicationTreeID);
+199: }
+ 
+ column
+ number
+ 0
+ 
+ id
+ string
+ ??
+ 
+ line
+ number
+ 197
+ 
+ Raw_Trace
+ string
+ model.gateways.applicationtreegateway_cfc$cf.udfCall2(/model/gateways/applicationTreeGateway.cfc:197)
+ 
+ template
+ string
+ /var/neighborware/libs/model/gateways/applicationTreeGateway.cfc
+ 
+ type
+ string
+ cfml
+ 
+ 
+ 3
+ Struct
+ codePrintHTML
+ string
+ 80: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rc.permalink&nbsp;=&nbsp;ListGetAt(cgi.path_info,&quot;1&quot;,&quot;/&quot;);<br>
+81: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;appTreeGateway&nbsp;=&nbsp;getBeanFactory().getBean(&quot;applicationTreeGateway&quot;);<br>
+<b>82: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;appTreeGateway.permalinkExists(rc.permalink)&nbsp;)&nbsp;{</b><br>
+83: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;permalinkData&nbsp;=&nbsp;appTreeGateway.getPermalink(rc.permalink);<br>
+84: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;len(trim(permalinkData['ComponentInstanceID']))&nbsp;)&nbsp;{<br>
+ 
+ codePrintPlain
+ string
+ 80: rc.permalink = ListGetAt(cgi.path_info,"1","/");
+81: var appTreeGateway = getBeanFactory().getBean("applicationTreeGateway");
+82: if ( appTreeGateway.permalinkExists(rc.permalink) ) {
+83: var permalinkData = appTreeGateway.getPermalink(rc.permalink);
+84: if ( len(trim(permalinkData['ComponentInstanceID'])) ) {
+ 
+ column
+ number
+ 0
+ 
+ id
+ string
+ ??
+ 
+ line
+ number
+ 82
+ 
+ Raw_Trace
+ string
+ application_cfc$cf.udfCall(/Application.cfc:82)
+ 
+ template
+ string
+ /var/neighborware/libs/Application.cfc
+ 
+ type
+ string
+ cfml
+ 
+ 
+ 4
+ Struct
+ codePrintHTML
+ string
+ 2962: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setupSubsystemWrapper(&nbsp;request.subsystem&nbsp;);<br>
+2963: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;internalFrameworkTrace(&nbsp;'setupRequest()&nbsp;called'&nbsp;);<br>
+<b>2964: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setupRequest();</b><br>
+2965: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+2966: <br>
+ 
+ codePrintPlain
+ string
+ 2962: setupSubsystemWrapper( request.subsystem );
+2963: internalFrameworkTrace( 'setupRequest() called' );
+2964: setupRequest();
+2965: }
+2966: 
+ 
+ column
+ number
+ 0
+ 
+ id
+ string
+ ??
+ 
+ line
+ number
+ 2964
+ 
+ Raw_Trace
+ string
+ framework.one_cfc$cf.udfCallf_000017(/framework/one.cfc:2964)
+ 
+ template
+ string
+ /var/neighborware/libs/framework/one.cfc
+ 
+ type
+ string
+ cfml
+ 
+ 
+ 5
+ Struct
+ codePrintHTML
+ string
+ 2951: &nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;void&nbsp;function&nbsp;setupRequestWrapper(&nbsp;boolean&nbsp;runSetup&nbsp;)&nbsp;{<br>
+2952: <br>
+<b>2953: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;request.subsystem&nbsp;=&nbsp;getSubsystem(&nbsp;request.action&nbsp;);</b><br>
+2954: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;request.subsystembase&nbsp;=&nbsp;request.base&nbsp;&amp;&nbsp;getSubsystemDirPrefix(&nbsp;request.subsystem&nbsp;);<br>
+2955: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;request.section&nbsp;=&nbsp;getSection(&nbsp;request.action&nbsp;);<br>
+ 
+ codePrintPlain
+ string
+ 2951: private void function setupRequestWrapper( boolean runSetup ) {
+2952: 
+2953: request.subsystem = getSubsystem( request.action );
+2954: request.subsystembase = request.base & getSubsystemDirPrefix( request.subsystem );
+2955: request.section = getSection( request.action );
+ 
+ column
+ number
+ 0
+ 
+ id
+ string
+ ??
+ 
+ line
+ number
+ 2953
+ 
+ Raw_Trace
+ string
+ framework.one_cfc$cf.udfCallf(/framework/one.cfc:2953)
+ 
+ template
+ string
+ /var/neighborware/libs/framework/one.cfc
+ 
+ type
+ string
+ cfml
+ 
+ 
+ 6
+ Struct
+ codePrintHTML
+ string
+ 989: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+990: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;else&nbsp;{<br>
+<b>991: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setupRequestWrapper(&nbsp;true&nbsp;);</b><br>
+992: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+993: &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+ 
+ codePrintPlain
+ string
+ 989: }
+990: } else {
+991: setupRequestWrapper( true );
+992: }
+993: }
+ 
+ column
+ number
+ 0
+ 
+ id
+ string
+ ??
+ 
+ line
+ number
+ 991
+ 
+ Raw_Trace
+ string
+ framework.one_cfc$cf.udfCall6(/framework/one.cfc:991)
+ 
+ template
+ string
+ /var/neighborware/libs/framework/one.cfc
+ 
+ type
+ string
+ cfml
+ 
+ 
+ 
+ type
+ string
+ expression
+ 
+ 
+ 
+;
