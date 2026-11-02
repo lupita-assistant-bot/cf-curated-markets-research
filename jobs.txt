@@ -1,0 +1,91 @@
+url	eb_orlando	https://www.eventbrite.com/d/fl--orlando/events/?events_when=this-week
+url	eb_tampa	https://www.eventbrite.com/d/fl--tampa/events/?events_when=this-week
+url	eb_sanford	https://www.eventbrite.com/d/fl--sanford/events/?events_when=this-week
+url	eb_mountdora	https://www.eventbrite.com/d/fl--mount-dora/events/?events_when=this-week
+url	eb_seminole	https://www.eventbrite.com/d/fl--seminole/events/?events_when=this-week
+url	eb_altamonte	https://www.eventbrite.com/d/fl--altamonte-springs/events/?events_when=this-week
+url	eb_clermont	https://www.eventbrite.com/d/fl--clermont/events/?events_when=this-week
+url	eb_winterpark	https://www.eventbrite.com/d/fl--winter-park/events/?events_when=this-week
+url	eb_lakeland	https://www.eventbrite.com/d/fl--lakeland/events/?events_when=this-week
+url	eb_melbourne	https://www.eventbrite.com/d/fl--melbourne/events/?events_when=this-week
+url	eb_daytonabeach	https://www.eventbrite.com/d/fl--daytona-beach/events/?events_when=this-week
+url	eb_ocala	https://www.eventbrite.com/d/fl--ocala/events/?events_when=this-week
+url	eb_kissimmee	https://www.eventbrite.com/d/fl--kissimmee/events/?events_when=this-week
+url	eb_leesburg	https://www.eventbrite.com/d/fl--leesburg/events/?events_when=this-week
+url	eb_apopka	https://www.eventbrite.com/d/fl--apopka/events/?events_when=this-week
+url	eb_hollywood	https://www.eventbrite.com/d/fl--hollywood-fl/events/?events_when=this-week
+url	eb_dania	https://www.eventbrite.com/d/fl--dania-beach/events/?events_when=this-week
+url	eb_palmbay	https://www.eventbrite.com/d/fl--palm-bay/events/?events_when=this-week
+url	eb_maitland	https://www.eventbrite.com/d/fl--maitland/events/?events_when=this-week
+url	eb_zephyrhills	https://www.eventbrite.com/d/fl--zephyrhills/events/?events_when=this-week
+url	wp_events	https://www.winterparkmainstreet.org/events
+url	wp_home	https://www.winterparkmainstreet.org/
+url	wp_sunday_market	https://www.winterparkmainstreet.org/sunday-market
+url	sanford_ms	https://www.sanfordmainstreet.org/
+url	sanford_events	https://www.sanfordmainstreet.org/events/
+url	sanford_artwalk	https://www.sanfordmainstreet.org/first-friday-art-walk/
+url	firstfrida	https://firstfridaartwalk.com/
+url	lakeside_maitland	https://www.lakeside-maitland.com/
+url	lakeside_events	https://www.lakeside-maitland.com/events
+url	maitland_museum	https://www.maitlandmuseum.org/
+url	maitland_art	https://www.maitlandarts.org/
+url	sunshine_state_maker	https://www.ssmakers.com/
+url	the_walled_gallery	https://thewalledgallery.com/
+url	opal_arts	https://www.opalarts.com/
+url	nona	https://www.nonafashionrow.com/
+url	vertical	https://verticalorlando.com/
+url	beach_park	https://www.beachparkorlando.com/
+url	curious_palm	https://curiouspalm.co/
+url	firstfrida_sanford	https://www.sanfordartsandheritage.com/
+url	eustis_art	https://www.eustisartassociation.com/
+url	tavares_art	https://www.tavaresartclub.org/
+url	sanford_art_association	https://sanfordartassociation.com/
+url	olde_town	https://www.oldtownclermont.com/
+url	explore_winterpark	https://explorewinterpark.com/events/
+url	eastend_events	https://eastendmkt.com/events/
+url	eastend_home	https://eastendmkt.com/
+url	renninger_mtdora	https://www.renningers.net/mt-dora/
+url	renninger_home	https://www.renningers.net/
+url	thortonpark	https://www.thorntonparkdistrict.com/
+url	downtowns_orlando	https://www.downtownorlando.com/events/
+url	eastonestrong	https://www.eastonedc.com/
+url	clermont_moa	https://www.mountdora.com/events/
+url	baldwin_park	https://www.baldwinparkfl.com/events/
+url	orlando_night_market	https://www.orlandonightmarket.com/
+url	orlandoflea	https://www.orlandofleamarket.com/
+url	accent	https://www.accentorlando.com/
+url	florida_art_museum	https://floridamuseum.ufl.edu/
+url	sanford_events2	https://www.historicdowntownsanford.com/events/
+url	mountdora_events	https://www.mountdora.com/events/
+url	tavares_downtown	https://www.tavaresdowntown.com/
+url	clermont_downtown	https://www.clermontdowntown.com/
+url	historic_mountdora	https://historicmountdora.com/
+url	altamonte_moa	https://www.altamonteartandantiques.com/
+url	orangecounty_moa	https://www.ocma-net.org/
+url	hollywood_moa	https://www.hollywoodartandantique.com/
+url	smyrna_art	https://www.smyrnaartassociation.com/
+url	oviedo_moa	https://www.oviedoevents.com/
+url	kissimmee_moa	https://www.kissimmeemainstreet.com/
+url	centralflorida_moa	https://www.centralfloridamakers.com/
+url	maker_orlando	https://www.makerfestorlando.com/
+url	handmade_orlando	https://handmadeorlando.com/
+url	artmarket_orlando	https://www.artmarketorlando.com/
+url	vintagemarket_fl	https://www.vintagemarketfl.com/
+url	theresacollection	https://www.theresacollection.com/
+url	shopmidtown	https://www.shopmidtownorlando.com/
+url	orlandopopups	https://www.orlandopopups.com/
+search	s1_vintage_market	orlando vintage antique market November 2026
+search	s2_maker_market	orlando maker market craft fair November 7 2026
+search	s3_art_walk	orlando art walk November 2026 first friday
+search	s4_night_market	orlando night market november 2026
+search	s5_thrifts_popup	orlando vintage thrift pop up shop november 2026
+search	s6_winterpark	seminole county winter park farmers market art walk november 2026
+search	s7_sanford	first friday art walk sanford november 6 2026
+search	s8_mt_dora	mount dora antique market november 2026 renningers
+search	s9_tampa_ybor	ybor city market art walk november 2026
+search	s10_maitland	maitland art walk november 2026
+search	s11_clermont	clermont florida market november 2026 antique
+search	s12_eb_market	orlando market november 2026 eventbrite market saturday sunday
+search	s13_sunday_market	orlando sunday market november 8 2026 handcraft vintage
+search	s14_lakeland	lakeland florida antique market art walk november 2026
+search	s15_spacecoast	daytona beach market november 7 2026 antique craft
