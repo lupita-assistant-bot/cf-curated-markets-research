@@ -5,13 +5,14 @@ on:
     branches: [main]
     paths-ignore:
       - 'results/**'
+      - 'results2/**'
       - 'fetch.log'
   workflow_dispatch:
     inputs:
-      urlfile:
-        description: 'URL file to fetch'
+      jobfile:
+        description: 'jobs file'
         required: false
-        default: 'urls.txt'
+        default: 'jobs.txt'
 
 permissions:
   contents: write
@@ -36,12 +37,12 @@ jobs:
 
       - name: Fetch and parse
         run: |
-          python fetch.py "${{ github.event.inputs.urlfile || 'urls.txt' }}" results/manifest.json 2>&1 | tee fetch.log
+          python fetch2.py "${{ github.event.inputs.jobfile || 'jobs.txt' }}" 2>&1 | tee fetch2.log
 
       - name: Commit results
         run: |
           git config user.name 'research-bot'
           git config user.email 'research-bot@users.noreply.github.com'
-          git add -A results fetch.log 2>/dev/null || true
+          git add -A results2 fetch2.log 2>/dev/null || true
           git commit -m "research results $(date -u +%Y%m%d-%H%M%S)" || echo 'nothing to commit'
           git push || echo 'push failed'
