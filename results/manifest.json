@@ -367,8 +367,8 @@
   "url": "https://www.eastonedc.com/",
   "status": 200,
   "final_url": "https://eastonedc.com/",
-  "note": "direct:200:190433",
-  "bytes": 190433,
+  "note": "direct:200:190343",
+  "bytes": 190343,
   "jsonld_objects": 1,
   "events_found": 0,
   "text_len": 6230
@@ -454,12 +454,12 @@
   "id": "sunshine_state_maker",
   "url": "https://www.ssmakers.com/",
   "status": 200,
-  "final_url": "https://www.hugedomains.com/domain_profile.cfm?d=ssmakers.com",
-  "note": "direct:200:43917",
-  "bytes": 43917,
+  "final_url": "https://r.jina.ai/https://www.ssmakers.com/",
+  "note": "direct-error:URLError;jina:200:4252",
+  "bytes": 4252,
   "jsonld_objects": 0,
   "events_found": 0,
-  "text_len": 6519
+  "text_len": 4185
  },
  {
   "id": "opal_arts",
