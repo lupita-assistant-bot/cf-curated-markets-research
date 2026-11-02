@@ -1,0 +1,35 @@
+name: Pass 3 listings
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'pass3.py'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  pass3:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run pass 3
+        run: |
+          python pass3.py 2>&1 | tee pass3.log
+          echo "=== REPORT (first 500 lines) ==="
+          head -500 results3/report.md || true
+      - name: Commit
+        run: |
+          git config user.name 'research-bot'
+          git config user.email 'research-bot@users.noreply.github.com'
+          git add -A results3 pass3.log 2>/dev/null || true
+          git commit -m "pass3 $(date -u +%Y%m%d-%H%M%S)" || echo 'nothing to commit'
+          git push || echo 'push failed'
