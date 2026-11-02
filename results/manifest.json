@@ -246,8 +246,8 @@
   "url": "https://eastendmkt.com/",
   "status": 200,
   "final_url": "https://eastendmkt.com/",
-  "note": "direct:200:124747",
-  "bytes": 124747,
+  "note": "direct:200:124683",
+  "bytes": 124683,
   "jsonld_objects": 1,
   "events_found": 0,
   "text_len": 5959
@@ -367,8 +367,8 @@
   "url": "https://www.eastonedc.com/",
   "status": 200,
   "final_url": "https://eastonedc.com/",
-  "note": "direct:200:190431",
-  "bytes": 190431,
+  "note": "direct:200:190433",
+  "bytes": 190433,
   "jsonld_objects": 1,
   "events_found": 0,
   "text_len": 6230
@@ -454,12 +454,12 @@
   "id": "sunshine_state_maker",
   "url": "https://www.ssmakers.com/",
   "status": 200,
-  "final_url": "https://r.jina.ai/http://www.ssmakers.com/",
-  "note": "direct-error:URLError;jina-error:HTTPError;jina-http:200:4251",
-  "bytes": 4251,
+  "final_url": "https://www.hugedomains.com/domain_profile.cfm?d=ssmakers.com",
+  "note": "direct:200:43917",
+  "bytes": 43917,
   "jsonld_objects": 0,
   "events_found": 0,
-  "text_len": 4184
+  "text_len": 6519
  },
  {
   "id": "opal_arts",
